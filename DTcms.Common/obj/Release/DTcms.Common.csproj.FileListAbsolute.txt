@@ -1,0 +1,5 @@
+G:\微信开发\DTcms_4.0_sql_src_Ultimate\DTcms_4.0_sql_src_Ultimate\DTcms.Common\bin\Release\DTcms.Common.dll
+G:\微信开发\DTcms_4.0_sql_src_Ultimate\DTcms_4.0_sql_src_Ultimate\DTcms.Common\bin\Release\DTcms.Common.pdb
+G:\微信开发\DTcms_4.0_sql_src_Ultimate\DTcms_4.0_sql_src_Ultimate\DTcms.Common\obj\Release\DTcms.Common.csprojResolveAssemblyReference.cache
+G:\微信开发\DTcms_4.0_sql_src_Ultimate\DTcms_4.0_sql_src_Ultimate\DTcms.Common\obj\Release\DTcms.Common.dll
+G:\微信开发\DTcms_4.0_sql_src_Ultimate\DTcms_4.0_sql_src_Ultimate\DTcms.Common\obj\Release\DTcms.Common.pdb
