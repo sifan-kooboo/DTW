@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="comment_edit.aspx.cs" Inherits="DTcms.Web.admin.article.comment_edit" ValidateRequest="false" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="comment_edit.aspx.cs" Inherits="DTcms.Web.admin.Customer.WYD.comment_edit" ValidateRequest="false" %>
 <%@ Import namespace="DTcms.Common" %>
 
 <!DOCTYPE html>

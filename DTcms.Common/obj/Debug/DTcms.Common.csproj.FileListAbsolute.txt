@@ -42,3 +42,8 @@ G:\TestProject\DTcms_4.0_sql_src_Ultimate\DTcms.Common\bin\Debug\DTcms.Common.pd
 G:\TestProject\DTcms_4.0_sql_src_Ultimate\DTcms.Common\obj\Debug\DTcms.Common.dll
 G:\TestProject\DTcms_4.0_sql_src_Ultimate\DTcms.Common\obj\Debug\DTcms.Common.pdb
 G:\TestProject\DTcms_4.0_sql_src_Ultimate\DTcms.Common\obj\Debug\DTcms.Common.csprojResolveAssemblyReference.cache
+D:\Git\DTWMaster\DTcms.Common\bin\Debug\DTcms.Common.dll
+D:\Git\DTWMaster\DTcms.Common\bin\Debug\DTcms.Common.pdb
+D:\Git\DTWMaster\DTcms.Common\obj\Debug\DTcms.Common.dll
+D:\Git\DTWMaster\DTcms.Common\obj\Debug\DTcms.Common.pdb
+D:\Git\DTWMaster\DTcms.Common\obj\Debug\DTcms.Common.csprojResolveAssemblyReference.cache

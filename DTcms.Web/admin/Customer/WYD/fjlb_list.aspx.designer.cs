@@ -7,10 +7,10 @@
 // </自动生成>
 //------------------------------------------------------------------------------
 
-namespace DTcms.Web.admin.article {
+namespace DTcms.Web.admin.Customer.WYD {
     
     
-    public partial class category_list {
+    public partial class fjlb_list {
         
         /// <summary>
         /// form1 控件。

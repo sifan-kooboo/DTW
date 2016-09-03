@@ -95,10 +95,10 @@
     <Content Include="admin\channel\spec_list.aspx" />
     <Content Include="admin\channel\tags_edit.aspx" />
     <Content Include="admin\channel\tags_list.aspx" />
-    <Content Include="admin\Customer\WYD\article_edit.aspx" />
-    <Content Include="admin\Customer\WYD\article_list.aspx" />
-    <Content Include="admin\Customer\WYD\category_edit.aspx" />
-    <Content Include="admin\Customer\WYD\category_list.aspx" />
+    <Content Include="admin\Customer\WYD\fjxx_edit.aspx" />
+    <Content Include="admin\Customer\WYD\fjxx_list.aspx" />
+    <Content Include="admin\Customer\WYD\fjlb_edit.aspx" />
+    <Content Include="admin\Customer\WYD\fjlb_list.aspx" />
     <Content Include="admin\Customer\WYD\comment_edit.aspx" />
     <Content Include="admin\Customer\WYD\comment_list.aspx" />
     <Content Include="admin\dialog\dialog_accept.aspx" />
@@ -869,33 +869,33 @@
     <Compile Include="admin\channel\tags_list.aspx.designer.cs">
       <DependentUpon>tags_list.aspx</DependentUpon>
     </Compile>
-    <Compile Include="admin\Customer\WYD\article_edit.aspx.cs">
-      <DependentUpon>article_edit.aspx</DependentUpon>
+    <Compile Include="admin\Customer\WYD\fjxx_edit.aspx.cs">
+      <DependentUpon>fjxx_edit.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="admin\Customer\WYD\article_edit.aspx.designer.cs">
-      <DependentUpon>article_edit.aspx</DependentUpon>
+    <Compile Include="admin\Customer\WYD\fjxx_edit.aspx.designer.cs">
+      <DependentUpon>fjxx_edit.aspx</DependentUpon>
     </Compile>
-    <Compile Include="admin\Customer\WYD\article_list.aspx.cs">
-      <DependentUpon>article_list.aspx</DependentUpon>
+    <Compile Include="admin\Customer\WYD\fjxx_list.aspx.cs">
+      <DependentUpon>fjxx_list.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="admin\Customer\WYD\article_list.aspx.designer.cs">
-      <DependentUpon>article_list.aspx</DependentUpon>
+    <Compile Include="admin\Customer\WYD\fjxx_list.aspx.designer.cs">
+      <DependentUpon>fjxx_list.aspx</DependentUpon>
     </Compile>
-    <Compile Include="admin\Customer\WYD\category_edit.aspx.cs">
-      <DependentUpon>category_edit.aspx</DependentUpon>
+    <Compile Include="admin\Customer\WYD\fjlb_edit.aspx.cs">
+      <DependentUpon>fjlb_edit.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="admin\Customer\WYD\category_edit.aspx.designer.cs">
-      <DependentUpon>category_edit.aspx</DependentUpon>
+    <Compile Include="admin\Customer\WYD\fjlb_edit.aspx.designer.cs">
+      <DependentUpon>fjlb_edit.aspx</DependentUpon>
     </Compile>
-    <Compile Include="admin\Customer\WYD\category_list.aspx.cs">
-      <DependentUpon>category_list.aspx</DependentUpon>
+    <Compile Include="admin\Customer\WYD\fjlb_list.aspx.cs">
+      <DependentUpon>fjlb_list.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="admin\Customer\WYD\category_list.aspx.designer.cs">
-      <DependentUpon>category_list.aspx</DependentUpon>
+    <Compile Include="admin\Customer\WYD\fjlb_list.aspx.designer.cs">
+      <DependentUpon>fjlb_list.aspx</DependentUpon>
     </Compile>
     <Compile Include="admin\Customer\WYD\comment_edit.aspx.cs">
       <DependentUpon>comment_edit.aspx</DependentUpon>

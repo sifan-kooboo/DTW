@@ -97,3 +97,14 @@ G:\TestProject\DTcms_4.0_sql_src_Ultimate\DTcms.DAL\bin\Debug\DTcms.Model.pdb
 G:\TestProject\DTcms_4.0_sql_src_Ultimate\DTcms.DAL\obj\Debug\DTcms.DAL.csprojResolveAssemblyReference.cache
 G:\TestProject\DTcms_4.0_sql_src_Ultimate\DTcms.DAL\obj\Debug\DTcms.DAL.dll
 G:\TestProject\DTcms_4.0_sql_src_Ultimate\DTcms.DAL\obj\Debug\DTcms.DAL.pdb
+D:\Git\DTWMaster\DTcms.DAL\bin\Debug\DTcms.DAL.dll
+D:\Git\DTWMaster\DTcms.DAL\bin\Debug\DTcms.DAL.pdb
+D:\Git\DTWMaster\DTcms.DAL\bin\Debug\DTcms.Common.dll
+D:\Git\DTWMaster\DTcms.DAL\bin\Debug\DTcms.DBUtility.dll
+D:\Git\DTWMaster\DTcms.DAL\bin\Debug\DTcms.Model.dll
+D:\Git\DTWMaster\DTcms.DAL\bin\Debug\DTcms.Common.pdb
+D:\Git\DTWMaster\DTcms.DAL\bin\Debug\DTcms.DBUtility.pdb
+D:\Git\DTWMaster\DTcms.DAL\bin\Debug\DTcms.Model.pdb
+D:\Git\DTWMaster\DTcms.DAL\obj\Debug\DTcms.DAL.csprojResolveAssemblyReference.cache
+D:\Git\DTWMaster\DTcms.DAL\obj\Debug\DTcms.DAL.dll
+D:\Git\DTWMaster\DTcms.DAL\obj\Debug\DTcms.DAL.pdb

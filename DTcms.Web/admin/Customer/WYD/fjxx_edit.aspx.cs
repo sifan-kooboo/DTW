@@ -9,9 +9,9 @@ using System.Web.UI.HtmlControls;
 using System.Data;
 using DTcms.Common;
 
-namespace DTcms.Web.admin.article
+namespace DTcms.Web.admin.Customer.WYD
 {
-    public partial class article_edit : Web.UI.ManagePage
+    public partial class fjxx_edit : Web.UI.ManagePage
     {
         private string action = DTEnums.ActionEnum.Add.ToString(); //操作类型
         protected string channel_name = string.Empty; //频道名称

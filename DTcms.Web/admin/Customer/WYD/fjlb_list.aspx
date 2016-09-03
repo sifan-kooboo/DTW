@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="category_list.aspx.cs" Inherits="DTcms.Web.admin.article.category_list" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="fjlb_list.aspx.cs" Inherits="DTcms.Web.admin.Customer.WYD.fjlb_list" %>
 <%@ Import namespace="DTcms.Common" %>
 
 <!DOCTYPE html>
@@ -34,7 +34,7 @@
       <a class="menu-btn"></a>
       <div class="l-list">
         <ul class="icon-list">
-          <li><a class="add" href="category_edit.aspx?action=<%=DTEnums.ActionEnum.Add %>&channel_id=<%=this.channel_id %>"><i></i><span>新增</span></a></li>
+          <li><a class="add" href="fjlb_edit.aspx?action=<%=DTEnums.ActionEnum.Add %>&channel_id=<%=this.channel_id %>"><i></i><span>新增</span></a></li>
           <li><asp:LinkButton ID="btnSave" runat="server" CssClass="save" onclick="btnSave_Click"><i></i><span>保存</span></asp:LinkButton></li>
           <li><a class="all" href="javascript:;" onclick="checkAll(this);"><i></i><span>全选</span></a></li>
           <li><asp:LinkButton ID="btnDelete" runat="server" CssClass="del" OnClientClick="return ExePostBack('btnDelete','本操作会删除本类别及下属子类别，是否继续？');" onclick="btnDelete_Click"><i></i><span>删除</span></asp:LinkButton></li>
@@ -69,13 +69,13 @@
       <td><%#Eval("id")%></td>
       <td>
         <asp:Literal ID="LitFirst" runat="server"></asp:Literal>
-        <a href="category_edit.aspx?action=<%#DTEnums.ActionEnum.Edit %>&channel_id=<%#this.channel_id %>&id=<%#Eval("id")%>"><%#Eval("title")%></a>
+        <a href="fjlb_edit.aspx?action=<%#DTEnums.ActionEnum.Edit %>&channel_id=<%#this.channel_id %>&id=<%#Eval("id")%>"><%#Eval("title")%></a>
       </td>
       <td><%#Eval("call_index")%></td>
       <td><asp:TextBox ID="txtSortId" runat="server" Text='<%#Eval("sort_id")%>' CssClass="sort" onkeydown="return checkNumber(event);" /></td>
       <td align="center">
-        <a href="category_edit.aspx?action=<%#DTEnums.ActionEnum.Add %>&channel_id=<%#this.channel_id %>&id=<%#Eval("id")%>">添加子类</a>
-        <a href="category_edit.aspx?action=<%#DTEnums.ActionEnum.Edit %>&channel_id=<%#this.channel_id %>&id=<%#Eval("id")%>">修改</a>
+        <a href="fjlb_edit.aspx?action=<%#DTEnums.ActionEnum.Add %>&channel_id=<%#this.channel_id %>&id=<%#Eval("id")%>">添加子类</a>
+        <a href="fjlb_edit.aspx?action=<%#DTEnums.ActionEnum.Edit %>&channel_id=<%#this.channel_id %>&id=<%#Eval("id")%>">修改</a>
       </td>
     </tr>
   </ItemTemplate>

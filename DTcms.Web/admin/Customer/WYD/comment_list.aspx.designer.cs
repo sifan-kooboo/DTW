@@ -7,7 +7,7 @@
 // </自动生成>
 //------------------------------------------------------------------------------
 
-namespace DTcms.Web.admin.article {
+namespace DTcms.Web.admin.Customer.WYD {
     
     
     public partial class comment_list {

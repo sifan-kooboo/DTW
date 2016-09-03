@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="article_edit.aspx.cs" Inherits="DTcms.Web.admin.article.article_edit" ValidateRequest="false" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="fjxx_edit.aspx.cs" Inherits="DTcms.Web.admin.Customer.WYD.fjxx_edit" ValidateRequest="false" %>
 <%@ Import namespace="DTcms.Common" %>
 
 <!DOCTYPE html>
@@ -170,10 +170,10 @@
 <form id="form1" runat="server">
 <!--导航栏-->
 <div class="location">
-  <a href="article_list.aspx?channel_id=<%=this.channel_id %>" class="back"><i></i><span>返回列表页</span></a>
+  <a href="fjxx_edit.aspx?channel_id=<%=this.channel_id %>" class="back"><i></i><span>返回列表页</span></a>
   <a href="../../../center.aspx" class="home"><i></i><span>首页</span></a>
   <i class="arrow"></i>
-  <a href="article_list.aspx?channel_id=<%=this.channel_id %>"><span>内容管理</span></a>
+  <a href="fjxx_edit.aspx?channel_id=<%=this.channel_id %>"><span>内容管理</span></a>
   <i class="arrow"></i>
   <span>编辑内容</span>
 </div>

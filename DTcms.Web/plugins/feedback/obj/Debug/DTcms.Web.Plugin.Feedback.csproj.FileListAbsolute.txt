@@ -93,3 +93,8 @@ G:\TestProject\DTcms_4.0_sql_src_Ultimate\DTcms.Web\bin\DTcms.Web.Plugin.Feedbac
 G:\TestProject\DTcms_4.0_sql_src_Ultimate\DTcms.Web\plugins\feedback\obj\Debug\DTcms.Web.Plugin.Feedback.csprojResolveAssemblyReference.cache
 G:\TestProject\DTcms_4.0_sql_src_Ultimate\DTcms.Web\plugins\feedback\obj\Debug\DTcms.Web.Plugin.Feedback.dll
 G:\TestProject\DTcms_4.0_sql_src_Ultimate\DTcms.Web\plugins\feedback\obj\Debug\DTcms.Web.Plugin.Feedback.pdb
+D:\Git\DTWMaster\DTcms.Web\bin\DTcms.Web.Plugin.Feedback.dll
+D:\Git\DTWMaster\DTcms.Web\bin\DTcms.Web.Plugin.Feedback.pdb
+D:\Git\DTWMaster\DTcms.Web\plugins\feedback\obj\Debug\DTcms.Web.Plugin.Feedback.csprojResolveAssemblyReference.cache
+D:\Git\DTWMaster\DTcms.Web\plugins\feedback\obj\Debug\DTcms.Web.Plugin.Feedback.dll
+D:\Git\DTWMaster\DTcms.Web\plugins\feedback\obj\Debug\DTcms.Web.Plugin.Feedback.pdb

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="article_list.aspx.cs" Inherits="DTcms.Web.admin.article.article_list" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="fjxx_list.aspx.cs" Inherits="DTcms.Web.admin.Customer.WYD.fjxx_list" %>
 <%@ Import namespace="DTcms.Common" %>
 
 <!DOCTYPE html>
@@ -49,7 +49,7 @@
       <a class="menu-btn"></a>
       <div class="l-list">
         <ul class="icon-list">
-          <li><a class="add" href="article_edit.aspx?action=<%=DTEnums.ActionEnum.Add %>&channel_id=<%=this.channel_id %>"><i></i><span>新增</span></a></li>
+          <li><a class="add" href="fjxx_edit.aspx?action=<%=DTEnums.ActionEnum.Add %>&channel_id=<%=this.channel_id %>"><i></i><span>新增</span></a></li>
           <li><asp:LinkButton ID="btnSave" runat="server" CssClass="save" onclick="btnSave_Click"><i></i><span>保存</span></asp:LinkButton></li>
           <li><asp:LinkButton ID="btnAudit" runat="server" CssClass="lock" OnClientClick="return ExePostBack('btnAudit','审核后前台将显示该信息，确定继续吗？');" onclick="btnAudit_Click"><i></i><span>审核</span></asp:LinkButton></li>
           <li><a class="all" href="javascript:;" onclick="checkAll(this);"><i></i><span>全选</span></a></li>
@@ -109,7 +109,7 @@
         <asp:CheckBox ID="chkId" CssClass="checkall" runat="server" style="vertical-align:middle;" />
         <asp:HiddenField ID="hidId" Value='<%#Eval("id")%>' runat="server" />
       </td>
-      <td><a href="article_edit.aspx?action=<%#DTEnums.ActionEnum.Edit %>&channel_id=<%#this.channel_id %>&id=<%#Eval("id")%>"><%#Eval("title")%></a></td>
+      <td><a href="fjxx_edit.aspx?action=<%#DTEnums.ActionEnum.Edit %>&channel_id=<%#this.channel_id %>&id=<%#Eval("id")%>"><%#Eval("title")%></a></td>
       <td><%#new DTcms.BLL.article_category().GetTitle(Convert.ToInt32(Eval("category_id")))%></td>
       <td><%#string.Format("{0:g}",Eval("add_time"))%></td>
       <td><asp:TextBox ID="txtSortId" runat="server" Text='<%#Eval("sort_id")%>' CssClass="sort" onkeydown="return checkNumber(event);" /></td>
@@ -123,8 +123,8 @@
         </div>
       </td>
       <td align="center">
-        <a href="article_edit.aspx?action=<%#DTEnums.ActionEnum.Copy %>&channel_id=<%#this.channel_id %>&id=<%#Eval("id")%>">复制</a>
-        <a href="article_edit.aspx?action=<%#DTEnums.ActionEnum.Edit %>&channel_id=<%#this.channel_id %>&id=<%#Eval("id")%>">修改</a>
+        <a href="fjxx_edit.aspx?action=<%#DTEnums.ActionEnum.Copy %>&channel_id=<%#this.channel_id %>&id=<%#Eval("id")%>">复制</a>
+        <a href="fjxx_edit.aspx?action=<%#DTEnums.ActionEnum.Edit %>&channel_id=<%#this.channel_id %>&id=<%#Eval("id")%>">修改</a>
       </td>
     </tr>
   </ItemTemplate>
@@ -149,7 +149,7 @@
             <asp:HiddenField ID="hidId" Value='<%#Eval("id")%>' runat="server" />
           </div>
           <%#Eval("img_url").ToString() != "" ? "<div class=\"pic\"><img src=\"../../skin/default/loadimg.gif\" data-original=\"" + Eval("img_url") + "\" /></div><i class=\"absbg\"></i>" : ""%>
-          <h1><span><a href="article_edit.aspx?action=<%#DTEnums.ActionEnum.Edit %>&channel_id=<%#this.channel_id %>&id=<%#Eval("id")%>"><%#Eval("title")%></a></span></h1>
+          <h1><span><a href="fjxx_edit.aspx?action=<%#DTEnums.ActionEnum.Edit %>&channel_id=<%#this.channel_id %>&id=<%#Eval("id")%>"><%#Eval("title")%></a></span></h1>
           <div class="remark">
             <%#Eval("zhaiyao").ToString() == "" ? "暂无内容摘要说明..." : Eval("zhaiyao").ToString()%>
           </div>
@@ -163,8 +163,8 @@
           </div>
           <div class="foot">
             <p class="time"><%#string.Format("{0:yyyy-MM-dd HH:mm:ss}", Eval("add_time"))%></p>
-            <a href="article_edit.aspx?action=<%#DTEnums.ActionEnum.Edit %>&channel_id=<%#this.channel_id %>&id=<%#Eval("id")%>" title="编辑" class="edit">编辑</a>
-            <a href="article_edit.aspx?action=<%#DTEnums.ActionEnum.Copy %>&channel_id=<%#this.channel_id %>&id=<%#Eval("id")%>" title="复制" class="copy">复制</a>
+            <a href="fjxx_edit.aspx?action=<%#DTEnums.ActionEnum.Edit %>&channel_id=<%#this.channel_id %>&id=<%#Eval("id")%>" title="编辑" class="edit">编辑</a>
+            <a href="fjxx_edit.aspx?action=<%#DTEnums.ActionEnum.Copy %>&channel_id=<%#this.channel_id %>&id=<%#Eval("id")%>" title="复制" class="copy">复制</a>
           </div>
         </div>
       </li>

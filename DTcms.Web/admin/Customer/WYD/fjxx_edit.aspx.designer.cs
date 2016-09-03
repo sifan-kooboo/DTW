@@ -7,10 +7,10 @@
 // </自动生成>
 //------------------------------------------------------------------------------
 
-namespace DTcms.Web.admin.article {
+namespace DTcms.Web.admin.Customer.WYD {
     
     
-    public partial class article_edit {
+    public partial class fjxx_edit {
         
         /// <summary>
         /// form1 控件。

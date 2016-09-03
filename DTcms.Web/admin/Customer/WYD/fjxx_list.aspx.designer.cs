@@ -7,10 +7,10 @@
 // </自动生成>
 //------------------------------------------------------------------------------
 
-namespace DTcms.Web.admin.article {
+namespace DTcms.Web.admin.Customer.WYD {
     
     
-    public partial class category_edit {
+    public partial class fjxx_list {
         
         /// <summary>
         /// form1 控件。
@@ -22,102 +22,129 @@ namespace DTcms.Web.admin.article {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// ddlParentId 控件。
+        /// btnSave 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlParentId;
+        protected global::System.Web.UI.WebControls.LinkButton btnSave;
         
         /// <summary>
-        /// txtSortId 控件。
+        /// btnAudit 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSortId;
+        protected global::System.Web.UI.WebControls.LinkButton btnAudit;
         
         /// <summary>
-        /// txtTitle 控件。
+        /// btnDelete 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTitle;
+        protected global::System.Web.UI.WebControls.LinkButton btnDelete;
         
         /// <summary>
-        /// txtCallIndex 控件。
+        /// ddlMoveId 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtCallIndex;
+        protected global::System.Web.UI.WebControls.DropDownList ddlMoveId;
         
         /// <summary>
-        /// txtSeoTitle 控件。
+        /// ddlCategoryId 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSeoTitle;
+        protected global::System.Web.UI.WebControls.DropDownList ddlCategoryId;
         
         /// <summary>
-        /// txtSeoKeywords 控件。
+        /// ddlProperty 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSeoKeywords;
+        protected global::System.Web.UI.WebControls.DropDownList ddlProperty;
         
         /// <summary>
-        /// txtSeoDescription 控件。
+        /// txtKeywords 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSeoDescription;
+        protected global::System.Web.UI.WebControls.TextBox txtKeywords;
         
         /// <summary>
-        /// txtLinkUrl 控件。
+        /// lbtnSearch 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtLinkUrl;
+        protected global::System.Web.UI.WebControls.LinkButton lbtnSearch;
         
         /// <summary>
-        /// txtImgUrl 控件。
+        /// lbtnViewImg 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtImgUrl;
+        protected global::System.Web.UI.WebControls.LinkButton lbtnViewImg;
         
         /// <summary>
-        /// txtContent 控件。
+        /// lbtnViewTxt 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlTextArea txtContent;
+        protected global::System.Web.UI.WebControls.LinkButton lbtnViewTxt;
         
         /// <summary>
-        /// btnSubmit 控件。
+        /// rptList1 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSubmit;
+        protected global::System.Web.UI.WebControls.Repeater rptList1;
+        
+        /// <summary>
+        /// rptList2 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Repeater rptList2;
+        
+        /// <summary>
+        /// txtPageNum 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtPageNum;
+        
+        /// <summary>
+        /// PageContent 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl PageContent;
     }
 }

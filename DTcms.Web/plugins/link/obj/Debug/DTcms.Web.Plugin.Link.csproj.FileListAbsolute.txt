@@ -83,3 +83,8 @@ G:\TestProject\DTcms_4.0_sql_src_Ultimate\DTcms.Web\bin\DTcms.Web.Plugin.Link.pd
 G:\TestProject\DTcms_4.0_sql_src_Ultimate\DTcms.Web\plugins\link\obj\Debug\DTcms.Web.Plugin.Link.csprojResolveAssemblyReference.cache
 G:\TestProject\DTcms_4.0_sql_src_Ultimate\DTcms.Web\plugins\link\obj\Debug\DTcms.Web.Plugin.Link.dll
 G:\TestProject\DTcms_4.0_sql_src_Ultimate\DTcms.Web\plugins\link\obj\Debug\DTcms.Web.Plugin.Link.pdb
+D:\Git\DTWMaster\DTcms.Web\bin\DTcms.Web.Plugin.Link.dll
+D:\Git\DTWMaster\DTcms.Web\bin\DTcms.Web.Plugin.Link.pdb
+D:\Git\DTWMaster\DTcms.Web\plugins\link\obj\Debug\DTcms.Web.Plugin.Link.csprojResolveAssemblyReference.cache
+D:\Git\DTWMaster\DTcms.Web\plugins\link\obj\Debug\DTcms.Web.Plugin.Link.dll
+D:\Git\DTWMaster\DTcms.Web\plugins\link\obj\Debug\DTcms.Web.Plugin.Link.pdb

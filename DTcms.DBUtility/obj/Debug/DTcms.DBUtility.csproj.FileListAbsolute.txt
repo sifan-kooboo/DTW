@@ -61,3 +61,10 @@ G:\TestProject\DTcms_4.0_sql_src_Ultimate\DTcms.DBUtility\bin\Debug\DTcms.Common
 G:\TestProject\DTcms_4.0_sql_src_Ultimate\DTcms.DBUtility\obj\Debug\DTcms.DBUtility.csprojResolveAssemblyReference.cache
 G:\TestProject\DTcms_4.0_sql_src_Ultimate\DTcms.DBUtility\obj\Debug\DTcms.DBUtility.dll
 G:\TestProject\DTcms_4.0_sql_src_Ultimate\DTcms.DBUtility\obj\Debug\DTcms.DBUtility.pdb
+D:\Git\DTWMaster\DTcms.DBUtility\bin\Debug\DTcms.DBUtility.dll
+D:\Git\DTWMaster\DTcms.DBUtility\bin\Debug\DTcms.DBUtility.pdb
+D:\Git\DTWMaster\DTcms.DBUtility\bin\Debug\DTcms.Common.dll
+D:\Git\DTWMaster\DTcms.DBUtility\bin\Debug\DTcms.Common.pdb
+D:\Git\DTWMaster\DTcms.DBUtility\obj\Debug\DTcms.DBUtility.csprojResolveAssemblyReference.cache
+D:\Git\DTWMaster\DTcms.DBUtility\obj\Debug\DTcms.DBUtility.dll
+D:\Git\DTWMaster\DTcms.DBUtility\obj\Debug\DTcms.DBUtility.pdb

@@ -5,7 +5,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using DTcms.Common;
 
-namespace DTcms.Web.admin.article
+namespace DTcms.Web.admin.Customer.WYD
 {
     public partial class comment_edit : Web.UI.ManagePage
     {

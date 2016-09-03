@@ -7,9 +7,9 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using DTcms.Common;
 
-namespace DTcms.Web.admin.article
+namespace DTcms.Web.admin.Customer.WYD
 {
-    public partial class category_list : Web.UI.ManagePage
+    public partial class fjlb_list : Web.UI.ManagePage
     {
         protected int channel_id;
         protected string channel_name = string.Empty; //频道名称
@@ -78,7 +78,7 @@ namespace DTcms.Web.admin.article
                 bll.UpdateField(id, "sort_id=" + sortId.ToString());
             }
             AddAdminLog(DTEnums.ActionEnum.Edit.ToString(), "保存" + this.channel_name + "频道栏目分类排序"); //记录日志
-            JscriptMsg("保存排序成功！", Utils.CombUrlTxt("category_list.aspx", "channel_id={0}", this.channel_id.ToString()));
+            JscriptMsg("保存排序成功！", Utils.CombUrlTxt("fjlb_list.aspx", "channel_id={0}", this.channel_id.ToString()));
         }
 
         //删除类别
@@ -96,7 +96,7 @@ namespace DTcms.Web.admin.article
                 }
             }
             AddAdminLog(DTEnums.ActionEnum.Edit.ToString(), "删除" + this.channel_name + "频道栏目分类数据"); //记录日志
-            JscriptMsg("删除数据成功！", Utils.CombUrlTxt("category_list.aspx", "channel_id={0}", this.channel_id.ToString()));
+            JscriptMsg("删除数据成功！", Utils.CombUrlTxt("fjlb_list.aspx", "channel_id={0}", this.channel_id.ToString()));
         }
 
     }

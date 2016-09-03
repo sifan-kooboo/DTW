@@ -7,9 +7,9 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using DTcms.Common;
 
-namespace DTcms.Web.admin.article
+namespace DTcms.Web.admin.Customer.WYD
 {
-    public partial class article_list : Web.UI.ManagePage
+    public partial class fjxx_list : Web.UI.ManagePage
     {
         protected int channel_id;
         protected int totalCount;
@@ -104,7 +104,7 @@ namespace DTcms.Web.admin.article
             }
             //绑定页码
             txtPageNum.Text = this.pageSize.ToString();
-            string pageUrl = Utils.CombUrlTxt("article_list.aspx", "channel_id={0}&category_id={1}&keywords={2}&property={3}&page={4}",
+            string pageUrl = Utils.CombUrlTxt("fjxx_list.aspx", "channel_id={0}&category_id={1}&keywords={2}&property={3}&page={4}",
                 _channel_id.ToString(), _category_id.ToString(), this.keywords, this.property, "__id__");
             PageContent.InnerHtml = Utils.OutPageList(this.pageSize, this.page, this.totalCount, pageUrl, 8);
         }
@@ -211,21 +211,21 @@ namespace DTcms.Web.admin.article
         //关健字查询
         protected void btnSearch_Click(object sender, EventArgs e)
         {
-            Response.Redirect(Utils.CombUrlTxt("article_list.aspx", "channel_id={0}&category_id={1}&keywords={2}&property={3}",
+            Response.Redirect(Utils.CombUrlTxt("fjxx_list.aspx", "channel_id={0}&category_id={1}&keywords={2}&property={3}",
                 this.channel_id.ToString(), this.category_id.ToString(), txtKeywords.Text, this.property));
         }
 
         //筛选类别
         protected void ddlCategoryId_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Response.Redirect(Utils.CombUrlTxt("article_list.aspx", "channel_id={0}&category_id={1}&keywords={2}&property={3}",
+            Response.Redirect(Utils.CombUrlTxt("fjxx_list.aspx", "channel_id={0}&category_id={1}&keywords={2}&property={3}",
                 this.channel_id.ToString(), ddlCategoryId.SelectedValue, this.keywords, this.property));
         }
 
         //筛选属性
         protected void ddlProperty_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Response.Redirect(Utils.CombUrlTxt("article_list.aspx", "channel_id={0}&category_id={1}&keywords={2}&property={3}",
+            Response.Redirect(Utils.CombUrlTxt("fjxx_list.aspx", "channel_id={0}&category_id={1}&keywords={2}&property={3}",
                this.channel_id.ToString(), this.category_id.ToString(), this.keywords, ddlProperty.SelectedValue));
         }
 
@@ -233,7 +233,7 @@ namespace DTcms.Web.admin.article
         protected void lbtnViewTxt_Click(object sender, EventArgs e)
         {
             Utils.WriteCookie("article_list_view", "Txt", 14400);
-            Response.Redirect(Utils.CombUrlTxt("article_list.aspx", "channel_id={0}&category_id={1}&keywords={2}&property={3}&page={4}",
+            Response.Redirect(Utils.CombUrlTxt("fjxx_list.aspx", "channel_id={0}&category_id={1}&keywords={2}&property={3}&page={4}",
                 this.channel_id.ToString(), this.category_id.ToString(), this.keywords, this.property, this.page.ToString()));
         }
 
@@ -241,7 +241,7 @@ namespace DTcms.Web.admin.article
         protected void lbtnViewImg_Click(object sender, EventArgs e)
         {
             Utils.WriteCookie("article_list_view", "Img", 14400);
-            Response.Redirect(Utils.CombUrlTxt("article_list.aspx", "channel_id={0}&category_id={1}&keywords={2}&property={3}&page={4}",
+            Response.Redirect(Utils.CombUrlTxt("fjxx_list.aspx", "channel_id={0}&category_id={1}&keywords={2}&property={3}&page={4}",
                 this.channel_id.ToString(), this.category_id.ToString(), this.keywords, this.property, this.page.ToString()));
         }
 
@@ -256,7 +256,7 @@ namespace DTcms.Web.admin.article
                     Utils.WriteCookie("article_page_size", "DTcmsPage", _pagesize.ToString(), 43200);
                 }
             }
-            Response.Redirect(Utils.CombUrlTxt("article_list.aspx", "channel_id={0}&category_id={1}&keywords={2}&property={3}",
+            Response.Redirect(Utils.CombUrlTxt("fjxx_list.aspx", "channel_id={0}&category_id={1}&keywords={2}&property={3}",
                 this.channel_id.ToString(), this.category_id.ToString(), this.keywords, this.property));
         }
 
@@ -286,7 +286,7 @@ namespace DTcms.Web.admin.article
                 bll.UpdateField(id, "sort_id=" + sortId.ToString());
             }
             AddAdminLog(DTEnums.ActionEnum.Edit.ToString(), "保存" + this.channel_name + "频道内容排序"); //记录日志
-            JscriptMsg("保存排序成功！", Utils.CombUrlTxt("article_list.aspx", "channel_id={0}&category_id={1}&keywords={2}&property={3}",
+            JscriptMsg("保存排序成功！", Utils.CombUrlTxt("fjxx_list.aspx", "channel_id={0}&category_id={1}&keywords={2}&property={3}",
                 this.channel_id.ToString(), this.category_id.ToString(), this.keywords, this.property));
         }
 
@@ -323,7 +323,7 @@ namespace DTcms.Web.admin.article
                 }
             }
             AddAdminLog(DTEnums.ActionEnum.Edit.ToString(), "批量移动" + this.channel_name + "频道内容分类"); //记录日志
-            JscriptMsg("批量移动成功" + sucCount + "条", Utils.CombUrlTxt("article_list.aspx", "channel_id={0}&category_id={1}&keywords={2}&property={3}",
+            JscriptMsg("批量移动成功" + sucCount + "条", Utils.CombUrlTxt("fjxx_list.aspx", "channel_id={0}&category_id={1}&keywords={2}&property={3}",
                 this.channel_id.ToString(), this.category_id.ToString(), this.keywords, this.property));
         }
 
@@ -352,7 +352,7 @@ namespace DTcms.Web.admin.article
                 }
             }
             AddAdminLog(DTEnums.ActionEnum.Audit.ToString(), "审核" + this.channel_name + "频道内容信息"); //记录日志
-            JscriptMsg("批量审核成功！", Utils.CombUrlTxt("article_list.aspx", "channel_id={0}&category_id={1}&keywords={2}&property={3}",
+            JscriptMsg("批量审核成功！", Utils.CombUrlTxt("fjxx_list.aspx", "channel_id={0}&category_id={1}&keywords={2}&property={3}",
                 this.channel_id.ToString(), this.category_id.ToString(), this.keywords, this.property));
         }
 
@@ -390,7 +390,7 @@ namespace DTcms.Web.admin.article
                 }
             }
             AddAdminLog(DTEnums.ActionEnum.Edit.ToString(), "删除" + this.channel_name + "频道内容成功" + sucCount + "条，失败" + errorCount + "条"); //记录日志
-            JscriptMsg("删除成功" + sucCount + "条，失败" + errorCount + "条！", Utils.CombUrlTxt("article_list.aspx", "channel_id={0}&category_id={1}&keywords={2}&property={3}",
+            JscriptMsg("删除成功" + sucCount + "条，失败" + errorCount + "条！", Utils.CombUrlTxt("fjxx_list.aspx", "channel_id={0}&category_id={1}&keywords={2}&property={3}",
                 this.channel_id.ToString(), this.category_id.ToString(), this.keywords, this.property));
         }
 
