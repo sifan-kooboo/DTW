@@ -1,0 +1,80 @@
+G:\xslywzyy\xslygroupnew\LTP.Common\bin\Debug\LTP.Common.dll
+G:\xslywzyy\xslygroupnew\LTP.Common\bin\Debug\LTP.Common.pdb
+G:\xslywzyy\xslygroupnew\LTP.Common\bin\Debug\COM.Excel.dll
+G:\xslywzyy\xslygroupnew\LTP.Common\bin\Debug\Excel.dll
+G:\xslywzyy\xslygroupnew\LTP.Common\obj\Debug\ResolveAssemblyReference.cache
+G:\xslywzyy\xslygroupnew\LTP.Common\obj\Debug\LTP.Common.csproj.ResolveComReference.cache
+G:\xslywzyy\xslygroupnew\LTP.Common\obj\Debug\LTP.Common.dll
+G:\xslywzyy\xslygroupnew\LTP.Common\obj\Debug\LTP.Common.pdb
+E:\xslygroupnew\LTP.Common\bin\Debug\LTP.Common.dll
+E:\xslygroupnew\LTP.Common\bin\Debug\LTP.Common.pdb
+E:\xslygroupnew\LTP.Common\bin\Debug\COM.Excel.dll
+E:\xslygroupnew\LTP.Common\bin\Debug\Excel.dll
+E:\xslygroupnew\LTP.Common\obj\Debug\ResolveAssemblyReference.cache
+E:\xslygroupnew\LTP.Common\obj\Debug\LTP.Common.csproj.ResolveComReference.cache
+E:\xslygroupnew\LTP.Common\obj\Debug\LTP.Common.dll
+E:\xslygroupnew\LTP.Common\obj\Debug\LTP.Common.pdb
+E:\Csofe\xsly_hotel_service\xsly_hotel_service\LTP.Common\bin\Debug\LTP.Common.dll
+E:\Csofe\xsly_hotel_service\xsly_hotel_service\LTP.Common\bin\Debug\LTP.Common.pdb
+E:\Csofe\xsly_hotel_service\xsly_hotel_service\LTP.Common\bin\Debug\COM.Excel.dll
+E:\Csofe\xsly_hotel_service\xsly_hotel_service\LTP.Common\bin\Debug\Excel.dll
+E:\Csofe\xsly_hotel_service\xsly_hotel_service\LTP.Common\obj\Debug\ResolveAssemblyReference.cache
+E:\Csofe\xsly_hotel_service\xsly_hotel_service\LTP.Common\obj\Debug\LTP.Common.csproj.ResolveComReference.cache
+E:\Csofe\xsly_hotel_service\xsly_hotel_service\LTP.Common\obj\Debug\LTP.Common.dll
+E:\Csofe\xsly_hotel_service\xsly_hotel_service\LTP.Common\obj\Debug\LTP.Common.pdb
+F:\Csofe\xsly_res_head_service\xsly_res_head_service\LTP.Common\bin\Debug\LTP.Common.dll
+F:\Csofe\xsly_res_head_service\xsly_res_head_service\LTP.Common\bin\Debug\LTP.Common.pdb
+F:\Csofe\xsly_res_head_service\xsly_res_head_service\LTP.Common\bin\Debug\COM.Excel.dll
+F:\Csofe\xsly_res_head_service\xsly_res_head_service\LTP.Common\bin\Debug\Excel.dll
+F:\Csofe\xsly_res_head_service\xsly_res_head_service\LTP.Common\obj\Debug\ResolveAssemblyReference.cache
+F:\Csofe\xsly_res_head_service\xsly_res_head_service\LTP.Common\obj\Debug\LTP.Common.csproj.ResolveComReference.cache
+F:\Csofe\xsly_res_head_service\xsly_res_head_service\LTP.Common\obj\Debug\LTP.Common.dll
+F:\Csofe\xsly_res_head_service\xsly_res_head_service\LTP.Common\obj\Debug\LTP.Common.pdb
+F:\Csofe\xsly_res_head_app\xsly_res_head_app\LTP.Common\bin\Debug\LTP.Common.dll
+F:\Csofe\xsly_res_head_app\xsly_res_head_app\LTP.Common\bin\Debug\LTP.Common.pdb
+F:\Csofe\xsly_res_head_app\xsly_res_head_app\LTP.Common\bin\Debug\COM.Excel.dll
+F:\Csofe\xsly_res_head_app\xsly_res_head_app\LTP.Common\bin\Debug\Excel.dll
+F:\Csofe\xsly_res_head_app\xsly_res_head_app\LTP.Common\obj\Debug\ResolveAssemblyReference.cache
+F:\Csofe\xsly_res_head_app\xsly_res_head_app\LTP.Common\obj\Debug\LTP.Common.csproj.ResolveComReference.cache
+F:\Csofe\xsly_res_head_app\xsly_res_head_app\LTP.Common\obj\Debug\LTP.Common.dll
+F:\Csofe\xsly_res_head_app\xsly_res_head_app\LTP.Common\obj\Debug\LTP.Common.pdb
+F:\WorkSpace_Vicky.Wu\系统改造工程目录\0830下午最新\xsly_res_head_app\xsly_res_head_app\LTP.Common\bin\Debug\LTP.Common.dll
+F:\WorkSpace_Vicky.Wu\系统改造工程目录\0830下午最新\xsly_res_head_app\xsly_res_head_app\LTP.Common\bin\Debug\LTP.Common.pdb
+F:\WorkSpace_Vicky.Wu\系统改造工程目录\0830下午最新\xsly_res_head_app\xsly_res_head_app\LTP.Common\bin\Debug\COM.Excel.dll
+F:\WorkSpace_Vicky.Wu\系统改造工程目录\0830下午最新\xsly_res_head_app\xsly_res_head_app\LTP.Common\bin\Debug\Excel.dll
+F:\WorkSpace_Vicky.Wu\系统改造工程目录\0830下午最新\xsly_res_head_app\xsly_res_head_app\LTP.Common\obj\Debug\ResolveAssemblyReference.cache
+F:\WorkSpace_Vicky.Wu\系统改造工程目录\0830下午最新\xsly_res_head_app\xsly_res_head_app\LTP.Common\obj\Debug\LTP.Common.csproj.ResolveComReference.cache
+F:\WorkSpace_Vicky.Wu\系统改造工程目录\0830下午最新\xsly_res_head_app\xsly_res_head_app\LTP.Common\obj\Debug\LTP.Common.dll
+F:\WorkSpace_Vicky.Wu\系统改造工程目录\0830下午最新\xsly_res_head_app\xsly_res_head_app\LTP.Common\obj\Debug\LTP.Common.pdb
+F:\WorkSpace_Vicky.Wu\系统改造工程目录\0905\client_app\LTP.Common\bin\Debug\LTP.Common.dll
+F:\WorkSpace_Vicky.Wu\系统改造工程目录\0905\client_app\LTP.Common\bin\Debug\LTP.Common.pdb
+F:\WorkSpace_Vicky.Wu\系统改造工程目录\0905\client_app\LTP.Common\bin\Debug\COM.Excel.dll
+F:\WorkSpace_Vicky.Wu\系统改造工程目录\0905\client_app\LTP.Common\bin\Debug\Excel.dll
+F:\WorkSpace_Vicky.Wu\系统改造工程目录\0905\client_app\LTP.Common\obj\Debug\ResolveAssemblyReference.cache
+F:\WorkSpace_Vicky.Wu\系统改造工程目录\0905\client_app\LTP.Common\obj\Debug\LTP.Common.csproj.ResolveComReference.cache
+F:\WorkSpace_Vicky.Wu\系统改造工程目录\0905\client_app\LTP.Common\obj\Debug\LTP.Common.dll
+F:\WorkSpace_Vicky.Wu\系统改造工程目录\0905\client_app\LTP.Common\obj\Debug\LTP.Common.pdb
+E:\Vicky.Wu-VS solution\Vicky.Wu\20111008_餐饮上传下载最新\client_app\LTP.Common\bin\Debug\LTP.Common.dll
+E:\Vicky.Wu-VS solution\Vicky.Wu\20111008_餐饮上传下载最新\client_app\LTP.Common\bin\Debug\LTP.Common.pdb
+E:\Vicky.Wu-VS solution\Vicky.Wu\20111008_餐饮上传下载最新\client_app\LTP.Common\bin\Debug\COM.Excel.dll
+E:\Vicky.Wu-VS solution\Vicky.Wu\20111008_餐饮上传下载最新\client_app\LTP.Common\bin\Debug\Excel.dll
+E:\Vicky.Wu-VS solution\Vicky.Wu\20111008_餐饮上传下载最新\client_app\LTP.Common\obj\Debug\ResolveAssemblyReference.cache
+E:\Vicky.Wu-VS solution\Vicky.Wu\20111008_餐饮上传下载最新\client_app\LTP.Common\obj\Debug\LTP.Common.csproj.ResolveComReference.cache
+E:\Vicky.Wu-VS solution\Vicky.Wu\20111008_餐饮上传下载最新\client_app\LTP.Common\obj\Debug\LTP.Common.dll
+E:\Vicky.Wu-VS solution\Vicky.Wu\20111008_餐饮上传下载最新\client_app\LTP.Common\obj\Debug\LTP.Common.pdb
+E:\小吴\0215\xsly_res_head_app\LTP.Common\bin\Debug\LTP.Common.dll
+E:\小吴\0215\xsly_res_head_app\LTP.Common\bin\Debug\LTP.Common.pdb
+E:\小吴\0215\xsly_res_head_app\LTP.Common\bin\Debug\COM.Excel.dll
+E:\小吴\0215\xsly_res_head_app\LTP.Common\bin\Debug\Excel.dll
+E:\小吴\0215\xsly_res_head_app\LTP.Common\obj\Debug\ResolveAssemblyReference.cache
+E:\小吴\0215\xsly_res_head_app\LTP.Common\obj\Debug\LTP.Common.csproj.ResolveComReference.cache
+E:\小吴\0215\xsly_res_head_app\LTP.Common\obj\Debug\LTP.Common.dll
+E:\小吴\0215\xsly_res_head_app\LTP.Common\obj\Debug\LTP.Common.pdb
+E:\jdglxtsc\jdgl_res_head_app\LTP.Common\bin\Debug\LTP.Common.dll
+E:\jdglxtsc\jdgl_res_head_app\LTP.Common\bin\Debug\LTP.Common.pdb
+E:\jdglxtsc\jdgl_res_head_app\LTP.Common\bin\Debug\COM.Excel.dll
+E:\jdglxtsc\jdgl_res_head_app\LTP.Common\bin\Debug\Excel.dll
+E:\jdglxtsc\jdgl_res_head_app\LTP.Common\obj\Debug\ResolveAssemblyReference.cache
+E:\jdglxtsc\jdgl_res_head_app\LTP.Common\obj\Debug\LTP.Common.csproj.ResolveComReference.cache
+E:\jdglxtsc\jdgl_res_head_app\LTP.Common\obj\Debug\LTP.Common.dll
+E:\jdglxtsc\jdgl_res_head_app\LTP.Common\obj\Debug\LTP.Common.pdb

@@ -1,0 +1,13 @@
+C:\Users\Administrator\Desktop\夏商项目开发\jdgl_res_head_service\DBUtility\bin\Debug\Maticsoft.DBUtility.dll
+C:\Users\Administrator\Desktop\夏商项目开发\jdgl_res_head_service\DBUtility\bin\Debug\Maticsoft.DBUtility.pdb
+C:\Users\Administrator\Desktop\夏商项目开发\jdgl_res_head_service\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\夏商项目开发\jdgl_res_head_service\DBUtility\obj\Debug\Maticsoft.DBUtility.dll
+C:\Users\Administrator\Desktop\夏商项目开发\jdgl_res_head_service\DBUtility\obj\Debug\Maticsoft.DBUtility.pdb
+D:\夏商项目开发\jdgl_res_head_service\DBUtility\bin\Debug\Maticsoft.DBUtility.dll
+D:\夏商项目开发\jdgl_res_head_service\DBUtility\bin\Debug\Maticsoft.DBUtility.pdb
+D:\夏商项目开发\jdgl_res_head_service\DBUtility\obj\Debug\Maticsoft.DBUtility.dll
+D:\夏商项目开发\jdgl_res_head_service\DBUtility\obj\Debug\Maticsoft.DBUtility.pdb
+D:\Git\DTWMaster\jdgl_res_head_service\DBUtility\bin\Debug\Maticsoft.DBUtility.dll
+D:\Git\DTWMaster\jdgl_res_head_service\DBUtility\bin\Debug\Maticsoft.DBUtility.pdb
+D:\Git\DTWMaster\jdgl_res_head_service\DBUtility\obj\Debug\Maticsoft.DBUtility.dll
+D:\Git\DTWMaster\jdgl_res_head_service\DBUtility\obj\Debug\Maticsoft.DBUtility.pdb

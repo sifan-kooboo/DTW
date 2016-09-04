@@ -1,0 +1,133 @@
+--Qcounter新增会员字段:
+--Hhygl_qyqr  来指示是否要启用会员验证
+
+alter table Qcounter
+add   Hhygl_qyqr  bit
+go 
+
+update Qcounter set Hhygl_qyqr=1
+
+
+--新增：
+--表:（验证短信）
+CREATE TABLE [dbo].[Hhyyz](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[krxm] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[hysj] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[yzm] [varchar](100) COLLATE Chinese_PRC_CI_AS NULL,
+	[yzdate] [datetime] NULL,
+	[yzzt] [bit] NULL,
+	[yydh] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[qymc] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+ CONSTRAINT [PK_Hhyyz] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+) ON [PRIMARY]
+) ON [PRIMARY]
+
+--固定格式的短信内容
+CREATE TABLE [dbo].[hhyyz_dx](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[yydh] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[qymc] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[hy_action_flage] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[msm_content] [varchar](5000) COLLATE Chinese_PRC_CI_AS NULL,
+	[enable] [bit] NULL CONSTRAINT [DF_Table_1_enable]  DEFAULT (1),
+	[dxycsj] [int] NULL CONSTRAINT [DF_hhyyz_dx_dxycsj]  DEFAULT (0),
+	[msm_content_2] [varchar](1000) COLLATE Chinese_PRC_CI_AS NULL,
+	[msm_content_3] [varchar](1000) COLLATE Chinese_PRC_CI_AS NULL,
+	[msm_content_4] [varchar](1000) COLLATE Chinese_PRC_CI_AS NULL,
+	[msm_content_5] [varchar](1000) COLLATE Chinese_PRC_CI_AS NULL,
+ CONSTRAINT [PK_Table_1] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+
+
+---存储：GetHyFfByJzbh
+set ANSI_NULLS ON
+set QUOTED_IDENTIFIER ON
+go
+
+Create   PROCEDURE  [dbo].[GetHyFfByJzbh]
+@jzbh varchar(100),
+@xfdr varchar(100),
+@TotalFF  decimal  output
+ AS
+begin
+   set  @TotalFF=0
+   select  @TotalFF=IsNull(sum(sjxfje),0)  from   Sjzmx   where jzbh=@jzbh  and  xfdr=@xfdr
+end
+
+
+
+set ANSI_NULLS ON
+set QUOTED_IDENTIFIER ON
+go
+
+
+
+---存储：GetHyJifenByHykh
+Create  procedure  [dbo].[GetHyJifenByHykh]
+
+@hykh varchar(100),--hykh
+@sjjfs decimal,--升级要扣除的积分数
+@sjjfxe decimal, --升级需要的积分限额
+@hyrx  varchar,---要升级的卡的类型
+
+@JifenTotalYe decimal  output,---当前积分数
+--@JifenTotalAfterUpdateType  decimal  output,---如果有升级那么返回升级后的积分总数
+@shsj  bit  output ---指示当前的用户是否升级了
+ 
+AS
+   begin
+     declare  @JifenTotal   decimal
+     declare  @JifenDhTotal   decimal
+     declare  @currentHyrx  varchar(200)
+     --declare  @JifenTotalYe   decimal
+ 
+     set  @JifenTotal=0
+     set  @JifenDhTotal=0
+     set  @JifenTotalYe=0
+     set  @shsj=0
+
+     select @JifenTotal=IsNull(sum(hyjf),0) from Hhyjf_xfjl   where hykh=@hykh
+     
+     select  @JifenDhTotal=IsNull(sum(dfjf),0) from  Hhyjf_df  where  hykh=@hykh
+
+     set @JifenTotalYe=@JifenTotal-@JifenDhTotal
+
+     set @shsj=0
+   end
+
+
+
+以下为格式：
+操作步骤	短信内容	短信字数
+
+会员注册时	
+您申请的怡悦会员已完成操作，卡号13606005216，密码123456，请在酒店或登入www.easy-inn.cn获取验证码进行激活。	69
+会员获得验证码	
+您的验证码是：48532，请输入激活。	19
+会员输入验证码激活成功后	
+
+恭喜，您已成为怡悦正式会员！您今后可使用此手机号直接登入怡庭官网或电话预订，随时随地享受怡庭提供的会员专属十项权益各项优质服务。	64
+
+会员升级：
+操作步骤	短信内容	短信字数
+会员积分累积1000积分时	恭喜，您已升级为金卡会员！即刻您可享受房价8.2折优惠及会员十项权益。详情拨打400882333或登入www.easy-inn.cn 查询。	70
+
+
+会员预订入住：
+会员预订确认后	
+
+您预订2月9日商务房1间保留至18点已确认。地址：莲岳路14号，电话：0592-2987333	47
+
+会员办理入住后	短信太多，建议取消	
+
+会员退房时（延时10分钟）	
+感谢您入住夏商怡庭商务酒店莲岳店，本次您的消费积分249分，累积498分，5000积分免费兑换客房一间天。欢迎您再次光临，谢谢！	64

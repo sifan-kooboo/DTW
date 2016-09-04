@@ -1,0 +1,8 @@
+bin\Release\Maticsoft.DBUtility.dll
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\Maticsoft.DBUtility.dll
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\Hotel_app.DBUtility.dll
+bin\Debug\Hotel_app.DBUtility.pdb
+obj\Debug\Hotel_app.DBUtility.dll
+obj\Debug\Hotel_app.DBUtility.pdb

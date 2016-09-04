@@ -1,0 +1,13 @@
+D:\MoTon\Hotel_Code\jdgl_res_head_app\jdgl_res_head_app.Model\bin\Debug\jdgl_res_head_app.Model.dll
+D:\MoTon\Hotel_Code\jdgl_res_head_app\jdgl_res_head_app.Model\bin\Debug\jdgl_res_head_app.Model.pdb
+D:\MoTon\Hotel_Code\jdgl_res_head_app\jdgl_res_head_app.Model\obj\Debug\ResolveAssemblyReference.cache
+D:\MoTon\Hotel_Code\jdgl_res_head_app\jdgl_res_head_app.Model\obj\Debug\jdgl_res_head_app.Model.dll
+D:\MoTon\Hotel_Code\jdgl_res_head_app\jdgl_res_head_app.Model\obj\Debug\jdgl_res_head_app.Model.pdb
+D:\夏商项目开发\jdgl_res_head_app\jdgl_res_head_app.Model\bin\Debug\jdgl_res_head_app.Model.dll
+D:\夏商项目开发\jdgl_res_head_app\jdgl_res_head_app.Model\bin\Debug\jdgl_res_head_app.Model.pdb
+D:\夏商项目开发\jdgl_res_head_app\jdgl_res_head_app.Model\obj\Debug\jdgl_res_head_app.Model.dll
+D:\夏商项目开发\jdgl_res_head_app\jdgl_res_head_app.Model\obj\Debug\jdgl_res_head_app.Model.pdb
+D:\Git\DTWMaster\jdgl_res_head_app\jdgl_res_head_app.Model\bin\Debug\jdgl_res_head_app.Model.dll
+D:\Git\DTWMaster\jdgl_res_head_app\jdgl_res_head_app.Model\bin\Debug\jdgl_res_head_app.Model.pdb
+D:\Git\DTWMaster\jdgl_res_head_app\jdgl_res_head_app.Model\obj\Debug\jdgl_res_head_app.Model.dll
+D:\Git\DTWMaster\jdgl_res_head_app\jdgl_res_head_app.Model\obj\Debug\jdgl_res_head_app.Model.pdb

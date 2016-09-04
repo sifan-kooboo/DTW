@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ft_info>
+  <add key="big_horizon_NO" value="20" />
+  <!-- 房态的列的数量 -->
+  <add key="big_pic_space" value="3" />
+  <!-- 房态房间间隔 -->
+  <add key="big_pic_height" value="58" />
+  <!-- 房态房间高度，最好不要去改 -->
+  <add key="big_pic_width" value="52" />
+  <!-- 房态房间宽度，最好不要去改 -->
+  <add key="fj_status_style" value="1" />
+  <!--展示出的房态样式-->
+  <add key="System_path" value="D:\MoTon\摩通客房管理系统－2008工程\Hotel_app\bin\Debug" />
+  <!--系统启动目录-->
+  <add key="xxzs" value="zs" />
+  <!--标识是什么版本-->
+  <add key="CpuID" value="xxxxx" />
+  <!--CPU信息-->
+  <add key="DiskID" value="" />
+  <!--磁盘信息-->
+  <add key="McID" value="" />
+  <!--机器码-->
+  <add key="RegisterKey" value="EMKEMEMM3335368CI5IIMCE4" />
+  <!--注册码-->
+  <add key="startTime" value="2013-07-18 14:17:09" />
+  <!--开始使用时间-->
+  <add key="endTime" value="2013-10-26 15:57:09" />
+  <!--结束时间-->
+  <add key="webServer" value="http://192.168.1.111:801/" />
+  <add key="isInstallDevAssembly" value="true" />
+  <!--是否有注册组件-->
+</ft_info>

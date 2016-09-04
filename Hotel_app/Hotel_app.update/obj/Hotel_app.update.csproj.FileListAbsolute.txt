@@ -1,0 +1,188 @@
+C:\Documents and Settings\guo\桌面\0731_new系统部署\hotel_app\Hotel_app.update\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\guo\桌面\0731_new系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Form1.resources
+C:\Documents and Settings\guo\桌面\0731_new系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Properties.Resources.resources
+C:\Documents and Settings\guo\桌面\0731_new系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.csproj.GenerateResource.Cache
+C:\Documents and Settings\guo\桌面\0731_new系统部署\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.exe
+C:\Documents and Settings\guo\桌面\0731_new系统部署\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.pdb
+C:\Documents and Settings\guo\桌面\0731_new系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.exe
+C:\Documents and Settings\guo\桌面\0731_new系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.pdb
+F:\0803东海演示(Prepare)\00802_new系统部署\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.exe
+F:\0803东海演示(Prepare)\00802_new系统部署\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.pdb
+F:\0803东海演示(Prepare)\00802_new系统部署\hotel_app\Hotel_app.update\obj\Debug\ResolveAssemblyReference.cache
+F:\0803东海演示(Prepare)\00802_new系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Form1.resources
+F:\0803东海演示(Prepare)\00802_new系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Properties.Resources.resources
+F:\0803东海演示(Prepare)\00802_new系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.csproj.GenerateResource.Cache
+F:\0803东海演示(Prepare)\00802_new系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.exe
+F:\0803东海演示(Prepare)\00802_new系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.pdb
+C:\Documents and Settings\guo\桌面\0809系统部署\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.exe
+C:\Documents and Settings\guo\桌面\0809系统部署\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.pdb
+C:\Documents and Settings\guo\桌面\0809系统部署\hotel_app\Hotel_app.update\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\guo\桌面\0809系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Form1.resources
+C:\Documents and Settings\guo\桌面\0809系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Properties.Resources.resources
+C:\Documents and Settings\guo\桌面\0809系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.csproj.GenerateResource.Cache
+C:\Documents and Settings\guo\桌面\0809系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.exe
+C:\Documents and Settings\guo\桌面\0809系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.pdb
+C:\Documents and Settings\guo\桌面\0810系统部署\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.exe
+C:\Documents and Settings\guo\桌面\0810系统部署\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.pdb
+C:\Documents and Settings\guo\桌面\0810系统部署\hotel_app\Hotel_app.update\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\guo\桌面\0810系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Form1.resources
+C:\Documents and Settings\guo\桌面\0810系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Properties.Resources.resources
+C:\Documents and Settings\guo\桌面\0810系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.csproj.GenerateResource.Cache
+C:\Documents and Settings\guo\桌面\0810系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.exe
+C:\Documents and Settings\guo\桌面\0810系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.pdb
+F:\C#\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.exe
+F:\C#\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.pdb
+F:\C#\hotel_app\Hotel_app.update\obj\Debug\ResolveAssemblyReference.cache
+F:\C#\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Form1.resources
+F:\C#\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Properties.Resources.resources
+F:\C#\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.csproj.GenerateResource.Cache
+F:\C#\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.exe
+F:\C#\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.pdb
+C:\Documents and Settings\guo\桌面\0816系统部署\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.exe
+C:\Documents and Settings\guo\桌面\0816系统部署\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.pdb
+C:\Documents and Settings\guo\桌面\0816系统部署\hotel_app\Hotel_app.update\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\guo\桌面\0816系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Form1.resources
+C:\Documents and Settings\guo\桌面\0816系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Properties.Resources.resources
+C:\Documents and Settings\guo\桌面\0816系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.csproj.GenerateResource.Cache
+C:\Documents and Settings\guo\桌面\0816系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.exe
+C:\Documents and Settings\guo\桌面\0816系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.pdb
+C:\Documents and Settings\guo\桌面\0820系统部署\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.exe
+C:\Documents and Settings\guo\桌面\0820系统部署\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.pdb
+C:\Documents and Settings\guo\桌面\0820系统部署\hotel_app\Hotel_app.update\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\guo\桌面\0820系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Form1.resources
+C:\Documents and Settings\guo\桌面\0820系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Properties.Resources.resources
+C:\Documents and Settings\guo\桌面\0820系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.csproj.GenerateResource.Cache
+C:\Documents and Settings\guo\桌面\0820系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.exe
+C:\Documents and Settings\guo\桌面\0820系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.pdb
+C:\Documents and Settings\guo\桌面\0820系统部署\0822程序\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.exe
+C:\Documents and Settings\guo\桌面\0820系统部署\0822程序\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.pdb
+C:\Documents and Settings\guo\桌面\0820系统部署\0822程序\hotel_app\Hotel_app.update\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\guo\桌面\0820系统部署\0822程序\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Form1.resources
+C:\Documents and Settings\guo\桌面\0820系统部署\0822程序\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Properties.Resources.resources
+C:\Documents and Settings\guo\桌面\0820系统部署\0822程序\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.csproj.GenerateResource.Cache
+C:\Documents and Settings\guo\桌面\0820系统部署\0822程序\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.exe
+C:\Documents and Settings\guo\桌面\0820系统部署\0822程序\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.pdb
+F:\C#\0823程序_V1.6\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.exe
+F:\C#\0823程序_V1.6\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.pdb
+F:\C#\0823程序_V1.6\hotel_app\Hotel_app.update\obj\Debug\ResolveAssemblyReference.cache
+F:\C#\0823程序_V1.6\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Form1.resources
+F:\C#\0823程序_V1.6\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Properties.Resources.resources
+F:\C#\0823程序_V1.6\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.csproj.GenerateResource.Cache
+F:\C#\0823程序_V1.6\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.exe
+F:\C#\0823程序_V1.6\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.pdb
+C:\Documents and Settings\guo\桌面\0827系统部署\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.exe
+C:\Documents and Settings\guo\桌面\0827系统部署\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.pdb
+C:\Documents and Settings\guo\桌面\0827系统部署\hotel_app\Hotel_app.update\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\guo\桌面\0827系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Form1.resources
+C:\Documents and Settings\guo\桌面\0827系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Properties.Resources.resources
+C:\Documents and Settings\guo\桌面\0827系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.csproj.GenerateResource.Cache
+C:\Documents and Settings\guo\桌面\0827系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.exe
+C:\Documents and Settings\guo\桌面\0827系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.pdb
+C:\Documents and Settings\guo\桌面\0903系统部署\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.exe
+C:\Documents and Settings\guo\桌面\0903系统部署\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.pdb
+C:\Documents and Settings\guo\桌面\0903系统部署\hotel_app\Hotel_app.update\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\guo\桌面\0903系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Form1.resources
+C:\Documents and Settings\guo\桌面\0903系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Properties.Resources.resources
+C:\Documents and Settings\guo\桌面\0903系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.csproj.GenerateResource.Cache
+C:\Documents and Settings\guo\桌面\0903系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.exe
+C:\Documents and Settings\guo\桌面\0903系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.pdb
+C:\Documents and Settings\guo\桌面\0920系统部署\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.exe
+C:\Documents and Settings\guo\桌面\0920系统部署\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.pdb
+C:\Documents and Settings\guo\桌面\0920系统部署\hotel_app\Hotel_app.update\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\guo\桌面\0920系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Form1.resources
+C:\Documents and Settings\guo\桌面\0920系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Properties.Resources.resources
+C:\Documents and Settings\guo\桌面\0920系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.csproj.GenerateResource.Cache
+C:\Documents and Settings\guo\桌面\0920系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.exe
+C:\Documents and Settings\guo\桌面\0920系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.pdb
+F:\C#new\0920系统部署\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.exe
+F:\C#new\0920系统部署\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.pdb
+F:\C#new\0920系统部署\hotel_app\Hotel_app.update\obj\Debug\ResolveAssemblyReference.cache
+F:\C#new\0920系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Form1.resources
+F:\C#new\0920系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Properties.Resources.resources
+F:\C#new\0920系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.csproj.GenerateResource.Cache
+F:\C#new\0920系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.exe
+F:\C#new\0920系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.pdb
+E:\Hote\小吴\0921系统部署\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.exe
+E:\Hote\小吴\0921系统部署\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.pdb
+E:\Hote\小吴\0921系统部署\hotel_app\Hotel_app.update\obj\Debug\ResolveAssemblyReference.cache
+E:\Hote\小吴\0921系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Form1.resources
+E:\Hote\小吴\0921系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Properties.Resources.resources
+E:\Hote\小吴\0921系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.csproj.GenerateResource.Cache
+E:\Hote\小吴\0921系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.exe
+E:\Hote\小吴\0921系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.pdb
+F:\C#new\20120926\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.exe
+F:\C#new\20120926\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.pdb
+F:\C#new\20120926\hotel_app\Hotel_app.update\obj\Debug\ResolveAssemblyReference.cache
+F:\C#new\20120926\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Form1.resources
+F:\C#new\20120926\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Properties.Resources.resources
+F:\C#new\20120926\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.csproj.GenerateResource.Cache
+F:\C#new\20120926\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.exe
+F:\C#new\20120926\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.pdb
+C:\Documents and Settings\guo\桌面\0926系统部署\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.exe
+C:\Documents and Settings\guo\桌面\0926系统部署\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.pdb
+C:\Documents and Settings\guo\桌面\0926系统部署\hotel_app\Hotel_app.update\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\guo\桌面\0926系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Form1.resources
+C:\Documents and Settings\guo\桌面\0926系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Properties.Resources.resources
+C:\Documents and Settings\guo\桌面\0926系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.csproj.GenerateResource.Cache
+C:\Documents and Settings\guo\桌面\0926系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.exe
+C:\Documents and Settings\guo\桌面\0926系统部署\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.pdb
+F:\C#new\0927Code\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.exe
+F:\C#new\0927Code\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.pdb
+F:\C#new\0927Code\hotel_app\Hotel_app.update\obj\Debug\ResolveAssemblyReference.cache
+F:\C#new\0927Code\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Form1.resources
+F:\C#new\0927Code\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Properties.Resources.resources
+F:\C#new\0927Code\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.csproj.GenerateResource.Cache
+F:\C#new\0927Code\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.exe
+F:\C#new\0927Code\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.pdb
+C:\Documents and Settings\guo\桌面\1009Code\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.exe
+C:\Documents and Settings\guo\桌面\1009Code\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.pdb
+C:\Documents and Settings\guo\桌面\1009Code\hotel_app\Hotel_app.update\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\guo\桌面\1009Code\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Form1.resources
+C:\Documents and Settings\guo\桌面\1009Code\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Properties.Resources.resources
+C:\Documents and Settings\guo\桌面\1009Code\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.csproj.GenerateResource.Cache
+C:\Documents and Settings\guo\桌面\1009Code\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.exe
+C:\Documents and Settings\guo\桌面\1009Code\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.pdb
+C:\Documents and Settings\guo\桌面\1107Code\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.exe
+C:\Documents and Settings\guo\桌面\1107Code\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.pdb
+C:\Documents and Settings\guo\桌面\1107Code\hotel_app\Hotel_app.update\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\guo\桌面\1107Code\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Form1.resources
+C:\Documents and Settings\guo\桌面\1107Code\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Properties.Resources.resources
+C:\Documents and Settings\guo\桌面\1107Code\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.csproj.GenerateResource.Cache
+C:\Documents and Settings\guo\桌面\1107Code\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.exe
+C:\Documents and Settings\guo\桌面\1107Code\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.pdb
+F:\hotel工程\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.exe
+F:\hotel工程\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.pdb
+F:\hotel工程\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.DBUtility.dll
+F:\hotel工程\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.DBUtility.pdb
+F:\hotel工程\hotel_app\Hotel_app.update\obj\Debug\ResolveAssemblyReference.cache
+F:\hotel工程\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Form1.resources
+F:\hotel工程\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Message_box.resources
+F:\hotel工程\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Properties.Resources.resources
+F:\hotel工程\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.common_file.Time_count.resources
+F:\hotel工程\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.csproj.GenerateResource.Cache
+F:\hotel工程\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.exe
+F:\hotel工程\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.pdb
+C:\Documents and Settings\guo\桌面\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.exe
+C:\Documents and Settings\guo\桌面\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.pdb
+C:\Documents and Settings\guo\桌面\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.DBUtility.dll
+C:\Documents and Settings\guo\桌面\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.DBUtility.pdb
+C:\Documents and Settings\guo\桌面\hotel_app\Hotel_app.update\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\guo\桌面\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Form1.resources
+C:\Documents and Settings\guo\桌面\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Message_box.resources
+C:\Documents and Settings\guo\桌面\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Properties.Resources.resources
+C:\Documents and Settings\guo\桌面\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.common_file.Time_count.resources
+C:\Documents and Settings\guo\桌面\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.csproj.GenerateResource.Cache
+C:\Documents and Settings\guo\桌面\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.exe
+C:\Documents and Settings\guo\桌面\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.pdb
+F:\ls\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.exe
+F:\ls\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.update.pdb
+F:\ls\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.DBUtility.dll
+F:\ls\hotel_app\Hotel_app.update\bin\Debug\Hotel_app.DBUtility.pdb
+F:\ls\hotel_app\Hotel_app.update\obj\Debug\ResolveAssemblyReference.cache
+F:\ls\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Form1.resources
+F:\ls\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Message_box.resources
+F:\ls\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.Properties.Resources.resources
+F:\ls\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.common_file.Time_count.resources
+F:\ls\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.csproj.GenerateResource.Cache
+F:\ls\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.exe
+F:\ls\hotel_app\Hotel_app.update\obj\Debug\Hotel_app.update.pdb

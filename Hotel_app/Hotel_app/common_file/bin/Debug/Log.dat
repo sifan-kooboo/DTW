@@ -1,0 +1,30 @@
+000001<_InitComm_1001>入口2013-01-21 16:04:40
+000000<_InitComm>---Error:Can not open the port.(OpenComm).2013-01-21 16:04:40
+000001<_InitComm_1002>入口2013-01-21 16:04:40
+000000<_InitComm>---Error:Can not open the port.(OpenComm).2013-01-21 16:04:40
+000001<_InitComm_1003>入口2013-01-21 16:04:40
+000000<_InitComm>---Error:Can not open the port.(OpenComm).2013-01-21 16:04:40
+000001<_InitComm_1004>入口2013-01-21 16:04:40
+000000<_InitComm>---Error:Can not open the port.(OpenComm).2013-01-21 16:04:40
+000001<_InitComm_1005>入口2013-01-21 16:04:40
+000000<_InitComm>---Error:Can not open the port.(OpenComm).2013-01-21 16:04:40
+000001<_InitComm_1006>入口2013-01-21 16:04:40
+000000<_InitComm>---Error:Can not open the port.(OpenComm).2013-01-21 16:04:40
+000001<_InitComm_1>入口2013-01-21 16:04:40
+000001<Recv_HANDLE>入口2013-01-21 16:04:40
+000017<STD_GetSAMIDToStr>---Error:Can not read the status of  the SAM module.(GetSAMStatus).2013-01-21 16:04:40
+000001<_InitComm_2>入口2013-01-21 16:04:40
+000002<_InitComm_CreateFile>---Error:Can not open the port.(OpenComm).2013-01-21 16:04:40
+000000<_InitComm>---Error:Can not open the port.(OpenComm).2013-01-21 16:04:40
+000001<_InitComm_3>入口2013-01-21 16:04:40
+000002<_InitComm_CreateFile>---Error:Can not open the port.(OpenComm).2013-01-21 16:04:40
+000000<_InitComm>---Error:Can not open the port.(OpenComm).2013-01-21 16:04:40
+000001<_InitComm_4>入口2013-01-21 16:04:40
+000002<_InitComm_CreateFile>---Error:Can not open the port.(OpenComm).2013-01-21 16:04:40
+000000<_InitComm>---Error:Can not open the port.(OpenComm).2013-01-21 16:04:40
+000001<_InitComm_5>入口2013-01-21 16:04:40
+000002<_InitComm_CreateFile>---Error:Can not open the port.(OpenComm).2013-01-21 16:04:40
+000000<_InitComm>---Error:Can not open the port.(OpenComm).2013-01-21 16:04:40
+000001<_InitComm_6>入口2013-01-21 16:04:40
+000002<_InitComm_CreateFile>---Error:Can not open the port.(OpenComm).2013-01-21 16:04:40
+000000<_InitComm>---Error:Can not open the port.(OpenComm).2013-01-21 16:04:40

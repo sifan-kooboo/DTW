@@ -1,0 +1,59 @@
+            //2013－01－29   会员登记－续住－换房
+            if (!tB_hykh_bz.Text.Trim().Equals("") && tB_krly.Text.Equals(common_file.common_krly.krly_hyuan))
+            {
+                string ddsj="";
+                string lksj="";
+                Hotel_app.Hhygl_app.Hhygl_app services_Hhygl_app = new Hotel_app.Hhygl_app.Hhygl_app();
+
+                if(yddj.Equals(common_file.common_yddj.yddj_dj))
+                {
+                //新增（会员）登记
+                if(add_edit.Equals(common_file.common_app.get_add))//新增散客（会员）登记
+                {
+
+                    if (services_Hhygl_app.Hhygl_SendMsm(tB_krsj.Text.Replace(',', '|').Trim(), GetTitle(), common_file.common_app.yydh, common_file.common_app.qymc, common_file.common_hyAction.hy_Action_djNew, DateTime.Now.ToString(), ddsj, lksj, "", "", "", common_file.common_app.xxzs).Equals(common_file.common_app.get_suc))
+                    {
+                        common_file.common_czjl.add_czjl(common_file.common_app.yydh,common_file.common_app.qymc,common_file.common_app.czy,"新增散客(会员)登记提醒",tB_krsj.Text,"自动发送",DateTime.Now);
+                    }
+
+                }
+               //会员信息修改（仅限于离开时间修改--续住）
+                if(add_edit.Equals(common_file.common_app.get_edit)&&(!M_Qskyd_mainrecord.lksj.Equals(DateTime.Parse(dT_lksj_date.Value.ToShortDateString() + " " + dT_lksj_time.Value.ToLongTimeString()))))
+                {
+                    if (services_Hhygl_app.Hhygl_SendMsm(tB_krsj.Text.Replace(',', '|').Trim(), GetTitle(), common_file.common_app.yydh, common_file.common_app.qymc, common_file.common_hyAction.hy_Action_djxg, DateTime.Now.ToString(), ddsj, lksj, "", "", "", common_file.common_app.xxzs).Equals(common_file.common_app.get_suc))
+                    {
+                        //写日志，提醒前台发送短信成功
+                        common_file.common_czjl.add_czjl(common_file.common_app.yydh,common_file.common_app.qymc,common_file.common_app.czy,"散客(会员)续住提醒",tB_krsj.Text,"自动发送",DateTime.Now);
+                    }
+                }
+                }
+                if(yddj.Equals(common_file.common_yddj.yddj_yd))
+                {
+                if(add_edit.Equals(common_file.common_app.get_add))//新增散客（会员）预订
+                {
+                    if (services_Hhygl_app.Hhygl_SendMsm(tB_krsj.Text.Replace(',', '|').Trim(), GetTitle(), common_file.common_app.yydh, common_file.common_app.qymc, common_file.common_hyAction.hy_Action_ydNew, DateTime.Now.ToString(), ddsj, lksj, "", "", "", common_file.common_app.xxzs).Equals(common_file.common_app.get_suc))
+                    {
+                        common_file.common_czjl.add_czjl(common_file.common_app.yydh,common_file.common_app.qymc,common_file.common_app.czy,"新增散客(会员)预订提醒",tB_krsj.Text,"自动发送",DateTime.Now);
+                    }
+
+                }
+               //会员预订信息修改（仅限于到达时间和离开时间修改--续住）
+                if(add_edit.Equals(common_file.common_app.get_edit)&&(!M_Qskyd_mainrecord.lksj.Equals(DateTime.Parse(dT_lksj_date.Value.ToShortDateString() + " " + dT_lksj_time.Value.ToLongTimeString()))))
+                {
+                    if (services_Hhygl_app.Hhygl_SendMsm(tB_krsj.Text.Replace(',', '|').Trim(), GetTitle(), common_file.common_app.yydh, common_file.common_app.qymc, common_file.common_hyAction.hy_Action_ydxg, DateTime.Now.ToString(), ddsj, lksj, "", "", "", common_file.common_app.xxzs).Equals(common_file.common_app.get_suc))
+                    {
+                        //写日志，提醒前台发送短信成功
+                        common_file.common_czjl.add_czjl(common_file.common_app.yydh,common_file.common_app.qymc,common_file.common_app.czy,"散客(会员)预订时间修改提醒",tB_krsj.Text,"自动发送",DateTime.Now);
+                    }
+                }
+
+                if(add_edit.Equals(common_file.common_app.get_delete))
+                {
+                    if (services_Hhygl_app.Hhygl_SendMsm(tB_krsj.Text.Replace(',', '|').Trim(), GetTitle(), common_file.common_app.yydh, common_file.common_app.qymc, common_file.common_hyAction.hy_Action_yddel, DateTime.Now.ToString(), ddsj, lksj, "", "", "", common_file.common_app.xxzs).Equals(common_file.common_app.get_suc))
+                    {
+                        //写日志，提醒前台发送短信成功
+                        common_file.common_czjl.add_czjl(common_file.common_app.yydh,common_file.common_app.qymc,common_file.common_app.czy,"散客(会员)预订取消提醒",tB_krsj.Text,"自动发送",DateTime.Now);
+                    }
+                }
+                }
+            }

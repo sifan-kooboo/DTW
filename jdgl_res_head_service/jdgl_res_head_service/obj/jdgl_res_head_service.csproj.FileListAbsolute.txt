@@ -1,0 +1,17 @@
+E:\jdglxtsc\jdgl_res_head_service\jdgl_res_head_service\bin\jdgl_res_head_service.dll
+E:\jdglxtsc\jdgl_res_head_service\jdgl_res_head_service\bin\jdgl_res_head_service.pdb
+E:\jdglxtsc\jdgl_res_head_service\jdgl_res_head_service\obj\Debug\ResolveAssemblyReference.cache
+E:\jdglxtsc\jdgl_res_head_service\jdgl_res_head_service\obj\Debug\jdgl_res_head_service.dll
+E:\jdglxtsc\jdgl_res_head_service\jdgl_res_head_service\obj\Debug\jdgl_res_head_service.pdb
+E:\jdglxtsc\jdgl_res_head_service\jdgl_res_head_service\bin\jdgl_res_head_service.DAL.dll
+E:\jdglxtsc\jdgl_res_head_service\jdgl_res_head_service\bin\jdgl_res_head_service.Model.dll
+E:\jdglxtsc\jdgl_res_head_service\jdgl_res_head_service\bin\Maticsoft.Common.dll
+E:\jdglxtsc\jdgl_res_head_service\jdgl_res_head_service\bin\Maticsoft.DBUtility.dll
+E:\jdglxtsc\jdgl_res_head_service\jdgl_res_head_service\bin\Excel.dll
+E:\jdglxtsc\jdgl_res_head_service\jdgl_res_head_service\bin\COM.Excel.dll
+E:\jdglxtsc\jdgl_res_head_service\jdgl_res_head_service\bin\Maticsoft.DBUtility.pdb
+E:\jdglxtsc\jdgl_res_head_service\jdgl_res_head_service\bin\jdgl_res_head_service.Model.pdb
+E:\jdglxtsc\jdgl_res_head_service\jdgl_res_head_service\bin\Maticsoft.Common.pdb
+E:\jdglxtsc\jdgl_res_head_service\jdgl_res_head_service\bin\jdgl_res_head_service.DAL.pdb
+E:\jdglxtsc\jdgl_res_head_service\jdgl_res_head_service\bin\jdgl_res_head_service.BLL.dll
+E:\jdglxtsc\jdgl_res_head_service\jdgl_res_head_service\bin\jdgl_res_head_service.BLL.pdb

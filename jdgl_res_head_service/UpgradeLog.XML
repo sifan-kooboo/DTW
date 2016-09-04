@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="jdgl_res_head_service">
+</Property><Property Name="解决方案文件" Value="C:\Users\Administrator\Desktop\夏商项目开发\jdgl_res_head_service\jdgl_res_head_service.sln">
+</Property><Property Name="Date" Value="2014年9月13日星期六">
+</Property><Property Name="Time" Value="23:31">
+</Property></Properties><Event ErrorLevel="1" Project="jdgl_res_head_service" Source="jdgl_res_head_service\jdgl_res_head_service.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="jdgl_res_head_service" Source="jdgl_res_head_service\jdgl_res_head_service.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="jdgl_res_head_service" Source="jdgl_res_head_service\jdgl_res_head_service.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="DBUtility" Source="DBUtility\DBUtility.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="DBUtility" Source="DBUtility\DBUtility.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="DBUtility" Source="DBUtility\DBUtility.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="jdgl_res_head_service.DAL" Source="jdgl_res_head_service.DAL\jdgl_res_head_service.DAL.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="jdgl_res_head_service.DAL" Source="jdgl_res_head_service.DAL\jdgl_res_head_service.DAL.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="jdgl_res_head_service.DAL" Source="jdgl_res_head_service.DAL\jdgl_res_head_service.DAL.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="jdgl_res_head_service.BLL" Source="jdgl_res_head_service.BLL\jdgl_res_head_service.BLL.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="jdgl_res_head_service.BLL" Source="jdgl_res_head_service.BLL\jdgl_res_head_service.BLL.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="jdgl_res_head_service.BLL" Source="jdgl_res_head_service.BLL\jdgl_res_head_service.BLL.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="jdgl_res_head_service.Model" Source="jdgl_res_head_service.Model\jdgl_res_head_service.Model.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="jdgl_res_head_service.Model" Source="jdgl_res_head_service.Model\jdgl_res_head_service.Model.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="jdgl_res_head_service.Model" Source="jdgl_res_head_service.Model\jdgl_res_head_service.Model.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="Maticsoft.Common" Source="Maticsoft.Common\Maticsoft.Common.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="Maticsoft.Common" Source="Maticsoft.Common\Maticsoft.Common.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="Maticsoft.Common" Source="Maticsoft.Common\Maticsoft.Common.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="jdgl_res_head_service.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="jdgl_res_head_service.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="jdgl_res_head_service" Source="jdgl_res_head_service\jdgl_res_head_service.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="DBUtility" Source="DBUtility\DBUtility.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="jdgl_res_head_service.DAL" Source="jdgl_res_head_service.DAL\jdgl_res_head_service.DAL.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="jdgl_res_head_service.BLL" Source="jdgl_res_head_service.BLL\jdgl_res_head_service.BLL.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="jdgl_res_head_service.Model" Source="jdgl_res_head_service.Model\jdgl_res_head_service.Model.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="Maticsoft.Common" Source="Maticsoft.Common\Maticsoft.Common.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>

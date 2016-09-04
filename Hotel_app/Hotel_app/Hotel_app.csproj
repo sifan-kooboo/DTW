@@ -1,0 +1,3700 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7F9330D4-6B5B-4C31-9756-63BBBFF2BEE6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hotel_app</RootNamespace>
+    <AssemblyName>Hotel_app</AssemblyName>
+    <ApplicationIcon>occup_0.ICO</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkSubset>
+    </TargetFrameworkSubset>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CaptureImageTool, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.BonusSkins.v11.2, Version=11.2.5.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a" />
+    <Reference Include="DevExpress.Data.v11.2, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Assembly\DevExpress.Data.v11.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Win.v11.2, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Persistent.Base.v11.2, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v11.2.Core, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Assembly\DevExpress.Printing.v11.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v11.2.Core, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v11.2, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Assembly\DevExpress.Utils.v11.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v11.2, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v11.2, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Assembly\DevExpress.XtraBars.v11.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v11.2, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Assembly\DevExpress.XtraEditors.v11.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v11.2, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Assembly\DevExpress.XtraGrid.v11.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v11.2, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Assembly\DevExpress.XtraLayout.v11.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v11.2, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v11.2, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraRichEdit.v11.2, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v11.2, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v11.2, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="EnvDTE, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="EnvDTE80, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="IrisSkin2, Version=2006.3.22.45, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop, Version=7.1.40304.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop.8.0, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="summarydatagrid, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\TDDownload\summarydatagrid.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox1.Designer.cs">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BBfx\BBfx_zzwj.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BBfx\BB_czORbz.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BBfx\BB_ds.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BBfx\BB_g_j_mxfx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BBfx\BB_g_j_mxfx_xx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BBfx\BB_g_j_skTj.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BBfx\BB_g_j_yeTj.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BBfx\BB_hykh_mxfx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BBfx\BB_hyk_xsy.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BBfx\BB_kc_y_r_cbtj.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BBfx\BB_qtsytj.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BBfx\BB_syxffx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BBfx\BB_syxffx_krlymxfx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BBfx\BB_syxffx_xsy_xsmxfx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BBfx\BB_syxffx_xsy_xydw.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BBfx\BB_syxffx_xydwmxfx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BBfx\BB_wj_gj_ls.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BBfx\BB_wj_gj_xx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BBfx\BB_ysk_cy.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BBfx\BB_zdkr_mxfx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BBfx\BB_zdkr_mxfx_fjbh.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BBfx\BB_zdkr_mxfx_fjbh_nofj.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BBfx\BB_zdkr_mxfx_krly_fj.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BBfx\BB_zdkr_mxfx_krxb.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BBfx\BB_zdkr_mxfx_temp.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BBfx\BB_zdkr_ylfx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BBfx\BB_zhrbb.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BBfx\BB_zhrbb_fl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BBfx\BB_zzkrdqtj.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BBfx\common_bb.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BBfx\common_form.cs" />
+    <Compile Include="BBfx\DataSet_czORbz.Designer.cs" />
+    <Compile Include="BBfx\DataSet_dsfx.Designer.cs" />
+    <Compile Include="BBfx\DataSet_g_j_mxfx.Designer.cs" />
+    <Compile Include="BBfx\DataSet_g_j_ye.Designer.cs" />
+    <Compile Include="BBfx\DataSet_hykhxfmx.Designer.cs" />
+    <Compile Include="BBfx\DataSet_hyktj.Designer.cs" />
+    <Compile Include="BBfx\DataSet_j_g_fx.Designer.cs" />
+    <Compile Include="BBfx\DataSet_j_g_mxfx_xx.Designer.cs" />
+    <Compile Include="BBfx\DataSet_qtsytj.Designer.cs" />
+    <Compile Include="BBfx\DataSet_syxffx.cs">
+      <DependentUpon>DataSet_syxffx.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BBfx\DataSet_syxffx.designer.cs">
+      <DependentUpon>DataSet_syxffx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BBfx\DataSet_syxffx_xsy_xsmxfx.Designer.cs" />
+    <Compile Include="BBfx\DataSet_syxffx_xsy_xydw.Designer.cs" />
+    <Compile Include="BBfx\DataSet_wj_gj.Designer.cs" />
+    <Compile Include="BBfx\DataSet_ysk_cy.Designer.cs" />
+    <Compile Include="BBfx\DataSet_y_r_cbtj.Designer.cs" />
+    <Compile Include="BBfx\DataSet_zdkr_mxfx.Designer.cs" />
+    <Compile Include="BBfx\DataSet_zdkr_ylfx.Designer.cs" />
+    <Compile Include="BBfx\DataSet_zhrbb.Designer.cs" />
+    <Compile Include="BBfx\DataSet_zhrbb_fl.Designer.cs" />
+    <Compile Include="BBfx\DataSet_zzkrdqtj.Designer.cs" />
+    <Compile Include="BBfx\DataSet_zzwj.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_zzwj.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_cy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_cy.Designer.cs">
+      <DependentUpon>Frm_BB_cy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_czOrbz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_czOrbz.Designer.cs">
+      <DependentUpon>Frm_BB_czOrbz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_ds.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_ds.Designer.cs">
+      <DependentUpon>Frm_BB_ds.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_gj_pq.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_gj_pq.designer.cs">
+      <DependentUpon>Frm_BB_gj_pq.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_hyk_xfmxfx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_hyk_xfmxfx.designer.cs">
+      <DependentUpon>Frm_BB_hyk_xfmxfx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_hyk_xsy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_hyk_xsy.designer.cs">
+      <DependentUpon>Frm_BB_hyk_xsy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_j_g_fx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_j_g_fx.designer.cs">
+      <DependentUpon>Frm_BB_j_g_fx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_j_g_mxfx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_j_g_mxfx.Designer.cs">
+      <DependentUpon>Frm_BB_j_g_mxfx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_j_g_mxfx_xx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_j_g_mxfx_xx.designer.cs">
+      <DependentUpon>Frm_BB_j_g_mxfx_xx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_j_g_yefx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_j_g_yefx.designer.cs">
+      <DependentUpon>Frm_BB_j_g_yefx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_krly.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_krly.designer.cs">
+      <DependentUpon>Frm_BB_krly.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_qtsytj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_qtsytj.Designer.cs">
+      <DependentUpon>Frm_BB_qtsytj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_sf_cs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_sf_cs.designer.cs">
+      <DependentUpon>Frm_BB_sf_cs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_syxffx_gl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_syxffx_gl.Designer.cs">
+      <DependentUpon>Frm_BB_syxffx_gl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_syxffx_krly_xydw.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_syxffx_krly_xydw.designer.cs">
+      <DependentUpon>Frm_BB_syxffx_krly_xydw.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_syxffx_mx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_syxffx_mx.Designer.cs">
+      <DependentUpon>Frm_BB_syxffx_mx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_syxffx_xsy_xydw.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_syxffx_xsy_xydw.designer.cs">
+      <DependentUpon>Frm_BB_syxffx_xsy_xydw.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_wj_gj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_wj_gj.Designer.cs">
+      <DependentUpon>Frm_BB_wj_gj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_xsy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_xsy.designer.cs">
+      <DependentUpon>Frm_BB_xsy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_xsymxfx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_xsymxfx.designer.cs">
+      <DependentUpon>Frm_BB_xsymxfx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_xydw.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_xydw.designer.cs">
+      <DependentUpon>Frm_BB_xydw.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_zdkr_mxfx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_zdkr_mxfx.designer.cs">
+      <DependentUpon>Frm_BB_zdkr_mxfx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_zdkr_ylfx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_zdkr_ylfx.designer.cs">
+      <DependentUpon>Frm_BB_zdkr_ylfx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_zhrbb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_zhrbb.designer.cs">
+      <DependentUpon>Frm_BB_zhrbb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_zhrbb_fl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_zhrbb_fl.designer.cs">
+      <DependentUpon>Frm_BB_zhrbb_fl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_zzkrdqtj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_zzkrdqtj.designer.cs">
+      <DependentUpon>Frm_BB_zzkrdqtj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_zzwj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BBfx\Frm_BB_zzwj.Designer.cs">
+      <DependentUpon>Frm_BB_zzwj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="common.cs" />
+    <Compile Include="common_file\common_app.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="common_file\common_checkEmain.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="common_file\common_CheckPhoneNo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="common_file\common_ClearControlsValue.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="common_file\Common_commonFunction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="common_file\common_czjl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="common_file\common_DataSetToExcel.cs" />
+    <Compile Include="common_file\common_ddbh.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="common_file\common_fjzt.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="common_file\common_form.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="common_file\common_form_1.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="common_file\common_generateVerifyCode.cs" />
+    <Compile Include="common_file\common_get_fjjg.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="common_file\Common_Hook.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="common_file\common_HotKey.cs" />
+    <Compile Include="common_file\common_hy.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="common_file\common_hyAction.cs" />
+    <Compile Include="common_file\Common_initalSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="common_file\common_jzzt.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="common_file\common_krly.cs" />
+    <Compile Include="common_file\Common_lk.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="common_file\common_pic.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="common_file\common_PrintFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="common_file\common_PrintFrm.Designer.cs">
+      <DependentUpon>common_PrintFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="common_file\Common_ReadAccess.cs" />
+    <Compile Include="common_file\common_roles.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="common_file\common_room_state.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="common_file\common_sfz.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="common_file\common_sjtb.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="common_file\common_sktt.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="common_file\common_sswl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="common_file\common_used_fjzt.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="common_file\common_xydw.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="common_file\common_yddj.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="common_file\common_yhuser.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="common_file\CVRSDKReadCard.cs" />
+    <Compile Include="control_user\ButtonBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="control_user\UC_panel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="control_user\UC_panel.Designer.cs">
+      <DependentUpon>UC_panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="control_user\UC_roompic_title.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="control_user\UC_roompic_title.designer.cs">
+      <DependentUpon>UC_roompic_title.cs</DependentUpon>
+    </Compile>
+    <Compile Include="control_user\UC_room_clean.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="control_user\UC_room_clean.designer.cs">
+      <DependentUpon>UC_room_clean.cs</DependentUpon>
+    </Compile>
+    <Compile Include="control_user\UC_room_dirty.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="control_user\UC_room_dirty.designer.cs">
+      <DependentUpon>UC_room_dirty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="control_user\UC_room_maintain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="control_user\UC_room_maintain.designer.cs">
+      <DependentUpon>UC_room_maintain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="control_user\UC_room_other.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="control_user\UC_room_other.designer.cs">
+      <DependentUpon>UC_room_other.cs</DependentUpon>
+    </Compile>
+    <Compile Include="control_user\UC_room_pic_0.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="control_user\UC_room_pic_0.Designer.cs">
+      <DependentUpon>UC_room_pic_0.cs</DependentUpon>
+    </Compile>
+    <Compile Include="control_user\UC_room_pic_1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="control_user\UC_room_pic_1.Designer.cs">
+      <DependentUpon>UC_room_pic_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="control_user\UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="control_user\UserControl1.designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="control_user\UserControl2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="control_user\UserControl2.Designer.cs">
+      <DependentUpon>UserControl2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="control_user\xpGlowButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="control_user\xpOffice2003Button.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="common_file\Frm_parent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="common_file\Frm_parent.Designer.cs">
+      <DependentUpon>Frm_parent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="common_file\GZipCompresser.cs" />
+    <Compile Include="common_file\Message_box.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="common_file\Message_box.designer.cs">
+      <DependentUpon>Message_box.cs</DependentUpon>
+    </Compile>
+    <Compile Include="common_file\My_eventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="common_file\Temp.cs" />
+    <Compile Include="common_file\Time_count.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="common_file\Time_count.Designer.cs">
+      <DependentUpon>Time_count.cs</DependentUpon>
+    </Compile>
+    <Compile Include="common_file_server\common_app.cs" />
+    <Compile Include="common_file_server\common_czjl.cs" />
+    <Compile Include="common_file_server\common_ddbh.cs" />
+    <Compile Include="common_file_server\common_fjzt.cs" />
+    <Compile Include="common_file_server\common_generateVerifyCode.cs" />
+    <Compile Include="common_file_server\common_get_fjjg.cs" />
+    <Compile Include="common_file_server\common_hy.cs" />
+    <Compile Include="common_file_server\common_hyAction.cs" />
+    <Compile Include="common_file_server\common_jzzt.cs" />
+    <Compile Include="common_file_server\common_krly.cs" />
+    <Compile Include="common_file_server\Common_pl_Qskyd_mainRecord_add.cs" />
+    <Compile Include="common_file_server\Common_pl_zwcl.cs" />
+    <Compile Include="common_file_server\common_sktt.cs" />
+    <Compile Include="common_file_server\common_sswl.cs" />
+    <Compile Include="common_file_server\common_yddj.cs" />
+    <Compile Include="ContactUs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContactUs.designer.cs">
+      <DependentUpon>ContactUs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataGridViewSummary.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataGridViewSummary.designer.cs">
+      <DependentUpon>DataGridViewSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dxpt\common_dxpt.cs" />
+    <Compile Include="dxpt\dxpt_gl_0.cs" />
+    <Compile Include="dxpt\dxpt_send.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dxpt\dxpt_send.Designer.cs">
+      <DependentUpon>dxpt_send.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dxpt\dx_fs_detail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dxpt\dx_fs_detail.Designer.cs">
+      <DependentUpon>dx_fs_detail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dxpt\Frm_gl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dxpt\Frm_gl.Designer.cs">
+      <DependentUpon>Frm_gl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dxpt\Frm_select_hy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dxpt\Frm_select_hy.Designer.cs">
+      <DependentUpon>Frm_select_hy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dxpt\Frm_select_lskr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dxpt\Frm_select_lskr.Designer.cs">
+      <DependentUpon>Frm_select_lskr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dxpt\Frm_select_other.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dxpt\Frm_select_other.Designer.cs">
+      <DependentUpon>Frm_select_other.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dxpt\Frm_select_xydw.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dxpt\Frm_select_xydw.Designer.cs">
+      <DependentUpon>Frm_select_xydw.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ffjzt\common_Ffjzt.cs" />
+    <Compile Include="Ffjzt\common_form.cs" />
+    <Compile Include="Ffjzt\com_ft.cs" />
+    <Compile Include="Ffjzt\com_lsqxrz.cs" />
+    <Compile Include="Ffjzt\Ffjrb_add_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ffjzt\Ffjrb_add_edit.designer.cs">
+      <DependentUpon>Ffjrb_add_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ffjzt\Ffjrb_browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ffjzt\Ffjrb_browse.designer.cs">
+      <DependentUpon>Ffjrb_browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ffjzt\Ffjrb_krly_add_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ffjzt\Ffjrb_krly_add_edit.designer.cs">
+      <DependentUpon>Ffjrb_krly_add_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ffjzt\Ffjrb_krly_browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ffjzt\Ffjrb_krly_browse.designer.cs">
+      <DependentUpon>Ffjrb_krly_browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ffjzt\Ffjrb_select.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ffjzt\Ffjrb_select.Designer.cs">
+      <DependentUpon>Ffjrb_select.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ffjzt\Ffjzt_add_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ffjzt\Ffjzt_add_edit.designer.cs">
+      <DependentUpon>Ffjzt_add_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ffjzt\Ffjzt_browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ffjzt\Ffjzt_browse.designer.cs">
+      <DependentUpon>Ffjzt_browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ffjzt\Ffjzt_infoFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ffjzt\Ffjzt_infoFrm.Designer.cs">
+      <DependentUpon>Ffjzt_infoFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ffjzt\Ffjzt_pic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ffjzt\Ffjzt_pic.Designer.cs">
+      <DependentUpon>Ffjzt_pic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ffjzt\Ffjzt_pic_big.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ffjzt\Ffjzt_pic_big.Designer.cs">
+      <DependentUpon>Ffjzt_pic_big.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ffjzt\Ffjzt_select.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ffjzt\Ffjzt_select.designer.cs">
+      <DependentUpon>Ffjzt_select.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ffjzt\Ffjzt_wx_other_remind.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ffjzt\Ffjzt_wx_other_remind.Designer.cs">
+      <DependentUpon>Ffjzt_wx_other_remind.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ffjzt\Fftft_7day.cs" />
+    <Compile Include="Ffjzt\Fftfx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ffjzt\Fftfx.Designer.cs">
+      <DependentUpon>Fftfx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ffjzt\Fftfx_7day_ky.cs" />
+    <Compile Include="Ffjzt\Fftfx_7day_zy.cs" />
+    <Compile Include="Ffjzt\Fftfx_c.cs" />
+    <Compile Include="Ffjzt\Fkfxsfx.cs" />
+    <Compile Include="Ffjzt\Fkfxsfx_app.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ffjzt\Fkfxsfx_app.Designer.cs">
+      <DependentUpon>Fkfxsfx_app.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ffjzt\Flfsz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ffjzt\Flfsz.Designer.cs">
+      <DependentUpon>Flfsz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ffjzt\FQ_yddj_select.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ffjzt\FQ_yddj_select.Designer.cs">
+      <DependentUpon>FQ_yddj_select.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ffjzt\Fwx_other_add_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ffjzt\Fwx_other_add_edit.Designer.cs">
+      <DependentUpon>Fwx_other_add_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ffjzt\Fwx_other_browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ffjzt\Fwx_other_browse.Designer.cs">
+      <DependentUpon>Fwx_other_browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ffjzt\Fyddj_remind.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ffjzt\Fyddj_remind.Designer.cs">
+      <DependentUpon>Fyddj_remind.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fmain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fmain.Designer.cs">
+      <DependentUpon>Fmain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmain_new.cs" />
+    <Compile Include="Frm_Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Register.Designer.cs">
+      <DependentUpon>Frm_Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hhygl\Hhyfj_add_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hhygl\Hhyfj_add_edit.designer.cs">
+      <DependentUpon>Hhyfj_add_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hhygl\Hhyfj_browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hhygl\Hhyfj_browse.designer.cs">
+      <DependentUpon>Hhyfj_browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hhygl\Hhygl_add_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hhygl\Hhygl_add_edit.Designer.cs">
+      <DependentUpon>Hhygl_add_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hhygl\Hhygl_browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hhygl\Hhygl_browse.Designer.cs">
+      <DependentUpon>Hhygl_browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hhygl\Hhygl_gl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hhygl\Hhygl_gl.designer.cs">
+      <DependentUpon>Hhygl_gl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hhygl\Hhygl_hyhk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hhygl\Hhygl_hyhk.Designer.cs">
+      <DependentUpon>Hhygl_hyhk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hhygl\Hhygl_hysj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hhygl\Hhygl_hysj.designer.cs">
+      <DependentUpon>Hhygl_hysj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hhygl\Hhygl_jf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hhygl\Hhygl_jf.Designer.cs">
+      <DependentUpon>Hhygl_jf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hhygl\Hhygl_jfdf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hhygl\Hhygl_jfdf.designer.cs">
+      <DependentUpon>Hhygl_jfdf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hhygl\Hhygl_verify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hhygl\Hhygl_verify.Designer.cs">
+      <DependentUpon>Hhygl_verify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hhygl\Hhyjb_add_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hhygl\Hhyjb_add_edit.designer.cs">
+      <DependentUpon>Hhyjb_add_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hhygl\Hhyjb_browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hhygl\Hhyjb_browse.designer.cs">
+      <DependentUpon>Hhyjb_browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hhygl\Hhyjf_bl_add_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hhygl\Hhyjf_bl_add_edit.designer.cs">
+      <DependentUpon>Hhyjf_bl_add_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hhygl\Hhyjf_bl_browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hhygl\Hhyjf_bl_browse.designer.cs">
+      <DependentUpon>Hhyjf_bl_browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hhygl\Hhyjf_jp_add_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hhygl\Hhyjf_jp_add_edit.designer.cs">
+      <DependentUpon>Hhyjf_jp_add_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hhygl\Hhyjf_jp_browes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hhygl\Hhyjf_jp_browes.designer.cs">
+      <DependentUpon>Hhyjf_jp_browes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hhygl\Hhyjf_jp_class_add_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hhygl\Hhyjf_jp_class_add_edit.designer.cs">
+      <DependentUpon>Hhyjf_jp_class_add_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hhygl\Hhyjf_jp_class_browes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hhygl\Hhyjf_jp_class_browes.designer.cs">
+      <DependentUpon>Hhyjf_jp_class_browes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hhygl\H_hygl_k.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutBox1.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\BBfx_zzwj.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BBfx_zzwj2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\BB_czORbz.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BB_czORbz2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\BB_ds.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BB_ds2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\BB_g_j_mxfx.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BB_g_j_mxfx2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\BB_g_j_mxfx_xx.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BB_g_j_mxfx_xx2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\BB_g_j_skTj.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BB_g_j_skTj2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\BB_g_j_yeTj.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BB_g_j_yeTj2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\BB_hykh_mxfx.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BB_hykh_mxfx2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\BB_hyk_xsy.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BB_hyk_xsy2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\BB_kc_y_r_cbtj.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BB_kc_y_r_cbtj2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\BB_qtsytj.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BB_qtsytj2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\BB_syxffx.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BB_syxffx2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\BB_syxffx_krlymxfx.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BB_syxffx_krlymxfx2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\BB_syxffx_xsy_xsmxfx.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BB_syxffx_xsy_xsmxfx2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\BB_syxffx_xsy_xydw.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BB_syxffx_xsy_xydw2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\BB_syxffx_xydwmxfx.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BB_syxffx_xydwmxfx2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\BB_wj_gj_ls.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BB_wj_gj_ls2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\BB_wj_gj_xx.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BB_wj_gj_xx2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\BB_ysk_cy.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BB_ysk_cy2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\BB_zdkr_mxfx.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BB_zdkr_mxfx2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\BB_zdkr_mxfx_fjbh.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BB_zdkr_mxfx_fjbh2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\BB_zdkr_mxfx_fjbh_nofj.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BB_zdkr_mxfx_fjbh_nofj2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\BB_zdkr_mxfx_krly_fj.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BB_zdkr_mxfx_krly_fj2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\BB_zdkr_mxfx_krxb.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BB_zdkr_mxfx_krxb2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\BB_zdkr_mxfx_temp.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BB_zdkr_mxfx_temp2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\BB_zdkr_ylfx.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BB_zdkr_ylfx2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\BB_zhrbb.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BB_zhrbb2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\BB_zhrbb_fl.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BB_zhrbb_fl2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\BB_zzkrdqtj.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BB_zzkrdqtj2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\Frm_BB_cy.resx">
+      <DependentUpon>Frm_BB_cy.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\Frm_BB_czOrbz.resx">
+      <DependentUpon>Frm_BB_czOrbz.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\Frm_BB_ds.resx">
+      <DependentUpon>Frm_BB_ds.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\Frm_BB_gj_pq.resx">
+      <DependentUpon>Frm_BB_gj_pq.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\Frm_BB_hyk_xfmxfx.resx">
+      <DependentUpon>Frm_BB_hyk_xfmxfx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\Frm_BB_hyk_xsy.resx">
+      <DependentUpon>Frm_BB_hyk_xsy.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\Frm_BB_j_g_fx.resx">
+      <DependentUpon>Frm_BB_j_g_fx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\Frm_BB_j_g_mxfx.resx">
+      <DependentUpon>Frm_BB_j_g_mxfx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\Frm_BB_j_g_mxfx_xx.resx">
+      <DependentUpon>Frm_BB_j_g_mxfx_xx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\Frm_BB_j_g_yefx.resx">
+      <DependentUpon>Frm_BB_j_g_yefx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\Frm_BB_krly.resx">
+      <DependentUpon>Frm_BB_krly.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\Frm_BB_qtsytj.resx">
+      <DependentUpon>Frm_BB_qtsytj.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\Frm_BB_sf_cs.resx">
+      <DependentUpon>Frm_BB_sf_cs.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\Frm_BB_syxffx_gl.resx">
+      <DependentUpon>Frm_BB_syxffx_gl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\Frm_BB_syxffx_krly_xydw.resx">
+      <DependentUpon>Frm_BB_syxffx_krly_xydw.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\Frm_BB_syxffx_mx.resx">
+      <DependentUpon>Frm_BB_syxffx_mx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\Frm_BB_syxffx_xsy_xydw.resx">
+      <DependentUpon>Frm_BB_syxffx_xsy_xydw.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\Frm_BB_wj_gj.resx">
+      <DependentUpon>Frm_BB_wj_gj.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\Frm_BB_xsy.resx">
+      <DependentUpon>Frm_BB_xsy.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\Frm_BB_xsymxfx.resx">
+      <DependentUpon>Frm_BB_xsymxfx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\Frm_BB_xydw.resx">
+      <DependentUpon>Frm_BB_xydw.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\Frm_BB_zdkr_mxfx.resx">
+      <DependentUpon>Frm_BB_zdkr_mxfx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\Frm_BB_zdkr_ylfx.resx">
+      <DependentUpon>Frm_BB_zdkr_ylfx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\Frm_BB_zhrbb.resx">
+      <DependentUpon>Frm_BB_zhrbb.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\Frm_BB_zhrbb_fl.resx">
+      <DependentUpon>Frm_BB_zhrbb_fl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\Frm_BB_zzkrdqtj.resx">
+      <DependentUpon>Frm_BB_zzkrdqtj.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBfx\Frm_BB_zzwj.resx">
+      <DependentUpon>Frm_BB_zzwj.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="common_file\common_PrintFrm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>common_PrintFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="control_user\UC_panel.resx">
+      <DependentUpon>UC_panel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="control_user\UC_roompic_title.resx">
+      <DependentUpon>UC_roompic_title.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="control_user\UC_room_clean.resx">
+      <DependentUpon>UC_room_clean.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="control_user\UC_room_dirty.resx">
+      <DependentUpon>UC_room_dirty.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="control_user\UC_room_maintain.resx">
+      <DependentUpon>UC_room_maintain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="control_user\UC_room_other.resx">
+      <DependentUpon>UC_room_other.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="control_user\UC_room_pic_0.resx">
+      <DependentUpon>UC_room_pic_0.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="control_user\UC_room_pic_1.resx">
+      <DependentUpon>UC_room_pic_1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="control_user\UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="common_file\Frm_parent.resx">
+      <DependentUpon>Frm_parent.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="common_file\Message_box.resx">
+      <DependentUpon>Message_box.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="common_file\Time_count.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Time_count.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContactUs.resx">
+      <DependentUpon>ContactUs.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="control_user\UserControl2.resx">
+      <DependentUpon>UserControl2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataGridViewSummary.resx">
+      <DependentUpon>DataGridViewSummary.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dxpt\dxpt_send.resx">
+      <DependentUpon>dxpt_send.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dxpt\dx_fs_detail.resx">
+      <DependentUpon>dx_fs_detail.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dxpt\Frm_gl.resx">
+      <DependentUpon>Frm_gl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dxpt\Frm_select_hy.resx">
+      <DependentUpon>Frm_select_hy.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dxpt\Frm_select_lskr.resx">
+      <DependentUpon>Frm_select_lskr.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dxpt\Frm_select_other.resx">
+      <DependentUpon>Frm_select_other.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dxpt\Frm_select_xydw.resx">
+      <DependentUpon>Frm_select_xydw.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ffjzt\Ffjrb_add_edit.resx">
+      <DependentUpon>Ffjrb_add_edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ffjzt\Ffjrb_browse.resx">
+      <DependentUpon>Ffjrb_browse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ffjzt\Ffjrb_krly_add_edit.resx">
+      <DependentUpon>Ffjrb_krly_add_edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ffjzt\Ffjrb_krly_browse.resx">
+      <DependentUpon>Ffjrb_krly_browse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ffjzt\Ffjrb_select.resx">
+      <DependentUpon>Ffjrb_select.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ffjzt\Ffjzt_add_edit.resx">
+      <DependentUpon>Ffjzt_add_edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ffjzt\Ffjzt_browse.resx">
+      <DependentUpon>Ffjzt_browse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ffjzt\Ffjzt_infoFrm.resx">
+      <DependentUpon>Ffjzt_infoFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ffjzt\Ffjzt_pic.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Ffjzt_pic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ffjzt\Ffjzt_pic_big.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Ffjzt_pic_big.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ffjzt\Ffjzt_select.resx">
+      <DependentUpon>Ffjzt_select.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ffjzt\Ffjzt_wx_other_remind.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Ffjzt_wx_other_remind.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ffjzt\Fftfx.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Fftfx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ffjzt\Fkfxsfx_app.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Fkfxsfx_app.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ffjzt\Flfsz.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Flfsz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ffjzt\FQ_yddj_select.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FQ_yddj_select.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ffjzt\Fwx_other_add_edit.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Fwx_other_add_edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ffjzt\Fwx_other_browse.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Fwx_other_browse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ffjzt\Fyddj_remind.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Fyddj_remind.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fmain.resx">
+      <DependentUpon>Fmain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Register.resx">
+      <DependentUpon>Frm_Register.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hhygl\Hhyfj_add_edit.resx">
+      <DependentUpon>Hhyfj_add_edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hhygl\Hhyfj_browse.resx">
+      <DependentUpon>Hhyfj_browse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hhygl\Hhygl_add_edit.resx">
+      <DependentUpon>Hhygl_add_edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hhygl\Hhygl_browse.resx">
+      <DependentUpon>Hhygl_browse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hhygl\Hhygl_gl.resx">
+      <DependentUpon>Hhygl_gl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hhygl\Hhygl_hyhk.resx">
+      <DependentUpon>Hhygl_hyhk.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hhygl\Hhygl_hysj.resx">
+      <DependentUpon>Hhygl_hysj.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hhygl\Hhygl_jf.resx">
+      <DependentUpon>Hhygl_jf.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hhygl\Hhygl_jfdf.resx">
+      <DependentUpon>Hhygl_jfdf.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hhygl\Hhygl_verify.resx">
+      <DependentUpon>Hhygl_verify.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hhygl\Hhyjb_add_edit.resx">
+      <DependentUpon>Hhyjb_add_edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hhygl\Hhyjb_browse.resx">
+      <DependentUpon>Hhyjb_browse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hhygl\Hhyjf_bl_add_edit.resx">
+      <DependentUpon>Hhyjf_bl_add_edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hhygl\Hhyjf_bl_browse.resx">
+      <DependentUpon>Hhyjf_bl_browse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hhygl\Hhyjf_jp_add_edit.resx">
+      <DependentUpon>Hhyjf_jp_add_edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hhygl\Hhyjf_jp_browes.resx">
+      <DependentUpon>Hhyjf_jp_browes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hhygl\Hhyjf_jp_class_add_edit.resx">
+      <DependentUpon>Hhyjf_jp_class_add_edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hhygl\Hhyjf_jp_class_browes.resx">
+      <DependentUpon>Hhyjf_jp_class_browes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Qkrxh.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Qkrxh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Qskdj.resx">
+      <DependentUpon>Qskdj.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Qskdj_browse.resx">
+      <DependentUpon>Qskdj_browse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Qskdj_fjrb.resx">
+      <DependentUpon>Qskdj_fjrb.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Qskyd_print_app.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Qskyd_print_app.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Qskyd_print_CR.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Qskyd_print_CR.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Qskyd_qx.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Qskyd_qx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Qtsjy.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Qtsjy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Qttdj.resx">
+      <DependentUpon>Qttdj.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Qttdj_browse.resx">
+      <DependentUpon>Qttdj_browse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Qttyd_qx.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Qttyd_qx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Qyddj_skczzd_hz.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Qyddj_skczzd_hz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Q_bz_input.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Q_bz_input.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Q_czjl_ls.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Q_czjl_ls.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Q_ff_xyxf.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Q_ff_xyxf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Q_ff_xyxf_add_edit.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Q_ff_xyxf_add_edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Q_gl_jf.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Q_gl_jf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Q_lskr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Q_lskr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Q_lskr_open.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Q_lskr_open.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Q_lskr_xf.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Q_lskr_xf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Q_lskr_xfmx.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Q_lskr_xfmx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Q_lskr_xf_gl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Q_lskr_xf_gl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Q_notice.resx">
+      <DependentUpon>Q_notice.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Q_reservationNote.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Q_reservationNote.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Q_sfz_temp.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Q_sfz_temp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Q_sktt_gl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Q_sktt_gl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Q_skyd_djb.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Q_skyd_djb.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Q_skyd_print_djb.resx">
+      <DependentUpon>Q_skyd_print_djb.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Q_sk_tt_app.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Q_sk_tt_app.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Q_TEMP.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Q_TEMP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Q_ttyd_djb.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Q_ttyd_djb.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Q_tt_krlb.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Q_tt_krlb.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Q_tt_krlb_print.resx">
+      <DependentUpon>Q_tt_krlb_print.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Q_ydzx_notice.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Q_ydzx_notice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Q_yd_wx_remind.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Q_yd_wx_remind.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Q_skyd_djb_A4.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Q_skyd_djb_A4.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Q_ttyd_djb_A4.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Q_ttyd_djb_A4.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Q_skyd_djb_A4_dh.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Q_skyd_djb_A4_dh.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Qyddj\Q_ttyd_djb_A4_dh.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Q_ttyd_djb_A4_dh.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReadOnlyTextBox.resx">
+      <DependentUpon>ReadOnlyTextBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\cr_yj_gl_print_A4_dh.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cr_yj_gl_print_A4_dh.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\cr_yj_gl_print_A5.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cr_yj_gl_print_A5.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updateFrm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>updateFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Form_controlUserColor.resx">
+      <DependentUpon>Form_controlUserColor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Frm_txftsz.resx">
+      <DependentUpon>Frm_txftsz.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\SH\SH_ys.resx">
+      <DependentUpon>SH_ys.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SummaryControlContainer.resx">
+      <DependentUpon>SummaryControlContainer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\cr_jbmx.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cr_jbmx.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\cr_jkmx.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cr_jkmx.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\cr_jzd_a4.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cr_jzd_a4.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\cr_jzd_a4_yx.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cr_jzd_a4_yx.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\cr_jzd_a5.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cr_jzd_a5.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\cr_yjd_a4_dh.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cr_yjd_a4_dh.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\cr_yjd_a5.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cr_yjd_a5.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\cr_yj_gl_print_A4.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cr_yj_gl_print_A4.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\dgvprint.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>dgvprint.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\dgvprint_app.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dgvprint_app.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\SczOrbz.resx">
+      <DependentUpon>SczOrbz.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\Sfjcz.resx">
+      <DependentUpon>Sfjcz.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\Sjjzwll.resx">
+      <DependentUpon>Sjjzwll.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\Sjzcz.resx">
+      <DependentUpon>Sjzcz.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\Spzcz.resx">
+      <DependentUpon>Spzcz.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\Spzcz_tz.resx">
+      <DependentUpon>Spzcz_tz.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\Sxfrb.resx">
+      <DependentUpon>Sxfrb.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\Sxfxm.resx">
+      <DependentUpon>Sxfxm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\Syjcz.resx">
+      <DependentUpon>Syjcz.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\Syjll.resx">
+      <DependentUpon>Syjll.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\Szwcl.resx">
+      <DependentUpon>Szwcl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\Szwcz.resx">
+      <DependentUpon>Szwcz.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\Szw_Common_check.resx">
+      <DependentUpon>Szw_Common_check.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\Szw_fp.resx">
+      <DependentUpon>Szw_fp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\Szw_gd.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Szw_gd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\Szw_gd_tj.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Szw_gd_tj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\Szw_gd_xg.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Szw_gd_xg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\Szw_gd_zd.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Szw_gd_zd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\Szw_gl.resx">
+      <DependentUpon>Szw_gl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\Szw_pljz.resx">
+      <DependentUpon>Szw_pljz.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\Szw_print_jzd.resx">
+      <DependentUpon>Szw_print_jzd.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\Szw_tfInfo.resx">
+      <DependentUpon>Szw_tfInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\Szzzwll.resx">
+      <DependentUpon>Szzzwll.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\s_bz.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>s_bz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\S_dc.resx">
+      <DependentUpon>S_dc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\S_jbzd_add.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>S_jbzd_add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\S_jbzd_ll.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>S_jbzd_ll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\cr_jzd_a4_yx_withNohead.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cr_jzd_a4_yx_withNohead.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\cr_yjd_a4_withNoHead.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cr_yjd_a4_withNoHead.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\S_jkzd_add_0.resx">
+      <DependentUpon>S_jkzd_add_0.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\S_jkzd_ll.resx">
+      <DependentUpon>S_jkzd_ll.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szwgl\S_gzdw_tz.resx">
+      <DependentUpon>S_gzdw_tz.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xckcx_browse.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Xckcx_browse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xckcx_gl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Xckcx_gl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xfkfs_add_edit.resx">
+      <DependentUpon>Xfkfs_add_edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xfkfs_browse.resx">
+      <DependentUpon>Xfkfs_browse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xkrgj_add_edit.resx">
+      <DependentUpon>Xkrgj_add_edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xkrgj_browse.resx">
+      <DependentUpon>Xkrgj_browse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xkrgj_select.resx">
+      <DependentUpon>Xkrgj_select.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xkrly_add_edit.resx">
+      <DependentUpon>Xkrly_add_edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xkrly_browse.resx">
+      <DependentUpon>Xkrly_browse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xkrmz_add_edit.resx">
+      <DependentUpon>Xkrmz_add_edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xkrmz_browse.resx">
+      <DependentUpon>Xkrmz_browse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xkrrx_add_edit.resx">
+      <DependentUpon>Xkrrx_add_edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xkrrx_browse.resx">
+      <DependentUpon>Xkrrx_browse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xqyxx_add_edit.resx">
+      <DependentUpon>Xqyxx_add_edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xqyxx_browse.resx">
+      <DependentUpon>Xqyxx_browse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xqzrx_add_edit.resx">
+      <DependentUpon>Xqzrx_add_edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xqzrx_browse.resx">
+      <DependentUpon>Xqzrx_browse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xxfdr_add_edit.resx">
+      <DependentUpon>Xxfdr_add_edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xxfdr_browse.resx">
+      <DependentUpon>Xxfdr_browse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xxfmx_add_edit.resx">
+      <DependentUpon>Xxfmx_add_edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xxfmx_browse.resx">
+      <DependentUpon>Xxfmx_browse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xxfmx_gl.resx">
+      <DependentUpon>Xxfmx_gl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xxfmx_lkmx_add_edit.resx">
+      <DependentUpon>Xxfmx_lkmx_add_edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xxfmx_lkmx_browse.resx">
+      <DependentUpon>Xxfmx_lkmx_browse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xxfmx_lkzd_add_edit.resx">
+      <DependentUpon>Xxfmx_lkzd_add_edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xxfmx_lkzd_browse.resx">
+      <DependentUpon>Xxfmx_lkzd_browse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xxfmx_lkzd_gl.resx">
+      <DependentUpon>Xxfmx_lkzd_gl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xxfmx_zbmx_add_edit.resx">
+      <DependentUpon>Xxfmx_zbmx_add_edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xxfmx_zbmx_browse.resx">
+      <DependentUpon>Xxfmx_zbmx_browse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xxfmx_zbzd_add_edit.resx">
+      <DependentUpon>Xxfmx_zbzd_add_edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xxfmx_zbzd_browse.resx">
+      <DependentUpon>Xxfmx_zbzd_browse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xxfmx_zbzd_gl.resx">
+      <DependentUpon>Xxfmx_zbzd_gl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xxfsz_add_edit.resx">
+      <DependentUpon>Xxfsz_add_edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xxfsz_browse.resx">
+      <DependentUpon>Xxfsz_browse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xyhsz_add_edit.resx">
+      <DependentUpon>Xyhsz_add_edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xyhsz_browse.resx">
+      <DependentUpon>Xyhsz_browse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xyh_select.resx">
+      <DependentUpon>Xyh_select.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xyxzj_add_edit.resx">
+      <DependentUpon>Xyxzj_add_edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Xyxzj_browse.resx">
+      <DependentUpon>Xyxzj_browse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\X_common_one.resx">
+      <DependentUpon>X_common_one.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xxtsz\Ｘ_ftsm.resx">
+      <DependentUpon>Ｘ_ftsm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yhgl\Frm_initalSystem.resx">
+      <DependentUpon>Frm_initalSystem.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yhgl\HY_Roles_browes.resx">
+      <DependentUpon>HY_Roles_browes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yhgl\YH_Applications_browes.resx">
+      <DependentUpon>YH_Applications_browes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yhgl\YH_Applincations_add.resx">
+      <DependentUpon>YH_Applincations_add.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yhgl\YH_BM_add_edit.resx">
+      <DependentUpon>YH_BM_add_edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yhgl\YH_BM_browse.resx">
+      <DependentUpon>YH_BM_browse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yhgl\YH_Copy.resx">
+      <DependentUpon>YH_Copy.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yhgl\YH_czjl.resx">
+      <DependentUpon>YH_czjl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yhgl\YH_gl.resx">
+      <DependentUpon>YH_gl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yhgl\YH_login.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>YH_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yhgl\YH_Roles_add_edit.resx">
+      <DependentUpon>YH_Roles_add_edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yhgl\YH_Roles_browse.resx">
+      <DependentUpon>YH_Roles_browse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yhgl\YH_UpdatePassWord.resx">
+      <DependentUpon>YH_UpdatePassWord.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yhgl\YH_User_add_edit.resx">
+      <DependentUpon>YH_User_add_edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yhgl\YH_User_browse.resx">
+      <DependentUpon>YH_User_browse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yyxzx\Frm_test.resx">
+      <DependentUpon>Frm_test.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yyxzx\Yxsy_add_edit.resx">
+      <DependentUpon>Yxsy_add_edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yyxzx\Yxsy_browse.resx">
+      <DependentUpon>Yxsy_browse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yyxzx\Yxydw_add_edit.resx">
+      <DependentUpon>Yxydw_add_edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yyxzx\Yxydw_browse.resx">
+      <DependentUpon>Yxydw_browse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yyxzx\Yxydw_fjrb_add_edit.resx">
+      <DependentUpon>Yxydw_fjrb_add_edit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yyxzx\Yxydw_fjrb_browse.resx">
+      <DependentUpon>Yxydw_fjrb_browse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yyxzx\Yxydw_gl.resx">
+      <DependentUpon>Yxydw_gl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yyxzx\Yxydw_select.resx">
+      <DependentUpon>Yxydw_select.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Qyddj\DataSet_Qttyd_djb.xsc">
+      <DependentUpon>DataSet_Qttyd_djb.xsd</DependentUpon>
+    </None>
+    <None Include="Qyddj\DataSet_Qttyd_djb.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_Qttyd_djb.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Qyddj\DataSet_Qttyd_djb.xss">
+      <DependentUpon>DataSet_Qttyd_djb.xsd</DependentUpon>
+    </None>
+    <None Include="Qyddj\DataSet_skyd_djb.xsc">
+      <DependentUpon>DataSet_skyd_djb.xsd</DependentUpon>
+    </None>
+    <None Include="Qyddj\DataSet_skyd_djb.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_skyd_djb.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Qyddj\DataSet_skyd_djb.xss">
+      <DependentUpon>DataSet_skyd_djb.xsd</DependentUpon>
+    </None>
+    <None Include="Qyddj\Qskyd_print_ds.xsc">
+      <DependentUpon>Qskyd_print_ds.xsd</DependentUpon>
+    </None>
+    <None Include="Qyddj\Qskyd_print_ds.xsd">
+      <SubType>
+      </SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Qskyd_print_ds.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Qyddj\Qskyd_print_ds.xss">
+      <DependentUpon>Qskyd_print_ds.xsd</DependentUpon>
+    </None>
+    <None Include="Szwgl\DataSet_dgvprint.xsc">
+      <DependentUpon>DataSet_dgvprint.xsd</DependentUpon>
+    </None>
+    <None Include="Szwgl\DataSet_dgvprint.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_dgvprint.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Szwgl\DataSet_dgvprint.xss">
+      <DependentUpon>DataSet_dgvprint.xsd</DependentUpon>
+    </None>
+    <None Include="Szwgl\DataSet_jbmx.xsc">
+      <DependentUpon>DataSet_jbmx.xsd</DependentUpon>
+    </None>
+    <None Include="Szwgl\DataSet_jbmx.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_jbmx.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Szwgl\DataSet_jbmx.xss">
+      <DependentUpon>DataSet_jbmx.xsd</DependentUpon>
+    </None>
+    <None Include="Szwgl\DataSet_jzd.xsc">
+      <DependentUpon>DataSet_jzd.xsd</DependentUpon>
+    </None>
+    <None Include="Szwgl\DataSet_jzd.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>DataSet_jzd.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Szwgl\DataSet_jzd.xss">
+      <DependentUpon>DataSet_jzd.xsd</DependentUpon>
+    </None>
+    <None Include="Szwgl\DataSet_yj.xsc">
+      <DependentUpon>DataSet_yj.xsd</DependentUpon>
+    </None>
+    <None Include="Szwgl\DataSet_yj.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_yj.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Szwgl\DataSet_yj.xss">
+      <DependentUpon>DataSet_yj.xsd</DependentUpon>
+    </None>
+    <None Include="Szwgl\DataSet_yj_gl_print.xsc">
+      <DependentUpon>DataSet_yj_gl_print.xsd</DependentUpon>
+    </None>
+    <None Include="Szwgl\DataSet_yj_gl_print.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_yj_gl_print.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Szwgl\DataSet_yj_gl_print.xss">
+      <DependentUpon>DataSet_yj_gl_print.xsd</DependentUpon>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Qyddj\Common_Qyddj.cs" />
+    <Compile Include="Qyddj\DataSet_Qttyd_djb.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_Qttyd_djb.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Qyddj\DataSet_skyd_djb.cs">
+      <DependentUpon>DataSet_skyd_djb.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Qyddj\DataSet_skyd_djb.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_skyd_djb.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Qyddj\Qkrxh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qyddj\Qkrxh.Designer.cs">
+      <DependentUpon>Qkrxh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Qyddj\Qskdj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qyddj\Qskdj.designer.cs">
+      <DependentUpon>Qskdj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Qyddj\Qskdj_browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qyddj\Qskdj_browse.Designer.cs">
+      <DependentUpon>Qskdj_browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Qyddj\Qskdj_fjrb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qyddj\Qskdj_fjrb.designer.cs">
+      <DependentUpon>Qskdj_fjrb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Qyddj\Qskyd_print_app.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qyddj\Qskyd_print_app.Designer.cs">
+      <DependentUpon>Qskyd_print_app.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Qyddj\Qskyd_print_CR.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Qskyd_print_CR.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Qyddj\Qskyd_print_ds.cs">
+      <DependentUpon>Qskyd_print_ds.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Qyddj\Qskyd_print_ds.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Qskyd_print_ds.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Qyddj\Qskyd_qx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qyddj\Qskyd_qx.Designer.cs">
+      <DependentUpon>Qskyd_qx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Qyddj\Qtsjy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qyddj\Qtsjy.Designer.cs">
+      <DependentUpon>Qtsjy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Qyddj\Qttdj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qyddj\Qttdj.designer.cs">
+      <DependentUpon>Qttdj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Qyddj\Qttdj_browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qyddj\Qttdj_browse.designer.cs">
+      <DependentUpon>Qttdj_browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Qyddj\Qttyd_qx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qyddj\Qttyd_qx.Designer.cs">
+      <DependentUpon>Qttyd_qx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Qyddj\Qyddj_c.cs" />
+    <Compile Include="Qyddj\Qyddj_skczzd_hz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qyddj\Qyddj_skczzd_hz.Designer.cs">
+      <DependentUpon>Qyddj_skczzd_hz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Qyddj\Qyddj_ydzdj.cs" />
+    <Compile Include="Qyddj\Q_bz_input.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qyddj\Q_bz_input.Designer.cs">
+      <DependentUpon>Q_bz_input.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Qyddj\Q_czjl_ls.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qyddj\Q_czjl_ls.Designer.cs">
+      <DependentUpon>Q_czjl_ls.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Qyddj\Q_ff_xyxf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qyddj\Q_ff_xyxf.Designer.cs">
+      <DependentUpon>Q_ff_xyxf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Qyddj\Q_ff_xyxf_add_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qyddj\Q_ff_xyxf_add_edit.Designer.cs">
+      <DependentUpon>Q_ff_xyxf_add_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Qyddj\Q_gl_jf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qyddj\Q_gl_jf.Designer.cs">
+      <DependentUpon>Q_gl_jf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Qyddj\Q_lskr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qyddj\Q_lskr.Designer.cs">
+      <DependentUpon>Q_lskr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Qyddj\Q_lskr_open.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qyddj\Q_lskr_open.Designer.cs">
+      <DependentUpon>Q_lskr_open.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Qyddj\Q_lskr_xf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qyddj\Q_lskr_xf.Designer.cs">
+      <DependentUpon>Q_lskr_xf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Qyddj\Q_lskr_xfmx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qyddj\Q_lskr_xfmx.Designer.cs">
+      <DependentUpon>Q_lskr_xfmx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Qyddj\Q_lskr_xf_gl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qyddj\Q_lskr_xf_gl.Designer.cs">
+      <DependentUpon>Q_lskr_xf_gl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Qyddj\Q_notice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qyddj\Q_notice.Designer.cs">
+      <DependentUpon>Q_notice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Qyddj\Q_reservationNote.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Q_reservationNote.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Qyddj\Q_sfz_temp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qyddj\Q_sfz_temp.Designer.cs">
+      <DependentUpon>Q_sfz_temp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Qyddj\Q_sktt_gl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qyddj\Q_sktt_gl.Designer.cs">
+      <DependentUpon>Q_sktt_gl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Qyddj\Q_sktt_gl_new.cs" />
+    <Compile Include="Qyddj\Q_skyd_djb.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Q_skyd_djb.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Qyddj\Q_skyd_print_djb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qyddj\Q_skyd_print_djb.designer.cs">
+      <DependentUpon>Q_skyd_print_djb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Qyddj\Q_sk_tt_app.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qyddj\Q_sk_tt_app.Designer.cs">
+      <DependentUpon>Q_sk_tt_app.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Qyddj\Q_TEMP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qyddj\Q_TEMP.Designer.cs">
+      <DependentUpon>Q_TEMP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Qyddj\Q_temp_0.cs" />
+    <Compile Include="Qyddj\Q_temp_1.cs" />
+    <Compile Include="Qyddj\Q_temp_3.cs" />
+    <Compile Include="Qyddj\Q_ttyd_djb.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Q_ttyd_djb.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Qyddj\Q_tt_krlb.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Q_tt_krlb.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Qyddj\Q_tt_krlb_0.cs" />
+    <Compile Include="Qyddj\Q_tt_krlb_print.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qyddj\Q_tt_krlb_print.designer.cs">
+      <DependentUpon>Q_tt_krlb_print.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Qyddj\Q_ydzx_notice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qyddj\Q_ydzx_notice.Designer.cs">
+      <DependentUpon>Q_ydzx_notice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Qyddj\Q_ydzx_noticeBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qyddj\Q_ydzx_noticeBar.Designer.cs">
+      <DependentUpon>Q_ydzx_noticeBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Qyddj\Q_yd_wx_remind.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qyddj\Q_yd_wx_remind.Designer.cs">
+      <DependentUpon>Q_yd_wx_remind.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Qyddj\Q_zjgl.cs" />
+    <Compile Include="Qyddj\Q_skyd_djb_A4.cs">
+      <DependentUpon>Q_skyd_djb_A4.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Qyddj\Q_ttyd_djb_A4.cs">
+      <DependentUpon>Q_ttyd_djb_A4.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Qyddj\Q_skyd_djb_A4_dh.cs">
+      <DependentUpon>Q_skyd_djb_A4_dh.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Qyddj\Q_ttyd_djb_A4_dh.cs">
+      <DependentUpon>Q_ttyd_djb_A4_dh.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ReadOnlyTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReadOnlyTextBox.designer.cs">
+      <DependentUpon>ReadOnlyTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Server\BBfx\BBfx_app.asmx.cs">
+      <DependentUpon>BBfx_app.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Server\BBfx\B_dsfx.cs" />
+    <Compile Include="Server\BBfx\B_g_j_fx.cs" />
+    <Compile Include="Server\BBfx\B_kc.cs" />
+    <Compile Include="Server\BBfx\B_syxfmx_ls_add.cs" />
+    <Compile Include="Server\BBfx\B_xsy_hykh.cs" />
+    <Compile Include="Server\BBfx\B_xsy_krly_xydw.cs" />
+    <Compile Include="Server\BBfx\B_zdkr_mxfx.cs" />
+    <Compile Include="Server\BBfx\B_zdkr_ylfx.cs" />
+    <Compile Include="Server\BBfx\B_zhrbb.cs" />
+    <Compile Include="Server\BBfx\B_zhrbb_zw.cs" />
+    <Compile Include="Server\BBfx\common_bb.cs" />
+    <Compile Include="Server\Ffjzt\Ffjrb_krly.cs" />
+    <Compile Include="Server\Ffjzt\Ffjzt_add_edit.cs">
+    </Compile>
+    <Compile Include="Server\Ffjzt\Ffjzt_app.asmx.cs">
+      <DependentUpon>Ffjzt_app.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Server\Ffjzt\Fgj_z_yj_zzzf.cs" />
+    <Compile Include="Server\Ffjzt\Flfsz_add_edit.cs" />
+    <Compile Include="Server\Ffjzt\Fwx_other.cs" />
+    <Compile Include="Server\Ffjzt\F_ftfx.cs" />
+    <Compile Include="Server\Hhygl\Hhyfj.cs" />
+    <Compile Include="Server\Hhygl\Hhygl_add_edit.cs" />
+    <Compile Include="Server\Hhygl\Hhygl_app.asmx.cs">
+      <DependentUpon>Hhygl_app.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Server\Hhygl\hhygl_shqr.cs" />
+    <Compile Include="Server\Hhygl\Hhygl_verifyCode.cs" />
+    <Compile Include="Server\Hhygl\Hhyjb.cs" />
+    <Compile Include="Server\Hhygl\Hhyjf_bl.cs" />
+    <Compile Include="Server\Hhygl\Hhyjf_df.cs" />
+    <Compile Include="Server\Hhygl\Hhyjf_jp.cs" />
+    <Compile Include="Server\Hhygl\Hhyjf_jp_class.cs" />
+    <Compile Include="Server\Hhygl\Hhyjf_xfjl.cs" />
+    <Compile Include="Server\Qyddj\Qskyd_fjrb_add_edd_delete_1.cs" />
+    <Compile Include="Server\Qyddj\Qskyd_fjrb_add_edit_delete.cs" />
+    <Compile Include="Server\Qyddj\Qttyd_add_edit_delete.cs" />
+    <Compile Include="Server\Qyddj\Qttyd_fjrb_add_edit_delete.cs" />
+    <Compile Include="Server\Qyddj\Qydcx.cs" />
+    <Compile Include="Server\Qyddj\Qyddj_add_edit_delete.cs" />
+    <Compile Include="Server\Qyddj\Qyddj_add_edit_delete_1.cs" />
+    <Compile Include="Server\Qyddj\Qyddj_app.asmx.cs">
+      <DependentUpon>Qyddj_app.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Server\Qyddj\Qyddj_other.cs" />
+    <Compile Include="Server\Qyddj\Q_copy_yd.cs" />
+    <Compile Include="Server\Qyddj\Q_cy.cs" />
+    <Compile Include="Server\Qyddj\Q_ff_xyxf.cs" />
+    <Compile Include="Server\Qyddj\Q_tt_unit.cs" />
+    <Compile Include="Server\SH\SH_YS.cs" />
+    <Compile Include="Server\SH\S_ys.cs" />
+    <Compile Include="Server\SH\S_ys_app.asmx.cs">
+      <DependentUpon>S_ys_app.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Server\Szwgl\common_zw.cs" />
+    <Compile Include="Server\Szwgl\Syjcz.cs" />
+    <Compile Include="Server\Szwgl\Szwcl.cs">
+    </Compile>
+    <Compile Include="Server\Szwgl\Szwcl_GetData.cs" />
+    <Compile Include="Server\Szwgl\Szwgl_app.asmx.cs">
+      <DependentUpon>Szwgl_app.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Server\Szwgl\Szwmx.cs" />
+    <Compile Include="Server\Szwgl\Szw_ChangZwType.cs" />
+    <Compile Include="Server\Szwgl\Szw_cx.cs" />
+    <Compile Include="Server\Szwgl\Szw_gzpj.cs" />
+    <Compile Include="Server\Szwgl\Szw_jzOrgjToZz.cs" />
+    <Compile Include="Server\Szwgl\Szw_jzOrgzOrSZ.cs" />
+    <Compile Include="Server\Szwgl\Szw_jzOrgzOrszToFj.cs" />
+    <Compile Include="Server\Szwgl\Szw_jzOrgzOrZaiZToZz.cs" />
+    <Compile Include="Server\Szwgl\Szw_jzOrgzToSz.cs" />
+    <Compile Include="Server\Szwgl\S_jb_jk_fx.cs" />
+    <Compile Include="Server\updateclinet\GZipCompresser.cs" />
+    <Compile Include="Server\updateclinet\updateHelper.cs" />
+    <Compile Include="Server\Web References\cn.b2m.eucp.sdkhttp\Reference.cs" />
+    <Compile Include="Server\Web References\MsmService\Reference.cs" />
+    <Compile Include="Server\Xxtsz\common_kc.cs" />
+    <Compile Include="Server\Xxtsz\Xfkfs.cs" />
+    <Compile Include="Server\Xxtsz\Xkrgj.cs" />
+    <Compile Include="Server\Xxtsz\Xkrly.cs" />
+    <Compile Include="Server\Xxtsz\Xkrmz.cs" />
+    <Compile Include="Server\Xxtsz\Xkrrx.cs" />
+    <Compile Include="Server\Xxtsz\Xqyxx.cs" />
+    <Compile Include="Server\Xxtsz\Xqzrx.cs" />
+    <Compile Include="Server\Xxtsz\Xxfdr.cs" />
+    <Compile Include="Server\Xxtsz\Xxfmx.cs" />
+    <Compile Include="Server\Xxtsz\Xxfmx_lkmx.cs" />
+    <Compile Include="Server\Xxtsz\Xxfmx_lkzd.cs" />
+    <Compile Include="Server\Xxtsz\Xxfmx_zbmx.cs" />
+    <Compile Include="Server\Xxtsz\Xxfmx_zbzd.cs" />
+    <Compile Include="Server\Xxtsz\Xxfsz.cs" />
+    <Compile Include="Server\Xxtsz\Xxtsz_app.asmx.cs">
+      <DependentUpon>Xxtsz_app.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Server\Xxtsz\Xyhsz.cs" />
+    <Compile Include="Server\Xxtsz\Xyxzj.cs" />
+    <Compile Include="Server\Xxtsz\Yxsy.cs" />
+    <Compile Include="Server\Yhgl\Yhgl_app.asmx.cs">
+      <DependentUpon>Yhgl_app.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Server\Yhgl\YH_bmsz.cs" />
+    <Compile Include="Server\Yhgl\YH_RolePermission.cs" />
+    <Compile Include="Server\Yhgl\YH_Roles.cs" />
+    <Compile Include="Server\Yhgl\YH_User.cs" />
+    <Compile Include="Server\Yyxzx\Yxsy.cs" />
+    <Compile Include="Server\Yyxzx\Yxydw.cs" />
+    <Compile Include="Server\Yyxzx\Yxydw_fjrb.cs" />
+    <Compile Include="Server\Yyxzx\Yyxzx_app.asmx.cs">
+      <DependentUpon>Yyxzx_app.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Szwgl\cr_yj_gl_print_A4_dh.cs">
+      <DependentUpon>cr_yj_gl_print_A4_dh.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Szwgl\cr_yj_gl_print_A5.cs">
+      <DependentUpon>cr_yj_gl_print_A5.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Szwgl\DataSet_jzd.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_jzd.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="updateFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updateFrm.Designer.cs">
+      <DependentUpon>updateFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\cn.b2m.eucp.sdkhttp\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Form_controlUserColor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Form_controlUserColor.Designer.cs">
+      <DependentUpon>Form_controlUserColor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Frm_txftsz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Frm_txftsz.Designer.cs">
+      <DependentUpon>Frm_txftsz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\SH\SH_ys.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\SH\SH_ys.Designer.cs">
+      <DependentUpon>SH_ys.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SummaryControlContainer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SummaryControlContainer.designer.cs">
+      <DependentUpon>SummaryControlContainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Szwgl\common_cms.cs" />
+    <Compile Include="Szwgl\common_form.cs" />
+    <Compile Include="Szwgl\common_zw.cs" />
+    <Compile Include="Szwgl\common_zw_cx.cs" />
+    <Compile Include="Szwgl\common_zw_pljz.cs" />
+    <Compile Include="Szwgl\cr_jbmx.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cr_jbmx.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Szwgl\cr_jkmx.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cr_jkmx.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Szwgl\cr_jzd_a4.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cr_jzd_a4.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Szwgl\cr_jzd_a4_yx.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cr_jzd_a4_yx.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Szwgl\cr_jzd_a5.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cr_jzd_a5.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Szwgl\cr_yjd_a4_dh.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cr_yjd_a4_dh.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Szwgl\cr_yjd_a5.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cr_yjd_a5.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Szwgl\cr_yj_gl_print_A4.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cr_yj_gl_print_A4.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Szwgl\DataSet_dgvprint.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_dgvprint.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Szwgl\DataSet_jbmx.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_jbmx.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Szwgl\DataSet_jzd.cs">
+      <DependentUpon>DataSet_jzd.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Szwgl\DataSet_yj.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_yj.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Szwgl\DataGridViewPrint.cs" />
+    <Compile Include="Szwgl\DataSet_yj_gl_print.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_yj_gl_print.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Szwgl\dgvprint.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dgvprint.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Szwgl\dgvprint_app.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Szwgl\dgvprint_app.Designer.cs">
+      <DependentUpon>dgvprint_app.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Szwgl\SczOrbz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Szwgl\SczOrbz.designer.cs">
+      <DependentUpon>SczOrbz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Szwgl\Sfjcz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Szwgl\Sfjcz.designer.cs">
+      <DependentUpon>Sfjcz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Szwgl\SfjczHelper.cs" />
+    <Compile Include="Szwgl\Sjjzwll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Szwgl\Sjjzwll.designer.cs">
+      <DependentUpon>Sjjzwll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Szwgl\Sjzcz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Szwgl\Sjzcz.designer.cs">
+      <DependentUpon>Sjzcz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Szwgl\Spzcz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Szwgl\Spzcz.designer.cs">
+      <DependentUpon>Spzcz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Szwgl\Spzcz_tz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Szwgl\Spzcz_tz.designer.cs">
+      <DependentUpon>Spzcz_tz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Szwgl\Sxfrb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Szwgl\Sxfrb.designer.cs">
+      <DependentUpon>Sxfrb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Szwgl\Sxfxm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Szwgl\Sxfxm.designer.cs">
+      <DependentUpon>Sxfxm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Szwgl\Syjcz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Szwgl\Syjcz.Designer.cs">
+      <DependentUpon>Syjcz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Szwgl\Syjll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Szwgl\Syjll.designer.cs">
+      <DependentUpon>Syjll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Szwgl\Szwcl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Szwgl\Szwcl.Designer.cs">
+      <DependentUpon>Szwcl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Szwgl\SzwclHelper.cs" />
+    <Compile Include="Szwgl\Szwcz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Szwgl\Szwcz.designer.cs">
+      <DependentUpon>Szwcz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Szwgl\Szw_Common_check.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Szwgl\Szw_Common_check.designer.cs">
+      <DependentUpon>Szw_Common_check.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Szwgl\Szw_fp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Szwgl\Szw_fp.designer.cs">
+      <DependentUpon>Szw_fp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Szwgl\Szw_gd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Szwgl\Szw_gd.Designer.cs">
+      <DependentUpon>Szw_gd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Szwgl\Szw_gd_tj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Szwgl\Szw_gd_tj.Designer.cs">
+      <DependentUpon>Szw_gd_tj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Szwgl\Szw_gd_xg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Szwgl\Szw_gd_xg.Designer.cs">
+      <DependentUpon>Szw_gd_xg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Szwgl\Szw_gd_zd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Szwgl\Szw_gd_zd.Designer.cs">
+      <DependentUpon>Szw_gd_zd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Szwgl\Szw_gl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Szwgl\Szw_gl.designer.cs">
+      <DependentUpon>Szw_gl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Szwgl\Szw_gl_new.cs" />
+    <Compile Include="Szwgl\Szw_pljz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Szwgl\Szw_pljz.designer.cs">
+      <DependentUpon>Szw_pljz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Szwgl\Szw_print_jzd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Szwgl\Szw_print_jzd.designer.cs">
+      <DependentUpon>Szw_print_jzd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Szwgl\Szw_tfInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Szwgl\Szw_tfInfo.designer.cs">
+      <DependentUpon>Szw_tfInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Szwgl\Szzzwll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Szwgl\Szzzwll.designer.cs">
+      <DependentUpon>Szzzwll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Szwgl\s_bz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Szwgl\s_bz.Designer.cs">
+      <DependentUpon>s_bz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Szwgl\S_dc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Szwgl\S_dc.Designer.cs">
+      <DependentUpon>S_dc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Szwgl\S_jbzd_add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Szwgl\S_jbzd_add.Designer.cs">
+      <DependentUpon>S_jbzd_add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Szwgl\S_jbzd_ll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Szwgl\S_jbzd_ll.Designer.cs">
+      <DependentUpon>S_jbzd_ll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Szwgl\S_jkzd_add_0.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Szwgl\S_jkzd_add_0.designer.cs">
+      <DependentUpon>S_jkzd_add_0.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Szwgl\S_jkzd_ll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Szwgl\S_jkzd_ll.designer.cs">
+      <DependentUpon>S_jkzd_ll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Szwgl\S_ys.cs" />
+    <Compile Include="Szwgl\cr_jzd_a4_yx_withNohead.cs">
+      <DependentUpon>cr_jzd_a4_yx_withNohead.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Szwgl\cr_yjd_a4_withNoHead.cs">
+      <DependentUpon>cr_yjd_a4_withNoHead.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Szwgl\S_gzdw_tz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Szwgl\S_gzdw_tz.designer.cs">
+      <DependentUpon>S_gzdw_tz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TextHelper.cs" />
+    <Compile Include="WebServiceHelper.cs" />
+    <Compile Include="Xxtsz\Xckcx_browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xckcx_browse.Designer.cs">
+      <DependentUpon>Xckcx_browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xckcx_gl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xckcx_gl.Designer.cs">
+      <DependentUpon>Xckcx_gl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xfkfs_add_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xfkfs_add_edit.designer.cs">
+      <DependentUpon>Xfkfs_add_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xfkfs_browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xfkfs_browse.Designer.cs">
+      <DependentUpon>Xfkfs_browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xkrgj_add_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xkrgj_add_edit.designer.cs">
+      <DependentUpon>Xkrgj_add_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xkrgj_browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xkrgj_browse.designer.cs">
+      <DependentUpon>Xkrgj_browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xkrgj_select.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xkrgj_select.designer.cs">
+      <DependentUpon>Xkrgj_select.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xkrly_add_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xkrly_add_edit.designer.cs">
+      <DependentUpon>Xkrly_add_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xkrly_browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xkrly_browse.designer.cs">
+      <DependentUpon>Xkrly_browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xkrmz_add_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xkrmz_add_edit.designer.cs">
+      <DependentUpon>Xkrmz_add_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xkrmz_browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xkrmz_browse.designer.cs">
+      <DependentUpon>Xkrmz_browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xkrrx_add_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xkrrx_add_edit.designer.cs">
+      <DependentUpon>Xkrrx_add_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xkrrx_browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xkrrx_browse.designer.cs">
+      <DependentUpon>Xkrrx_browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xqyxx_add_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xqyxx_add_edit.designer.cs">
+      <DependentUpon>Xqyxx_add_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xqyxx_browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xqyxx_browse.designer.cs">
+      <DependentUpon>Xqyxx_browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xqzrx_add_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xqzrx_add_edit.designer.cs">
+      <DependentUpon>Xqzrx_add_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xqzrx_browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xqzrx_browse.designer.cs">
+      <DependentUpon>Xqzrx_browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xxfdr_add_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xxfdr_add_edit.designer.cs">
+      <DependentUpon>Xxfdr_add_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xxfdr_browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xxfdr_browse.designer.cs">
+      <DependentUpon>Xxfdr_browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xxfmx_add_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xxfmx_add_edit.designer.cs">
+      <DependentUpon>Xxfmx_add_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xxfmx_browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xxfmx_browse.designer.cs">
+      <DependentUpon>Xxfmx_browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xxfmx_gl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xxfmx_gl.designer.cs">
+      <DependentUpon>Xxfmx_gl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xxfmx_lkmx_add_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xxfmx_lkmx_add_edit.designer.cs">
+      <DependentUpon>Xxfmx_lkmx_add_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xxfmx_lkmx_browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xxfmx_lkmx_browse.designer.cs">
+      <DependentUpon>Xxfmx_lkmx_browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xxfmx_lkzd_add_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xxfmx_lkzd_add_edit.designer.cs">
+      <DependentUpon>Xxfmx_lkzd_add_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xxfmx_lkzd_browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xxfmx_lkzd_browse.designer.cs">
+      <DependentUpon>Xxfmx_lkzd_browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xxfmx_lkzd_gl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xxfmx_lkzd_gl.designer.cs">
+      <DependentUpon>Xxfmx_lkzd_gl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xxfmx_zbmx_add_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xxfmx_zbmx_add_edit.designer.cs">
+      <DependentUpon>Xxfmx_zbmx_add_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xxfmx_zbmx_browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xxfmx_zbmx_browse.designer.cs">
+      <DependentUpon>Xxfmx_zbmx_browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xxfmx_zbzd_add_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xxfmx_zbzd_add_edit.designer.cs">
+      <DependentUpon>Xxfmx_zbzd_add_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xxfmx_zbzd_browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xxfmx_zbzd_browse.designer.cs">
+      <DependentUpon>Xxfmx_zbzd_browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xxfmx_zbzd_gl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xxfmx_zbzd_gl.designer.cs">
+      <DependentUpon>Xxfmx_zbzd_gl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xxfsz_add_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xxfsz_add_edit.designer.cs">
+      <DependentUpon>Xxfsz_add_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xxfsz_browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xxfsz_browse.designer.cs">
+      <DependentUpon>Xxfsz_browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xyhsz_add_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xyhsz_add_edit.designer.cs">
+      <DependentUpon>Xyhsz_add_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xyhsz_browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xyhsz_browse.designer.cs">
+      <DependentUpon>Xyhsz_browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xyh_select.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xyh_select.designer.cs">
+      <DependentUpon>Xyh_select.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xyxzj_add_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xyxzj_add_edit.designer.cs">
+      <DependentUpon>Xyxzj_add_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Xyxzj_browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Xyxzj_browse.designer.cs">
+      <DependentUpon>Xyxzj_browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\X_common_one.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\X_common_one.designer.cs">
+      <DependentUpon>X_common_one.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xxtsz\Ｘ_ftsm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Ｘ_ftsm.Designer.cs">
+      <DependentUpon>Ｘ_ftsm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yhgl\Frm_initalSystem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yhgl\Frm_initalSystem.designer.cs">
+      <DependentUpon>Frm_initalSystem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yhgl\HY_Roles_browes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yhgl\HY_Roles_browes.Designer.cs">
+      <DependentUpon>HY_Roles_browes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yhgl\YH_Applications_browes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yhgl\YH_Applications_browes.Designer.cs">
+      <DependentUpon>YH_Applications_browes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yhgl\YH_Applincations_add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yhgl\YH_Applincations_add.Designer.cs">
+      <DependentUpon>YH_Applincations_add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yhgl\YH_BM_add_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yhgl\YH_BM_add_edit.designer.cs">
+      <DependentUpon>YH_BM_add_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yhgl\YH_BM_browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yhgl\YH_BM_browse.designer.cs">
+      <DependentUpon>YH_BM_browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yhgl\YH_Copy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yhgl\YH_Copy.Designer.cs">
+      <DependentUpon>YH_Copy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yhgl\YH_czjl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yhgl\YH_czjl.designer.cs">
+      <DependentUpon>YH_czjl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yhgl\YH_gl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yhgl\YH_gl.designer.cs">
+      <DependentUpon>YH_gl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yhgl\YH_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yhgl\YH_login.Designer.cs">
+      <DependentUpon>YH_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yhgl\YH_Roles_add_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yhgl\YH_Roles_add_edit.Designer.cs">
+      <DependentUpon>YH_Roles_add_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yhgl\YH_Roles_browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yhgl\YH_Roles_browse.Designer.cs">
+      <DependentUpon>YH_Roles_browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yhgl\YH_UpdatePassWord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yhgl\YH_UpdatePassWord.Designer.cs">
+      <DependentUpon>YH_UpdatePassWord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yhgl\YH_User_add_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yhgl\YH_User_add_edit.Designer.cs">
+      <DependentUpon>YH_User_add_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yhgl\YH_User_browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yhgl\YH_User_browse.Designer.cs">
+      <DependentUpon>YH_User_browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yyxzx\Frm_test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yyxzx\Frm_test.designer.cs">
+      <DependentUpon>Frm_test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yyxzx\Yxsy_add_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yyxzx\Yxsy_add_edit.designer.cs">
+      <DependentUpon>Yxsy_add_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yyxzx\Yxsy_browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yyxzx\Yxsy_browse.designer.cs">
+      <DependentUpon>Yxsy_browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yyxzx\Yxydw_add_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yyxzx\Yxydw_add_edit.designer.cs">
+      <DependentUpon>Yxydw_add_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yyxzx\Yxydw_browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yyxzx\Yxydw_browse.designer.cs">
+      <DependentUpon>Yxydw_browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yyxzx\Yxydw_fjrb_add_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yyxzx\Yxydw_fjrb_add_edit.designer.cs">
+      <DependentUpon>Yxydw_fjrb_add_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yyxzx\Yxydw_fjrb_browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yyxzx\Yxydw_fjrb_browse.designer.cs">
+      <DependentUpon>Yxydw_fjrb_browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yyxzx\Yxydw_gl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yyxzx\Yxydw_gl.designer.cs">
+      <DependentUpon>Yxydw_gl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yyxzx\Yxydw_select.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yyxzx\Yxydw_select.designer.cs">
+      <DependentUpon>Yxydw_select.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DBUtility\DBUtility.csproj">
+      <Project>{0988C62E-247F-471F-A183-DB509C7A3839}</Project>
+      <Name>DBUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hotel_app.BLL\Hotel_app.BLL.csproj">
+      <Project>{BD82DF87-59DA-49D6-8223-3D6C306F2C2A}</Project>
+      <Name>Hotel_app.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hotel_app.DAL\Hotel_app.DAL.csproj">
+      <Project>{F73F8DB4-6F8D-4931-94AF-AF6715936B8D}</Project>
+      <Name>Hotel_app.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hotel_app.Model\Hotel_app.Model.csproj">
+      <Project>{94F4E998-4C50-4B5E-B482-CCBFCA5FCB89}</Project>
+      <Name>Hotel_app.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Maticsoft.Common\Maticsoft.Common.csproj">
+      <Project>{69CFC3C7-785A-4D97-B92F-85DD72C952D6}</Project>
+      <Name>Maticsoft.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Hotel_app.vshost.exe" />
+    <None Include="bin\Debug\image\16_ico\room_left.ico" />
+    <Content Include="bin\Debug\image\32ico\amend.ICO" />
+    <Content Include="bin\Debug\image\32ico\Delete2.ico" />
+    <Content Include="bin\Debug\image\32ico\exit.ico" />
+    <Content Include="bin\Debug\image\32ico\First.ICO" />
+    <Content Include="bin\Debug\image\32ico\First_0.ICO" />
+    <Content Include="bin\Debug\image\32ico\Last.ICO" />
+    <Content Include="bin\Debug\image\32ico\Last_0.ICO" />
+    <Content Include="bin\Debug\image\32ico\New.ico" />
+    <Content Include="bin\Debug\image\32ico\New_0.ico" />
+    <Content Include="bin\Debug\image\32ico\next.ICO" />
+    <Content Include="bin\Debug\image\32ico\Next_0.ICO" />
+    <Content Include="bin\Debug\image\32ico\previous.ICO" />
+    <Content Include="bin\Debug\image\32ico\Previous_0.ICO" />
+    <Content Include="bin\Debug\image\32ico\refresh.ico" />
+    <Content Include="bin\Debug\image\32ico\refresh_0.ico" />
+    <Content Include="bin\Debug\image\32ico\refresh_1.ico" />
+    <Content Include="bin\Debug\image\32ico\refresh_2.ico" />
+    <Content Include="bin\Debug\image\32ico\research.ico" />
+    <Content Include="bin\Debug\image\32ico\save.ICO" />
+    <Content Include="bin\Debug\image\32ico\save_0.ICO" />
+    <Content Include="bin\Debug\image\32ico\yes.ICO" />
+    <Content Include="bin\Debug\image\32ico\yes_0.ico" />
+    <None Include="BBfx\DataSet_czORbz.xsc">
+      <DependentUpon>DataSet_czORbz.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_czORbz.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_czORbz2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BBfx\DataSet_czORbz.xss">
+      <DependentUpon>DataSet_czORbz.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_dsfx.xsc">
+      <DependentUpon>DataSet_dsfx.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_dsfx.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_dsfx2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BBfx\DataSet_dsfx.xss">
+      <DependentUpon>DataSet_dsfx.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_g_j_mxfx.xsc">
+      <DependentUpon>DataSet_g_j_mxfx.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_g_j_mxfx.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_g_j_mxfx2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BBfx\DataSet_g_j_mxfx.xss">
+      <DependentUpon>DataSet_g_j_mxfx.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_g_j_ye.xsc">
+      <DependentUpon>DataSet_g_j_ye.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_g_j_ye.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_g_j_ye2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BBfx\DataSet_g_j_ye.xss">
+      <DependentUpon>DataSet_g_j_ye.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_hykhxfmx.xsc">
+      <DependentUpon>DataSet_hykhxfmx.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_hykhxfmx.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_hykhxfmx2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BBfx\DataSet_hykhxfmx.xss">
+      <DependentUpon>DataSet_hykhxfmx.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_hyktj.xsc">
+      <DependentUpon>DataSet_hyktj.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_hyktj.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_hyktj2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BBfx\DataSet_hyktj.xss">
+      <DependentUpon>DataSet_hyktj.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_j_g_fx.xsc">
+      <DependentUpon>DataSet_j_g_fx.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_j_g_fx.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_j_g_fx2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BBfx\DataSet_j_g_fx.xss">
+      <DependentUpon>DataSet_j_g_fx.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_j_g_mxfx.xsc" />
+    <None Include="BBfx\DataSet_j_g_mxfx_xx.xsc">
+      <DependentUpon>DataSet_j_g_mxfx_xx.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_j_g_mxfx_xx.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_j_g_mxfx_xx2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BBfx\DataSet_j_g_mxfx_xx.xss">
+      <DependentUpon>DataSet_j_g_mxfx_xx.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_qtsytj.xsc">
+      <DependentUpon>DataSet_qtsytj.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_qtsytj.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_qtsytj2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BBfx\DataSet_qtsytj.xss">
+      <DependentUpon>DataSet_qtsytj.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_syxffx.xsc">
+      <DependentUpon>DataSet_syxffx.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_syxffx.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_syxffx2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BBfx\DataSet_syxffx.xss">
+      <DependentUpon>DataSet_syxffx.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_syxffx_xsy_xsmxfx.xsc">
+      <DependentUpon>DataSet_syxffx_xsy_xsmxfx.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_syxffx_xsy_xsmxfx.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_syxffx_xsy_xsmxfx2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BBfx\DataSet_syxffx_xsy_xsmxfx.xss">
+      <DependentUpon>DataSet_syxffx_xsy_xsmxfx.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_syxffx_xsy_xydw.xsc">
+      <DependentUpon>DataSet_syxffx_xsy_xydw.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_syxffx_xsy_xydw.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_syxffx_xsy_xydw2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BBfx\DataSet_syxffx_xsy_xydw.xss">
+      <DependentUpon>DataSet_syxffx_xsy_xydw.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_wj_gj.xsc">
+      <DependentUpon>DataSet_wj_gj.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_wj_gj.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_wj_gj2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BBfx\DataSet_wj_gj.xss">
+      <DependentUpon>DataSet_wj_gj.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_ysk_cy.xsc">
+      <DependentUpon>DataSet_ysk_cy.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_ysk_cy.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_ysk_cy2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BBfx\DataSet_ysk_cy.xss">
+      <DependentUpon>DataSet_ysk_cy.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_zdkr_mxfx.xsc">
+      <DependentUpon>DataSet_zdkr_mxfx.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_zdkr_mxfx.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_zdkr_mxfx2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BBfx\DataSet_zdkr_mxfx.xss">
+      <DependentUpon>DataSet_zdkr_mxfx.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_zdkr_ylfx.xsc">
+      <DependentUpon>DataSet_zdkr_ylfx.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_zdkr_ylfx.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_zdkr_ylfx1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BBfx\DataSet_zdkr_ylfx.xss">
+      <DependentUpon>DataSet_zdkr_ylfx.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_zhrbb.xsc">
+      <DependentUpon>DataSet_zhrbb.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_zhrbb.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_zhrbb1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BBfx\DataSet_zhrbb.xss">
+      <DependentUpon>DataSet_zhrbb.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_zhrbb_fl.xsc">
+      <DependentUpon>DataSet_zhrbb_fl.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_zhrbb_fl.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_zhrbb_fl1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BBfx\DataSet_zhrbb_fl.xss">
+      <DependentUpon>DataSet_zhrbb_fl.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_zzkrdqtj.xsc">
+      <DependentUpon>DataSet_zzkrdqtj.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_zzkrdqtj.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_zzkrdqtj1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BBfx\DataSet_zzkrdqtj.xss">
+      <DependentUpon>DataSet_zzkrdqtj.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_zzwj.xsc">
+      <DependentUpon>DataSet_zzwj.xsd</DependentUpon>
+    </None>
+    <None Include="BBfx\DataSet_zzwj.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_zzwj.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BBfx\DataSet_zzwj.xss">
+      <DependentUpon>DataSet_zzwj.xsd</DependentUpon>
+    </None>
+    <None Include="bin\Debug\image\NewsIco\a-1.ico" />
+    <None Include="bin\Debug\image\NewsIco\a-2.ico" />
+    <None Include="bin\Debug\image\NewsIco\a-3.ico" />
+    <None Include="bin\Debug\image\NewsIco\a-4.ico" />
+    <None Include="bin\Debug\image\NewsIco\a-5.ico" />
+    <None Include="bin\Debug\image\NewsIco\a-6.ico" />
+    <None Include="bin\Debug\image\NewsIco\a-7.ico" />
+    <None Include="bin\Debug\image\NewsIco\a-8.ico" />
+    <None Include="bin\Debug\image\NewsIco\a-9.ico" />
+    <None Include="bin\Debug\image\NewsIco\a-10.ico" />
+    <None Include="bin\Debug\image\NewsIco\a-11.ico" />
+    <None Include="bin\Debug\image\NewsIco\a-12.ico" />
+    <None Include="bin\Debug\image\NewsIco\a-13.ico" />
+    <None Include="bin\Debug\image\NewsIco\b-1.ico" />
+    <None Include="bin\Debug\image\NewsIco\b-2.ico" />
+    <None Include="bin\Debug\image\NewsIco\b-3.ico" />
+    <None Include="bin\Debug\image\NewsIco\b-4.ico" />
+    <None Include="bin\Debug\image\NewsIco\b-5.ico" />
+    <None Include="bin\Debug\image\NewsIco\b-6.ico" />
+    <None Include="bin\Debug\image\NewsIco\b-7.ico" />
+    <None Include="bin\Debug\image\NewsIco\b-8.ico" />
+    <None Include="bin\Debug\image\NewsIco\b-9.ico" />
+    <None Include="bin\Debug\image\NewsIco\b-10.ico" />
+    <None Include="bin\Debug\image\NewsIco\c-1.ico" />
+    <None Include="bin\Debug\image\NewsIco\c-2.ico" />
+    <None Include="bin\Debug\image\NewsIco\c-3.ico" />
+    <None Include="bin\Debug\image\NewsIco\c-4.ico" />
+    <None Include="bin\Debug\image\NewsIco\c-5.ico" />
+    <None Include="bin\Debug\image\NewsIco\c-6.ico" />
+    <None Include="bin\Debug\image\NewsIco\c-7.ico" />
+    <None Include="bin\Debug\image\NewsIco\c-8.ico" />
+    <None Include="bin\Debug\image\NewsIco\c-9.ico" />
+    <None Include="bin\Debug\image\NewsIco\c-10.ico" />
+    <None Include="bin\Debug\image\NewsIco\c-11.ico" />
+    <None Include="bin\Debug\image\NewsIco\c-12.ico" />
+    <None Include="bin\Debug\image\NewsIco\c-13.ico" />
+    <None Include="bin\Debug\image\NewsIco\c-14.ico" />
+    <None Include="bin\Debug\image\NewsIco\d-1.ico" />
+    <None Include="bin\Debug\image\NewsIco\d-2.ico" />
+    <None Include="bin\Debug\image\NewsIco\d-3.ico" />
+    <None Include="Server\Web References\cn.b2m.eucp.sdkhttp\mo.datasource" />
+    <None Include="Server\Web References\cn.b2m.eucp.sdkhttp\Reference.map" />
+    <None Include="Server\Web References\cn.b2m.eucp.sdkhttp\SDKService.wsdl" />
+    <None Include="Server\Web References\cn.b2m.eucp.sdkhttp\SDKService.xsd" />
+    <None Include="Server\Web References\cn.b2m.eucp.sdkhttp\statusReport.datasource" />
+    <None Include="Server\Web References\MsmService\mo.datasource" />
+    <None Include="Server\Web References\MsmService\Reference.map" />
+    <None Include="Server\Web References\MsmService\SDKService.wsdl" />
+    <None Include="Server\Web References\MsmService\SDKService.xsd" />
+    <None Include="Server\Web References\MsmService\statusReport.datasource" />
+    <None Include="Web References\cn.b2m.eucp.sdkhttp\mo.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\cn.b2m.eucp.sdkhttp\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\cn.b2m.eucp.sdkhttp\SDKService.wsdl" />
+    <None Include="Web References\cn.b2m.eucp.sdkhttp\SDKService.xsd" />
+    <None Include="Web References\cn.b2m.eucp.sdkhttp\statusReport.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <Content Include="bin\Debug\image\bg_contactUs.jpg" />
+    <None Include="bin\Debug\image\NewsIco\tuanti.ico" />
+    <None Include="bin\Debug\image\NewsIco\sk2.ico" />
+    <None Include="bin\Debug\image\NewsIco\About us.ico" />
+    <None Include="bin\Debug\image\NewsIco\room_clean.ico" />
+    <Content Include="bin\Debug\IrisSkin2.dll" />
+    <Content Include="bin\Debug\XmlSystemInfo.xml" />
+    <Content Include="dxpt\TextFile1.txt" />
+    <Content Include="Hhygl\关于给会员发送短信的更新说明2013－02－05.txt" />
+    <Content Include="occup.ico" />
+    <Content Include="occup_0.ICO" />
+    <None Include="Resources\c-10.ico" />
+    <None Include="Resources\About us.ico" />
+    <None Include="Resources\About us1.ico" />
+    <Content Include="Resources\Image1.bmp" />
+    <Content Include="Resources\logo3.png" />
+    <None Include="Resources\motonLOGO.png" />
+    <Content Include="Resources\room_clean.ico" />
+    <Content Include="Resources\room_left.ico" />
+    <Content Include="Resources\room_right.ico" />
+    <Content Include="Resources\room_right_return.ico" />
+    <Content Include="Resources\room_special.ico" />
+    <Content Include="Resources\room_union_0.ico" />
+    <Content Include="Resources\room_vip_0.ico" />
+    <None Include="Resources\uc_p_title_bg.gif" />
+    <Content Include="Server\BBfx\BBfx_app.asmx" />
+    <Content Include="Server\Ffjzt\Ffjzt_app.asmx" />
+    <Content Include="Server\Hhygl\Hhygl_app.asmx" />
+    <Content Include="Server\Qyddj\Qyddj_app.asmx" />
+    <Content Include="Server\SH\S_ys_app.asmx" />
+    <Content Include="Server\Szwgl\Szwgl_app.asmx" />
+    <Content Include="Server\Szwgl\temp.txt" />
+    <Content Include="Server\updateclinet\2013-01-30_newTable.txt" />
+    <Content Include="Server\Xxtsz\TextFile1.txt" />
+    <Content Include="Server\Xxtsz\Xxtsz_app.asmx" />
+    <Content Include="Server\Yhgl\Yhgl_app.asmx" />
+    <Content Include="Server\Yyxzx\Yyxzx_app.asmx" />
+    <Content Include="Szwgl\帐务流程.txt" />
+    <Content Include="TextFile1.txt" />
+    <Content Include="XmlSystemInfo.xml" />
+    <Content Include="以此为基准.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://sdkhttp.eucp.b2m.cn/sdk/SDKService%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\cn.b2m.eucp.sdkhttp\</RelPath>
+      <UpdateFromURL>http://sdkhttp.eucp.b2m.cn/sdk/SDKService%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Hotel_app_cn_b2m_eucp_sdkhttp_SDKService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\image\16ico\" />
+    <Folder Include="bin\Debug\skin\" />
+    <Folder Include="obj\Debug\Refactor\" />
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

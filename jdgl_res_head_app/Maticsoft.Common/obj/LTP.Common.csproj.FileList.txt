@@ -1,0 +1,8 @@
+bin\Debug\LTP.Common.dll
+bin\Debug\LTP.Common.pdb
+bin\Debug\COM.Excel.dll
+bin\Debug\Excel.dll
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\LTP.Common.csproj.ResolveComReference.cache
+obj\Debug\LTP.Common.dll
+obj\Debug\LTP.Common.pdb

@@ -1,0 +1,42 @@
+﻿//短信用户验证的表
+CREATE TABLE [dbo].[Hhyyz](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[krxm] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[hysj] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[yzm] [varchar](100) COLLATE Chinese_PRC_CI_AS NULL,
+	[yzdate] [datetime] NULL,
+	[yzzt] [bit] NULL,
+	[yydh] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[qymc] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+ CONSTRAINT [PK_Hhyyz] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+
+
+--发送短信的类型
+CREATE TABLE [dbo].[hhyyz_dx](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[yydh] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[qymc] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[hy_action_flage] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[msm_content] [varchar](5000) COLLATE Chinese_PRC_CI_AS NULL,
+	[enable] [bit] NULL CONSTRAINT [DF_Table_1_enable]  DEFAULT (1),
+	[dxycsj] [int] NULL CONSTRAINT [DF_hhyyz_dx_dxycsj]  DEFAULT (0),
+	[msm_content_2] [varchar](1000) COLLATE Chinese_PRC_CI_AS NULL,
+	[msm_content_3] [varchar](1000) COLLATE Chinese_PRC_CI_AS NULL,
+	[msm_content_4] [varchar](1000) COLLATE Chinese_PRC_CI_AS NULL,
+	[msm_content_5] [varchar](1000) COLLATE Chinese_PRC_CI_AS NULL,
+ CONSTRAINT [PK_Table_1] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+

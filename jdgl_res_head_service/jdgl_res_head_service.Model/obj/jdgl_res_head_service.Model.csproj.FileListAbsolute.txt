@@ -1,0 +1,5 @@
+E:\jdglxtsc\jdgl_res_head_service\jdgl_res_head_service.Model\bin\Debug\jdgl_res_head_service.Model.dll
+E:\jdglxtsc\jdgl_res_head_service\jdgl_res_head_service.Model\bin\Debug\jdgl_res_head_service.Model.pdb
+E:\jdglxtsc\jdgl_res_head_service\jdgl_res_head_service.Model\obj\Debug\ResolveAssemblyReference.cache
+E:\jdglxtsc\jdgl_res_head_service\jdgl_res_head_service.Model\obj\Debug\jdgl_res_head_service.Model.dll
+E:\jdglxtsc\jdgl_res_head_service\jdgl_res_head_service.Model\obj\Debug\jdgl_res_head_service.Model.pdb

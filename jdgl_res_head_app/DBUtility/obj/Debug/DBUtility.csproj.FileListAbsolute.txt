@@ -1,0 +1,13 @@
+D:\MoTon\Hotel_Code\jdgl_res_head_app\DBUtility\bin\Debug\Maticsoft.DBUtility.dll
+D:\MoTon\Hotel_Code\jdgl_res_head_app\DBUtility\bin\Debug\Maticsoft.DBUtility.pdb
+D:\MoTon\Hotel_Code\jdgl_res_head_app\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+D:\MoTon\Hotel_Code\jdgl_res_head_app\DBUtility\obj\Debug\Maticsoft.DBUtility.dll
+D:\MoTon\Hotel_Code\jdgl_res_head_app\DBUtility\obj\Debug\Maticsoft.DBUtility.pdb
+D:\夏商项目开发\jdgl_res_head_app\DBUtility\bin\Debug\Maticsoft.DBUtility.dll
+D:\夏商项目开发\jdgl_res_head_app\DBUtility\bin\Debug\Maticsoft.DBUtility.pdb
+D:\夏商项目开发\jdgl_res_head_app\DBUtility\obj\Debug\Maticsoft.DBUtility.dll
+D:\夏商项目开发\jdgl_res_head_app\DBUtility\obj\Debug\Maticsoft.DBUtility.pdb
+D:\Git\DTWMaster\jdgl_res_head_app\DBUtility\bin\Debug\Maticsoft.DBUtility.dll
+D:\Git\DTWMaster\jdgl_res_head_app\DBUtility\bin\Debug\Maticsoft.DBUtility.pdb
+D:\Git\DTWMaster\jdgl_res_head_app\DBUtility\obj\Debug\Maticsoft.DBUtility.dll
+D:\Git\DTWMaster\jdgl_res_head_app\DBUtility\obj\Debug\Maticsoft.DBUtility.pdb

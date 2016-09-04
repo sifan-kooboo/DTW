@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D6A2B8E8-8506-4274-B1C6-EA0C52AA75AE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>jdgl_res_head_service</RootNamespace>
+    <AssemblyName>jdgl_res_head_service</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BBfx\BBfx_app.asmx" />
+    <Content Include="Ffjzt\Ffjzt_app.asmx" />
+    <Content Include="Hhygl\Hhygl_app.asmx" />
+    <Content Include="Lskr\Lskr_app.asmx" />
+    <Content Include="Qyddj\Qyddj_app.asmx" />
+    <Content Include="S8Server\S8数据上传下载流程说明.htm" />
+    <Content Include="S8Server\Qyddj_app.asmx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Xxtsz\Xxtsz_app.asmx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BBfx\BBfx_app.asmx.cs">
+      <DependentUpon>BBfx_app.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BBfx\BSzhrbb.cs" />
+    <Compile Include="BBfx\BSzhrbbfl.cs" />
+    <Compile Include="BBfx\Ssyxfmx.cs" />
+    <Compile Include="BBfx\Ssyxfmx_cz.cs" />
+    <Compile Include="BBfx\Ssyxfmx_xsy.cs" />
+    <Compile Include="common_file\common_app.cs" />
+    <Compile Include="common_file\common_is_select.cs" />
+    <Compile Include="Ffjzt\Ffjrb.cs" />
+    <Compile Include="Ffjzt\Web_Ffjzt.cs" />
+    <Compile Include="Ffjzt\Ffjzt_app.asmx.cs">
+      <DependentUpon>Ffjzt_app.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Ffjzt\Fwx_other.cs" />
+    <Compile Include="Ffjzt\Qskyd_Ffjrb.cs" />
+    <Compile Include="Hhygl\Hhyfj.cs" />
+    <Compile Include="Hhygl\Hhygl_ad_ed.cs" />
+    <Compile Include="Hhygl\Hhygl_app.asmx.cs">
+      <DependentUpon>Hhygl_app.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Hhygl\Hhyjb.cs" />
+    <Compile Include="Hhygl\Hhyjf_bl.cs" />
+    <Compile Include="Hhygl\Hhyjf_df.cs" />
+    <Compile Include="Hhygl\Hhyjf_jp.cs" />
+    <Compile Include="Hhygl\Hhyjf_xfjl.cs" />
+    <Compile Include="log\LogHelper.cs" />
+    <Compile Include="Lskr\Lskr_app.asmx.cs">
+      <DependentUpon>Lskr_app.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Lskr\Qskyd_fjrb_lskr.cs" />
+    <Compile Include="Lskr\Qskyd_lskr_delete.cs" />
+    <Compile Include="Lskr\Qskyd_mainrecord_lskr.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Qyddj\Qyddj_app.asmx.cs">
+      <DependentUpon>Qyddj_app.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Qyddj\web_skyd.cs" />
+    <Compile Include="Qyddj\ydzxqr_ad_ed.cs" />
+    <Compile Include="S8Server\Qyddj_app.asmx.cs">
+      <DependentUpon>Qyddj_app.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="S8Server\web_skyd.cs" />
+    <Compile Include="Xxtsz\Xqyxx.cs" />
+    <Compile Include="Xxtsz\Xxtsz_app.asmx.cs">
+      <DependentUpon>Xxtsz_app.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Xxtsz\Yxydw_add.cs" />
+    <Compile Include="Xxtsz\Yxydw_fjrb.cs" />
+    <Compile Include="上传下载流程说明\Class1.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DBUtility\DBUtility.csproj">
+      <Project>{0988C62E-247F-471F-A183-DB509C7A3839}</Project>
+      <Name>DBUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\jdgl_res_head_service.BLL\jdgl_res_head_service.BLL.csproj">
+      <Project>{5217B86E-C3D5-4320-B28B-A9F705BBAEC0}</Project>
+      <Name>jdgl_res_head_service.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\jdgl_res_head_service.DAL\jdgl_res_head_service.DAL.csproj">
+      <Project>{B2092585-AF06-4529-8C7E-160DF8965A3E}</Project>
+      <Name>jdgl_res_head_service.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\jdgl_res_head_service.Model\jdgl_res_head_service.Model.csproj">
+      <Project>{9F16901B-F01D-405E-911C-4AE6F83D87A5}</Project>
+      <Name>jdgl_res_head_service.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Maticsoft.Common\Maticsoft.Common.csproj">
+      <Project>{69CFC3C7-785A-4D97-B92F-85DD72C952D6}</Project>
+      <Name>Maticsoft.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>42806</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

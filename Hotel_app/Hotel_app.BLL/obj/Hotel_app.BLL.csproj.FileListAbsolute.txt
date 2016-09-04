@@ -1,0 +1,915 @@
+C:\Documents and Settings\Administrator\桌面\hotelSolution\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\Administrator\桌面\hotelSolution\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\Administrator\桌面\hotelSolution\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Documents and Settings\Administrator\桌面\hotelSolution\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Documents and Settings\Administrator\桌面\hotelSolution\Hotel_app.BLL\bin\Debug\LTP.Common.dll
+C:\Documents and Settings\Administrator\桌面\hotelSolution\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\hotelSolution\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\Administrator\桌面\hotelSolution\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\Administrator\桌面\hotelSolution\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Documents and Settings\Administrator\桌面\hotelSolution\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\hotelSolution\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Documents and Settings\Administrator\桌面\hotelSolution\Hotel_app.BLL\bin\Debug\LTP.Common.pdb
+C:\Documents and Settings\Administrator\桌面\hotelSolution\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\hotelSolution\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\Administrator\桌面\hotelSolution\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+F:\C#new\Hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+F:\C#new\Hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+F:\C#new\Hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+F:\C#new\Hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+F:\C#new\Hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.dll
+F:\C#new\Hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.dll
+F:\C#new\Hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+F:\C#new\Hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+F:\C#new\Hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+F:\C#new\Hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.pdb
+F:\C#new\Hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+F:\C#new\Hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.pdb
+F:\C#new\Hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+F:\C#new\Hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+F:\C#new\Hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+F:\C#\Hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+F:\C#\Hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+F:\C#\Hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+F:\C#\Hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+F:\C#\Hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+F:\C#\Hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+F:\C#\Hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+F:\C#\Hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+F:\C#\Hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+F:\C#\Hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+F:\C#\Hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\czy001319\桌面\xsxt_new_0525\Hotel_app0525\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\czy001319\桌面\xsxt_new_0525\Hotel_app0525\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\czy001319\桌面\xsxt_new_0525\Hotel_app0525\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Documents and Settings\czy001319\桌面\xsxt_new_0525\Hotel_app0525\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Documents and Settings\czy001319\桌面\xsxt_new_0525\Hotel_app0525\Hotel_app.BLL\bin\Debug\Maticsoft.Common.dll
+C:\Documents and Settings\czy001319\桌面\xsxt_new_0525\Hotel_app0525\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.dll
+C:\Documents and Settings\czy001319\桌面\xsxt_new_0525\Hotel_app0525\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\czy001319\桌面\xsxt_new_0525\Hotel_app0525\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\czy001319\桌面\xsxt_new_0525\Hotel_app0525\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Documents and Settings\czy001319\桌面\xsxt_new_0525\Hotel_app0525\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.pdb
+C:\Documents and Settings\czy001319\桌面\xsxt_new_0525\Hotel_app0525\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Documents and Settings\czy001319\桌面\xsxt_new_0525\Hotel_app0525\Hotel_app.BLL\bin\Debug\Maticsoft.Common.pdb
+C:\Documents and Settings\czy001319\桌面\xsxt_new_0525\Hotel_app0525\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\czy001319\桌面\xsxt_new_0525\Hotel_app0525\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\czy001319\桌面\xsxt_new_0525\Hotel_app0525\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Users\freewsf\Desktop\0527am\Hotel_app0525\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Users\freewsf\Desktop\0527am\Hotel_app0525\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Users\freewsf\Desktop\0527am\Hotel_app0525\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Users\freewsf\Desktop\0527am\Hotel_app0525\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Users\freewsf\Desktop\0527am\Hotel_app0525\Hotel_app.BLL\bin\Debug\Maticsoft.Common.dll
+C:\Users\freewsf\Desktop\0527am\Hotel_app0525\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.dll
+C:\Users\freewsf\Desktop\0527am\Hotel_app0525\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Users\freewsf\Desktop\0527am\Hotel_app0525\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Users\freewsf\Desktop\0527am\Hotel_app0525\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Users\freewsf\Desktop\0527am\Hotel_app0525\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.pdb
+C:\Users\freewsf\Desktop\0527am\Hotel_app0525\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Users\freewsf\Desktop\0527am\Hotel_app0525\Hotel_app.BLL\bin\Debug\Maticsoft.Common.pdb
+C:\Users\freewsf\Desktop\0527am\Hotel_app0525\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\freewsf\Desktop\0527am\Hotel_app0525\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Users\freewsf\Desktop\0527am\Hotel_app0525\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\酒店系统临时文件夹\ver0527_latestVer\Hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\酒店系统临时文件夹\ver0527_latestVer\Hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\酒店系统临时文件夹\ver0527_latestVer\Hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Documents and Settings\guo\桌面\酒店系统临时文件夹\ver0527_latestVer\Hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Documents and Settings\guo\桌面\酒店系统临时文件夹\ver0527_latestVer\Hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.dll
+C:\Documents and Settings\guo\桌面\酒店系统临时文件夹\ver0527_latestVer\Hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.dll
+C:\Documents and Settings\guo\桌面\酒店系统临时文件夹\ver0527_latestVer\Hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\guo\桌面\酒店系统临时文件夹\ver0527_latestVer\Hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\guo\桌面\酒店系统临时文件夹\ver0527_latestVer\Hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Documents and Settings\guo\桌面\酒店系统临时文件夹\ver0527_latestVer\Hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.pdb
+C:\Documents and Settings\guo\桌面\酒店系统临时文件夹\ver0527_latestVer\Hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Documents and Settings\guo\桌面\酒店系统临时文件夹\ver0527_latestVer\Hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.pdb
+C:\Documents and Settings\guo\桌面\酒店系统临时文件夹\ver0527_latestVer\Hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\guo\桌面\酒店系统临时文件夹\ver0527_latestVer\Hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\酒店系统临时文件夹\ver0527_latestVer\Hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\酒店系统临时文件夹\latestVer_0607_拷自华都\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\酒店系统临时文件夹\latestVer_0607_拷自华都\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\酒店系统临时文件夹\latestVer_0607_拷自华都\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Documents and Settings\guo\桌面\酒店系统临时文件夹\latestVer_0607_拷自华都\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Documents and Settings\guo\桌面\酒店系统临时文件夹\latestVer_0607_拷自华都\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.dll
+C:\Documents and Settings\guo\桌面\酒店系统临时文件夹\latestVer_0607_拷自华都\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.dll
+C:\Documents and Settings\guo\桌面\酒店系统临时文件夹\latestVer_0607_拷自华都\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\guo\桌面\酒店系统临时文件夹\latestVer_0607_拷自华都\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\guo\桌面\酒店系统临时文件夹\latestVer_0607_拷自华都\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Documents and Settings\guo\桌面\酒店系统临时文件夹\latestVer_0607_拷自华都\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.pdb
+C:\Documents and Settings\guo\桌面\酒店系统临时文件夹\latestVer_0607_拷自华都\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Documents and Settings\guo\桌面\酒店系统临时文件夹\latestVer_0607_拷自华都\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.pdb
+C:\Documents and Settings\guo\桌面\酒店系统临时文件夹\latestVer_0607_拷自华都\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\guo\桌面\酒店系统临时文件夹\latestVer_0607_拷自华都\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\酒店系统临时文件夹\latestVer_0607_拷自华都\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Users\Administrator\Desktop\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Users\Administrator\Desktop\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Users\Administrator\Desktop\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Users\Administrator\Desktop\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Users\Administrator\Desktop\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.dll
+C:\Users\Administrator\Desktop\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.dll
+C:\Users\Administrator\Desktop\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Users\Administrator\Desktop\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Users\Administrator\Desktop\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Users\Administrator\Desktop\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.pdb
+C:\Users\Administrator\Desktop\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Users\Administrator\Desktop\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.pdb
+C:\Users\Administrator\Desktop\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Users\Administrator\Desktop\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Users\Administrator\Desktop\0608\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Users\Administrator\Desktop\0608\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Users\Administrator\Desktop\0608\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Users\Administrator\Desktop\0608\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Users\Administrator\Desktop\0608\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.dll
+C:\Users\Administrator\Desktop\0608\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.dll
+C:\Users\Administrator\Desktop\0608\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Users\Administrator\Desktop\0608\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Users\Administrator\Desktop\0608\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Users\Administrator\Desktop\0608\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.pdb
+C:\Users\Administrator\Desktop\0608\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Users\Administrator\Desktop\0608\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.pdb
+C:\Users\Administrator\Desktop\0608\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\0608\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Users\Administrator\Desktop\0608\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+F:\0608\0608\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+F:\0608\0608\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+F:\0608\0608\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+F:\0608\0608\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+F:\0608\0608\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.dll
+F:\0608\0608\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.dll
+F:\0608\0608\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+F:\0608\0608\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+F:\0608\0608\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+F:\0608\0608\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.pdb
+F:\0608\0608\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+F:\0608\0608\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.pdb
+F:\0608\0608\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+F:\0608\0608\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+F:\0608\0608\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0611系统部署\Version0611\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0611系统部署\Version0611\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0611系统部署\Version0611\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Documents and Settings\guo\桌面\0611系统部署\Version0611\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Documents and Settings\guo\桌面\0611系统部署\Version0611\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.dll
+C:\Documents and Settings\guo\桌面\0611系统部署\Version0611\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.dll
+C:\Documents and Settings\guo\桌面\0611系统部署\Version0611\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\guo\桌面\0611系统部署\Version0611\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\guo\桌面\0611系统部署\Version0611\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Documents and Settings\guo\桌面\0611系统部署\Version0611\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.pdb
+C:\Documents and Settings\guo\桌面\0611系统部署\Version0611\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Documents and Settings\guo\桌面\0611系统部署\Version0611\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.pdb
+C:\Documents and Settings\guo\桌面\0611系统部署\Version0611\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\guo\桌面\0611系统部署\Version0611\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0611系统部署\Version0611\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0611系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0611系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0611系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Documents and Settings\guo\桌面\0611系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Documents and Settings\guo\桌面\0611系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.dll
+C:\Documents and Settings\guo\桌面\0611系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.dll
+C:\Documents and Settings\guo\桌面\0611系统部署\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\guo\桌面\0611系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\guo\桌面\0611系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Documents and Settings\guo\桌面\0611系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.pdb
+C:\Documents and Settings\guo\桌面\0611系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Documents and Settings\guo\桌面\0611系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.pdb
+C:\Documents and Settings\guo\桌面\0611系统部署\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\guo\桌面\0611系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0611系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Users\Administrator\Desktop\0611\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Users\Administrator\Desktop\0611\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Users\Administrator\Desktop\0611\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Users\Administrator\Desktop\0611\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Users\Administrator\Desktop\0611\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.dll
+C:\Users\Administrator\Desktop\0611\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.dll
+C:\Users\Administrator\Desktop\0611\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Users\Administrator\Desktop\0611\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Users\Administrator\Desktop\0611\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Users\Administrator\Desktop\0611\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.pdb
+C:\Users\Administrator\Desktop\0611\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Users\Administrator\Desktop\0611\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.pdb
+C:\Users\Administrator\Desktop\0611\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\0611\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Users\Administrator\Desktop\0611\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0613系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0613系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0613系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Documents and Settings\guo\桌面\0613系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Documents and Settings\guo\桌面\0613系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.dll
+C:\Documents and Settings\guo\桌面\0613系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.dll
+C:\Documents and Settings\guo\桌面\0613系统部署\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\guo\桌面\0613系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\guo\桌面\0613系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Documents and Settings\guo\桌面\0613系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.pdb
+C:\Documents and Settings\guo\桌面\0613系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Documents and Settings\guo\桌面\0613系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.pdb
+C:\Documents and Settings\guo\桌面\0613系统部署\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\guo\桌面\0613系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0613系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\czy001319\桌面\0614系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\czy001319\桌面\0614系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\czy001319\桌面\0614系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Documents and Settings\czy001319\桌面\0614系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Documents and Settings\czy001319\桌面\0614系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.dll
+C:\Documents and Settings\czy001319\桌面\0614系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.dll
+C:\Documents and Settings\czy001319\桌面\0614系统部署\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\czy001319\桌面\0614系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\czy001319\桌面\0614系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Documents and Settings\czy001319\桌面\0614系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.pdb
+C:\Documents and Settings\czy001319\桌面\0614系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Documents and Settings\czy001319\桌面\0614系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.pdb
+C:\Documents and Settings\czy001319\桌面\0614系统部署\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\czy001319\桌面\0614系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\czy001319\桌面\0614系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Users\Administrator\Desktop\0613\0614系统部署_有改动过\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Users\Administrator\Desktop\0613\0614系统部署_有改动过\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Users\Administrator\Desktop\0613\0614系统部署_有改动过\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Users\Administrator\Desktop\0613\0614系统部署_有改动过\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Users\Administrator\Desktop\0613\0614系统部署_有改动过\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.dll
+C:\Users\Administrator\Desktop\0613\0614系统部署_有改动过\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.dll
+C:\Users\Administrator\Desktop\0613\0614系统部署_有改动过\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Users\Administrator\Desktop\0613\0614系统部署_有改动过\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Users\Administrator\Desktop\0613\0614系统部署_有改动过\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Users\Administrator\Desktop\0613\0614系统部署_有改动过\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.pdb
+C:\Users\Administrator\Desktop\0613\0614系统部署_有改动过\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Users\Administrator\Desktop\0613\0614系统部署_有改动过\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.pdb
+C:\Users\Administrator\Desktop\0613\0614系统部署_有改动过\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\0613\0614系统部署_有改动过\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Users\Administrator\Desktop\0613\0614系统部署_有改动过\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Documents and Settings\guo\桌面\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Documents and Settings\guo\桌面\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\guo\桌面\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\guo\桌面\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Documents and Settings\guo\桌面\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Documents and Settings\guo\桌面\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\guo\桌面\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\czy001319\桌面\0615系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\czy001319\桌面\0615系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\czy001319\桌面\0615系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Documents and Settings\czy001319\桌面\0615系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Documents and Settings\czy001319\桌面\0615系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.dll
+C:\Documents and Settings\czy001319\桌面\0615系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.dll
+C:\Documents and Settings\czy001319\桌面\0615系统部署\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\czy001319\桌面\0615系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\czy001319\桌面\0615系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Documents and Settings\czy001319\桌面\0615系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.pdb
+C:\Documents and Settings\czy001319\桌面\0615系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Documents and Settings\czy001319\桌面\0615系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.pdb
+C:\Documents and Settings\czy001319\桌面\0615系统部署\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\czy001319\桌面\0615系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\czy001319\桌面\0615系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0613系统部署\0615系统部署_new_下午有更新\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0613系统部署\0615系统部署_new_下午有更新\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0613系统部署\0615系统部署_new_下午有更新\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Documents and Settings\guo\桌面\0613系统部署\0615系统部署_new_下午有更新\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Documents and Settings\guo\桌面\0613系统部署\0615系统部署_new_下午有更新\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.dll
+C:\Documents and Settings\guo\桌面\0613系统部署\0615系统部署_new_下午有更新\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.dll
+C:\Documents and Settings\guo\桌面\0613系统部署\0615系统部署_new_下午有更新\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\guo\桌面\0613系统部署\0615系统部署_new_下午有更新\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\guo\桌面\0613系统部署\0615系统部署_new_下午有更新\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Documents and Settings\guo\桌面\0613系统部署\0615系统部署_new_下午有更新\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.pdb
+C:\Documents and Settings\guo\桌面\0613系统部署\0615系统部署_new_下午有更新\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Documents and Settings\guo\桌面\0613系统部署\0615系统部署_new_下午有更新\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.pdb
+C:\Documents and Settings\guo\桌面\0613系统部署\0615系统部署_new_下午有更新\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\guo\桌面\0613系统部署\0615系统部署_new_下午有更新\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0613系统部署\0615系统部署_new_下午有更新\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0618系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0618系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0618系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Documents and Settings\guo\桌面\0618系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Documents and Settings\guo\桌面\0618系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.dll
+C:\Documents and Settings\guo\桌面\0618系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.dll
+C:\Documents and Settings\guo\桌面\0618系统部署\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\guo\桌面\0618系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\guo\桌面\0618系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Documents and Settings\guo\桌面\0618系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.pdb
+C:\Documents and Settings\guo\桌面\0618系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Documents and Settings\guo\桌面\0618系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.pdb
+C:\Documents and Settings\guo\桌面\0618系统部署\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\guo\桌面\0618系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0618系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\czy001319\桌面\0615系统部署\0618系统部署PM\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\czy001319\桌面\0615系统部署\0618系统部署PM\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\czy001319\桌面\0615系统部署\0618系统部署PM\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Documents and Settings\czy001319\桌面\0615系统部署\0618系统部署PM\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Documents and Settings\czy001319\桌面\0615系统部署\0618系统部署PM\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.dll
+C:\Documents and Settings\czy001319\桌面\0615系统部署\0618系统部署PM\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.dll
+C:\Documents and Settings\czy001319\桌面\0615系统部署\0618系统部署PM\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\czy001319\桌面\0615系统部署\0618系统部署PM\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\czy001319\桌面\0615系统部署\0618系统部署PM\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Documents and Settings\czy001319\桌面\0615系统部署\0618系统部署PM\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.pdb
+C:\Documents and Settings\czy001319\桌面\0615系统部署\0618系统部署PM\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Documents and Settings\czy001319\桌面\0615系统部署\0618系统部署PM\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.pdb
+C:\Documents and Settings\czy001319\桌面\0615系统部署\0618系统部署PM\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\czy001319\桌面\0615系统部署\0618系统部署PM\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\czy001319\桌面\0615系统部署\0618系统部署PM\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\czy001319\桌面\0615系统部署\0618系统部署_pm_new\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\czy001319\桌面\0615系统部署\0618系统部署_pm_new\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\czy001319\桌面\0615系统部署\0618系统部署_pm_new\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Documents and Settings\czy001319\桌面\0615系统部署\0618系统部署_pm_new\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Documents and Settings\czy001319\桌面\0615系统部署\0618系统部署_pm_new\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.dll
+C:\Documents and Settings\czy001319\桌面\0615系统部署\0618系统部署_pm_new\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.dll
+C:\Documents and Settings\czy001319\桌面\0615系统部署\0618系统部署_pm_new\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\czy001319\桌面\0615系统部署\0618系统部署_pm_new\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\czy001319\桌面\0615系统部署\0618系统部署_pm_new\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Documents and Settings\czy001319\桌面\0615系统部署\0618系统部署_pm_new\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.pdb
+C:\Documents and Settings\czy001319\桌面\0615系统部署\0618系统部署_pm_new\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Documents and Settings\czy001319\桌面\0615系统部署\0618系统部署_pm_new\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.pdb
+C:\Documents and Settings\czy001319\桌面\0615系统部署\0618系统部署_pm_new\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\czy001319\桌面\0615系统部署\0618系统部署_pm_new\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\czy001319\桌面\0615系统部署\0618系统部署_pm_new\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0619系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0619系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0619系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Documents and Settings\guo\桌面\0619系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Documents and Settings\guo\桌面\0619系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.dll
+C:\Documents and Settings\guo\桌面\0619系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.dll
+C:\Documents and Settings\guo\桌面\0619系统部署\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\guo\桌面\0619系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\guo\桌面\0619系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Documents and Settings\guo\桌面\0619系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.pdb
+C:\Documents and Settings\guo\桌面\0619系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Documents and Settings\guo\桌面\0619系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.pdb
+C:\Documents and Settings\guo\桌面\0619系统部署\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\guo\桌面\0619系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0619系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\czy001319\桌面\0619系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\czy001319\桌面\0619系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\czy001319\桌面\0619系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Documents and Settings\czy001319\桌面\0619系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Documents and Settings\czy001319\桌面\0619系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.dll
+C:\Documents and Settings\czy001319\桌面\0619系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.dll
+C:\Documents and Settings\czy001319\桌面\0619系统部署\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\czy001319\桌面\0619系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\czy001319\桌面\0619系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Documents and Settings\czy001319\桌面\0619系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.pdb
+C:\Documents and Settings\czy001319\桌面\0619系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Documents and Settings\czy001319\桌面\0619系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.pdb
+C:\Documents and Settings\czy001319\桌面\0619系统部署\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\czy001319\桌面\0619系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\czy001319\桌面\0619系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\czy001319\桌面\0626系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\czy001319\桌面\0626系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\czy001319\桌面\0626系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Documents and Settings\czy001319\桌面\0626系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Documents and Settings\czy001319\桌面\0626系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.dll
+C:\Documents and Settings\czy001319\桌面\0626系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.dll
+C:\Documents and Settings\czy001319\桌面\0626系统部署\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\czy001319\桌面\0626系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\czy001319\桌面\0626系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Documents and Settings\czy001319\桌面\0626系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.pdb
+C:\Documents and Settings\czy001319\桌面\0626系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Documents and Settings\czy001319\桌面\0626系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.pdb
+C:\Documents and Settings\czy001319\桌面\0626系统部署\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\czy001319\桌面\0626系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\czy001319\桌面\0626系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\czy001319\桌面\0628系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\czy001319\桌面\0628系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\czy001319\桌面\0628系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Documents and Settings\czy001319\桌面\0628系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Documents and Settings\czy001319\桌面\0628系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.dll
+C:\Documents and Settings\czy001319\桌面\0628系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.dll
+C:\Documents and Settings\czy001319\桌面\0628系统部署\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\czy001319\桌面\0628系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\czy001319\桌面\0628系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Documents and Settings\czy001319\桌面\0628系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.pdb
+C:\Documents and Settings\czy001319\桌面\0628系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Documents and Settings\czy001319\桌面\0628系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.pdb
+C:\Documents and Settings\czy001319\桌面\0628系统部署\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\czy001319\桌面\0628系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\czy001319\桌面\0628系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0629系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0629系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0629系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Documents and Settings\guo\桌面\0629系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Documents and Settings\guo\桌面\0629系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.dll
+C:\Documents and Settings\guo\桌面\0629系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.dll
+C:\Documents and Settings\guo\桌面\0629系统部署\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\guo\桌面\0629系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\guo\桌面\0629系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Documents and Settings\guo\桌面\0629系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.pdb
+C:\Documents and Settings\guo\桌面\0629系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Documents and Settings\guo\桌面\0629系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.pdb
+C:\Documents and Settings\guo\桌面\0629系统部署\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\guo\桌面\0629系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0629系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\czy001319\桌面\0703系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\czy001319\桌面\0703系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\czy001319\桌面\0703系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Documents and Settings\czy001319\桌面\0703系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Documents and Settings\czy001319\桌面\0703系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.dll
+C:\Documents and Settings\czy001319\桌面\0703系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.dll
+C:\Documents and Settings\czy001319\桌面\0703系统部署\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\czy001319\桌面\0703系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\czy001319\桌面\0703系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Documents and Settings\czy001319\桌面\0703系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.pdb
+C:\Documents and Settings\czy001319\桌面\0703系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Documents and Settings\czy001319\桌面\0703系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.pdb
+C:\Documents and Settings\czy001319\桌面\0703系统部署\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\czy001319\桌面\0703系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\czy001319\桌面\0703系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\czy001319\桌面\0706系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\czy001319\桌面\0706系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\czy001319\桌面\0706系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Documents and Settings\czy001319\桌面\0706系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Documents and Settings\czy001319\桌面\0706系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.dll
+C:\Documents and Settings\czy001319\桌面\0706系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.dll
+C:\Documents and Settings\czy001319\桌面\0706系统部署\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\czy001319\桌面\0706系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\czy001319\桌面\0706系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Documents and Settings\czy001319\桌面\0706系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.pdb
+C:\Documents and Settings\czy001319\桌面\0706系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Documents and Settings\czy001319\桌面\0706系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.pdb
+C:\Documents and Settings\czy001319\桌面\0706系统部署\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\czy001319\桌面\0706系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\czy001319\桌面\0706系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0710系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0710系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0710系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Documents and Settings\guo\桌面\0710系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Documents and Settings\guo\桌面\0710系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.dll
+C:\Documents and Settings\guo\桌面\0710系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.dll
+C:\Documents and Settings\guo\桌面\0710系统部署\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\guo\桌面\0710系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\guo\桌面\0710系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Documents and Settings\guo\桌面\0710系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.pdb
+C:\Documents and Settings\guo\桌面\0710系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Documents and Settings\guo\桌面\0710系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.pdb
+C:\Documents and Settings\guo\桌面\0710系统部署\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\guo\桌面\0710系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0710系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\czy001319\桌面\0711系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\czy001319\桌面\0711系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\czy001319\桌面\0711系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Documents and Settings\czy001319\桌面\0711系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Documents and Settings\czy001319\桌面\0711系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.dll
+C:\Documents and Settings\czy001319\桌面\0711系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.dll
+C:\Documents and Settings\czy001319\桌面\0711系统部署\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\czy001319\桌面\0711系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\czy001319\桌面\0711系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Documents and Settings\czy001319\桌面\0711系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.pdb
+C:\Documents and Settings\czy001319\桌面\0711系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Documents and Settings\czy001319\桌面\0711系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.pdb
+C:\Documents and Settings\czy001319\桌面\0711系统部署\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\czy001319\桌面\0711系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\czy001319\桌面\0711系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\czy001319\桌面\0713系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\czy001319\桌面\0713系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\czy001319\桌面\0713系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Documents and Settings\czy001319\桌面\0713系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Documents and Settings\czy001319\桌面\0713系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.dll
+C:\Documents and Settings\czy001319\桌面\0713系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.dll
+C:\Documents and Settings\czy001319\桌面\0713系统部署\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\czy001319\桌面\0713系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\czy001319\桌面\0713系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Documents and Settings\czy001319\桌面\0713系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.pdb
+C:\Documents and Settings\czy001319\桌面\0713系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Documents and Settings\czy001319\桌面\0713系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.pdb
+C:\Documents and Settings\czy001319\桌面\0713系统部署\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\czy001319\桌面\0713系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\czy001319\桌面\0713系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+F:\C#\0717系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+F:\C#\0717系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+F:\C#\0717系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+F:\C#\0717系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+F:\C#\0717系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.dll
+F:\C#\0717系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.dll
+F:\C#\0717系统部署\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+F:\C#\0717系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+F:\C#\0717系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+F:\C#\0717系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.pdb
+F:\C#\0717系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+F:\C#\0717系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.pdb
+F:\C#\0717系统部署\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+F:\C#\0717系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+F:\C#\0717系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+F:\C#\0722系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+F:\C#\0722系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+F:\C#\0722系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+F:\C#\0722系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+F:\C#\0722系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.dll
+F:\C#\0722系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.dll
+F:\C#\0722系统部署\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+F:\C#\0722系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+F:\C#\0722系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+F:\C#\0722系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.pdb
+F:\C#\0722系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+F:\C#\0722系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.pdb
+F:\C#\0722系统部署\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+F:\C#\0722系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+F:\C#\0722系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+F:\C#new\0723程序\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+F:\C#new\0723程序\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+F:\C#new\0723程序\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+F:\C#new\0723程序\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+F:\C#new\0723程序\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.dll
+F:\C#new\0723程序\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.dll
+F:\C#new\0723程序\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+F:\C#new\0723程序\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+F:\C#new\0723程序\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+F:\C#new\0723程序\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.pdb
+F:\C#new\0723程序\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+F:\C#new\0723程序\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.pdb
+F:\C#new\0723程序\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+F:\C#new\0723程序\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+F:\C#new\0723程序\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+F:\C#\0722系统部署\0723程序\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+F:\C#\0722系统部署\0723程序\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+F:\C#\0722系统部署\0723程序\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+F:\C#\0722系统部署\0723程序\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+F:\C#\0722系统部署\0723程序\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.dll
+F:\C#\0722系统部署\0723程序\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.dll
+F:\C#\0722系统部署\0723程序\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+F:\C#\0722系统部署\0723程序\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+F:\C#\0722系统部署\0723程序\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+F:\C#\0722系统部署\0723程序\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.pdb
+F:\C#\0722系统部署\0723程序\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+F:\C#\0722系统部署\0723程序\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.pdb
+F:\C#\0722系统部署\0723程序\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+F:\C#\0722系统部署\0723程序\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+F:\C#\0722系统部署\0723程序\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+F:\C#\0723系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+F:\C#\0723系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+F:\C#\0723系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+F:\C#\0723系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+F:\C#\0723系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.dll
+F:\C#\0723系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.dll
+F:\C#\0723系统部署\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+F:\C#\0723系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+F:\C#\0723系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+F:\C#\0723系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.DBUtility.pdb
+F:\C#\0723系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+F:\C#\0723系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Maticsoft.Common.pdb
+F:\C#\0723系统部署\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+F:\C#\0723系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+F:\C#\0723系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0725_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0725_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0725_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Documents and Settings\guo\桌面\0725_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Documents and Settings\guo\桌面\0725_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\guo\桌面\0725_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\guo\桌面\0725_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Documents and Settings\guo\桌面\0725_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Documents and Settings\guo\桌面\0725_new系统部署\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\guo\桌面\0725_new系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0725_new系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0725_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.dll
+C:\Documents and Settings\guo\桌面\0725_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.dll
+C:\Documents and Settings\guo\桌面\0725_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.pdb
+C:\Documents and Settings\guo\桌面\0725_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.pdb
+F:\C#\0731_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+F:\C#\0731_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+F:\C#\0731_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.dll
+F:\C#\0731_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+F:\C#\0731_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+F:\C#\0731_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+F:\C#\0731_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+F:\C#\0731_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.dll
+F:\C#\0731_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+F:\C#\0731_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+F:\C#\0731_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.pdb
+F:\C#\0731_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.pdb
+F:\C#\0731_new系统部署\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+F:\C#\0731_new系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+F:\C#\0731_new系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0731_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0731_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0731_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.dll
+C:\Documents and Settings\guo\桌面\0731_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Documents and Settings\guo\桌面\0731_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Documents and Settings\guo\桌面\0731_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\guo\桌面\0731_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\guo\桌面\0731_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.dll
+C:\Documents and Settings\guo\桌面\0731_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Documents and Settings\guo\桌面\0731_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Documents and Settings\guo\桌面\0731_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.pdb
+C:\Documents and Settings\guo\桌面\0731_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.pdb
+C:\Documents and Settings\guo\桌面\0731_new系统部署\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\guo\桌面\0731_new系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0731_new系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+F:\0803东海演示(Prepare)\00802_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+F:\0803东海演示(Prepare)\00802_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+F:\0803东海演示(Prepare)\00802_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.dll
+F:\0803东海演示(Prepare)\00802_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+F:\0803东海演示(Prepare)\00802_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+F:\0803东海演示(Prepare)\00802_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+F:\0803东海演示(Prepare)\00802_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+F:\0803东海演示(Prepare)\00802_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.dll
+F:\0803东海演示(Prepare)\00802_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+F:\0803东海演示(Prepare)\00802_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+F:\0803东海演示(Prepare)\00802_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.pdb
+F:\0803东海演示(Prepare)\00802_new系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.pdb
+F:\0803东海演示(Prepare)\00802_new系统部署\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+F:\0803东海演示(Prepare)\00802_new系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+F:\0803东海演示(Prepare)\00802_new系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0809系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0809系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0809系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.dll
+C:\Documents and Settings\guo\桌面\0809系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Documents and Settings\guo\桌面\0809系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Documents and Settings\guo\桌面\0809系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\guo\桌面\0809系统部署\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\guo\桌面\0809系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.dll
+C:\Documents and Settings\guo\桌面\0809系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Documents and Settings\guo\桌面\0809系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Documents and Settings\guo\桌面\0809系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.pdb
+C:\Documents and Settings\guo\桌面\0809系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.pdb
+C:\Documents and Settings\guo\桌面\0809系统部署\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\guo\桌面\0809系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0809系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0810系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0810系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0810系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.dll
+C:\Documents and Settings\guo\桌面\0810系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Documents and Settings\guo\桌面\0810系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Documents and Settings\guo\桌面\0810系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\guo\桌面\0810系统部署\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\guo\桌面\0810系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.dll
+C:\Documents and Settings\guo\桌面\0810系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Documents and Settings\guo\桌面\0810系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Documents and Settings\guo\桌面\0810系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.pdb
+C:\Documents and Settings\guo\桌面\0810系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.pdb
+C:\Documents and Settings\guo\桌面\0810系统部署\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\guo\桌面\0810系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0810系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+F:\C#\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.dll
+F:\C#\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.dll
+F:\C#\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.pdb
+F:\C#\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.pdb
+C:\Documents and Settings\guo\桌面\0816系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0816系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0816系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.dll
+C:\Documents and Settings\guo\桌面\0816系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Documents and Settings\guo\桌面\0816系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Documents and Settings\guo\桌面\0816系统部署\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\guo\桌面\0816系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\guo\桌面\0816系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.dll
+C:\Documents and Settings\guo\桌面\0816系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Documents and Settings\guo\桌面\0816系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Documents and Settings\guo\桌面\0816系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.pdb
+C:\Documents and Settings\guo\桌面\0816系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.pdb
+C:\Documents and Settings\guo\桌面\0816系统部署\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\guo\桌面\0816系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0816系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0820系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0820系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0820系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.dll
+C:\Documents and Settings\guo\桌面\0820系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Documents and Settings\guo\桌面\0820系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Documents and Settings\guo\桌面\0820系统部署\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\guo\桌面\0820系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\guo\桌面\0820系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.dll
+C:\Documents and Settings\guo\桌面\0820系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Documents and Settings\guo\桌面\0820系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Documents and Settings\guo\桌面\0820系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.pdb
+C:\Documents and Settings\guo\桌面\0820系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.pdb
+C:\Documents and Settings\guo\桌面\0820系统部署\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\guo\桌面\0820系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0820系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0820系统部署\0822程序\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0820系统部署\0822程序\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0820系统部署\0822程序\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.dll
+C:\Documents and Settings\guo\桌面\0820系统部署\0822程序\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Documents and Settings\guo\桌面\0820系统部署\0822程序\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Documents and Settings\guo\桌面\0820系统部署\0822程序\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\guo\桌面\0820系统部署\0822程序\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\guo\桌面\0820系统部署\0822程序\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.dll
+C:\Documents and Settings\guo\桌面\0820系统部署\0822程序\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Documents and Settings\guo\桌面\0820系统部署\0822程序\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Documents and Settings\guo\桌面\0820系统部署\0822程序\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.pdb
+C:\Documents and Settings\guo\桌面\0820系统部署\0822程序\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.pdb
+C:\Documents and Settings\guo\桌面\0820系统部署\0822程序\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\guo\桌面\0820系统部署\0822程序\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0820系统部署\0822程序\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+F:\C#\0823程序_V1.6\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+F:\C#\0823程序_V1.6\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+F:\C#\0823程序_V1.6\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.dll
+F:\C#\0823程序_V1.6\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+F:\C#\0823程序_V1.6\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+F:\C#\0823程序_V1.6\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+F:\C#\0823程序_V1.6\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+F:\C#\0823程序_V1.6\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.dll
+F:\C#\0823程序_V1.6\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+F:\C#\0823程序_V1.6\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+F:\C#\0823程序_V1.6\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.pdb
+F:\C#\0823程序_V1.6\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.pdb
+F:\C#\0823程序_V1.6\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+F:\C#\0823程序_V1.6\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+F:\C#\0823程序_V1.6\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0827系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0827系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0827系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.dll
+C:\Documents and Settings\guo\桌面\0827系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Documents and Settings\guo\桌面\0827系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Documents and Settings\guo\桌面\0827系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\guo\桌面\0827系统部署\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\guo\桌面\0827系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.dll
+C:\Documents and Settings\guo\桌面\0827系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Documents and Settings\guo\桌面\0827系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Documents and Settings\guo\桌面\0827系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.pdb
+C:\Documents and Settings\guo\桌面\0827系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.pdb
+C:\Documents and Settings\guo\桌面\0827系统部署\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\guo\桌面\0827系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0827系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0903系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0903系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0903系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.dll
+C:\Documents and Settings\guo\桌面\0903系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Documents and Settings\guo\桌面\0903系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Documents and Settings\guo\桌面\0903系统部署\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\guo\桌面\0903系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\guo\桌面\0903系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.dll
+C:\Documents and Settings\guo\桌面\0903系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Documents and Settings\guo\桌面\0903系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Documents and Settings\guo\桌面\0903系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.pdb
+C:\Documents and Settings\guo\桌面\0903系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.pdb
+C:\Documents and Settings\guo\桌面\0903系统部署\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\guo\桌面\0903系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0903系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0920系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0920系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0920系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.dll
+C:\Documents and Settings\guo\桌面\0920系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Documents and Settings\guo\桌面\0920系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Documents and Settings\guo\桌面\0920系统部署\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\guo\桌面\0920系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\guo\桌面\0920系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.dll
+C:\Documents and Settings\guo\桌面\0920系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Documents and Settings\guo\桌面\0920系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Documents and Settings\guo\桌面\0920系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.pdb
+C:\Documents and Settings\guo\桌面\0920系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.pdb
+C:\Documents and Settings\guo\桌面\0920系统部署\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\guo\桌面\0920系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0920系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+F:\C#new\0920系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+F:\C#new\0920系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+F:\C#new\0920系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.dll
+F:\C#new\0920系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+F:\C#new\0920系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+F:\C#new\0920系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+F:\C#new\0920系统部署\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+F:\C#new\0920系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.dll
+F:\C#new\0920系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+F:\C#new\0920系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+F:\C#new\0920系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.pdb
+F:\C#new\0920系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.pdb
+F:\C#new\0920系统部署\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+F:\C#new\0920系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+F:\C#new\0920系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+E:\Hote\小吴\0921系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+E:\Hote\小吴\0921系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+E:\Hote\小吴\0921系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.dll
+E:\Hote\小吴\0921系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+E:\Hote\小吴\0921系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+E:\Hote\小吴\0921系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+E:\Hote\小吴\0921系统部署\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+E:\Hote\小吴\0921系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.dll
+E:\Hote\小吴\0921系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+E:\Hote\小吴\0921系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+E:\Hote\小吴\0921系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.pdb
+E:\Hote\小吴\0921系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.pdb
+E:\Hote\小吴\0921系统部署\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\Hote\小吴\0921系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+E:\Hote\小吴\0921系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+F:\C#new\20120926\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+F:\C#new\20120926\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+F:\C#new\20120926\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.dll
+F:\C#new\20120926\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+F:\C#new\20120926\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+F:\C#new\20120926\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+F:\C#new\20120926\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+F:\C#new\20120926\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.dll
+F:\C#new\20120926\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+F:\C#new\20120926\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+F:\C#new\20120926\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.pdb
+F:\C#new\20120926\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.pdb
+F:\C#new\20120926\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+F:\C#new\20120926\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+F:\C#new\20120926\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0926系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0926系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\0926系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.dll
+C:\Documents and Settings\guo\桌面\0926系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Documents and Settings\guo\桌面\0926系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Documents and Settings\guo\桌面\0926系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\guo\桌面\0926系统部署\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\guo\桌面\0926系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.dll
+C:\Documents and Settings\guo\桌面\0926系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Documents and Settings\guo\桌面\0926系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Documents and Settings\guo\桌面\0926系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.pdb
+C:\Documents and Settings\guo\桌面\0926系统部署\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.pdb
+C:\Documents and Settings\guo\桌面\0926系统部署\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\guo\桌面\0926系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\0926系统部署\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+F:\C#new\0927Code\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+F:\C#new\0927Code\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+F:\C#new\0927Code\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.dll
+F:\C#new\0927Code\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+F:\C#new\0927Code\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+F:\C#new\0927Code\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+F:\C#new\0927Code\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+F:\C#new\0927Code\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.dll
+F:\C#new\0927Code\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+F:\C#new\0927Code\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+F:\C#new\0927Code\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.pdb
+F:\C#new\0927Code\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.pdb
+F:\C#new\0927Code\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+F:\C#new\0927Code\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+F:\C#new\0927Code\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\1009Code\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\1009Code\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\1009Code\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.dll
+C:\Documents and Settings\guo\桌面\1009Code\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Documents and Settings\guo\桌面\1009Code\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Documents and Settings\guo\桌面\1009Code\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\guo\桌面\1009Code\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\guo\桌面\1009Code\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.dll
+C:\Documents and Settings\guo\桌面\1009Code\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Documents and Settings\guo\桌面\1009Code\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Documents and Settings\guo\桌面\1009Code\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.pdb
+C:\Documents and Settings\guo\桌面\1009Code\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.pdb
+C:\Documents and Settings\guo\桌面\1009Code\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\guo\桌面\1009Code\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\1009Code\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\1107Code\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\1107Code\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\1107Code\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.dll
+C:\Documents and Settings\guo\桌面\1107Code\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+C:\Documents and Settings\guo\桌面\1107Code\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+C:\Documents and Settings\guo\桌面\1107Code\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+C:\Documents and Settings\guo\桌面\1107Code\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+C:\Documents and Settings\guo\桌面\1107Code\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.dll
+C:\Documents and Settings\guo\桌面\1107Code\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+C:\Documents and Settings\guo\桌面\1107Code\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+C:\Documents and Settings\guo\桌面\1107Code\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.pdb
+C:\Documents and Settings\guo\桌面\1107Code\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.pdb
+C:\Documents and Settings\guo\桌面\1107Code\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\guo\桌面\1107Code\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+C:\Documents and Settings\guo\桌面\1107Code\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+F:\hotel工程\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+F:\hotel工程\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+F:\hotel工程\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.dll
+F:\hotel工程\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+F:\hotel工程\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+F:\hotel工程\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+F:\hotel工程\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+F:\hotel工程\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.dll
+F:\hotel工程\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+F:\hotel工程\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+F:\hotel工程\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.pdb
+F:\hotel工程\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.pdb
+F:\hotel工程\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+F:\hotel工程\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+F:\hotel工程\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+C:\Documents and Settings\guo\桌面\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.dll
+C:\Documents and Settings\guo\桌面\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.dll
+C:\Documents and Settings\guo\桌面\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.pdb
+C:\Documents and Settings\guo\桌面\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.pdb
+F:\ls\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+F:\ls\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+F:\ls\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.dll
+F:\ls\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+F:\ls\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+F:\ls\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+F:\ls\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+F:\ls\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.dll
+F:\ls\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+F:\ls\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+F:\ls\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.pdb
+F:\ls\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.pdb
+F:\ls\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+F:\ls\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+F:\ls\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+F:\ls\测试\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+F:\ls\测试\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+F:\ls\测试\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.dll
+F:\ls\测试\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+F:\ls\测试\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+F:\ls\测试\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+F:\ls\测试\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+F:\ls\测试\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.dll
+F:\ls\测试\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+F:\ls\测试\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+F:\ls\测试\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.pdb
+F:\ls\测试\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.pdb
+F:\ls\测试\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+F:\ls\测试\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+F:\ls\测试\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb
+F:\ls\测试\0227CodeBak_withhydx_withoutDXPT\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.dll
+F:\ls\测试\0227CodeBak_withhydx_withoutDXPT\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.BLL.pdb
+F:\ls\测试\0227CodeBak_withhydx_withoutDXPT\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.dll
+F:\ls\测试\0227CodeBak_withhydx_withoutDXPT\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.dll
+F:\ls\测试\0227CodeBak_withhydx_withoutDXPT\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.dll
+F:\ls\测试\0227CodeBak_withhydx_withoutDXPT\hotel_app\Hotel_app.BLL\bin\Debug\COM.Excel.dll
+F:\ls\测试\0227CodeBak_withhydx_withoutDXPT\hotel_app\Hotel_app.BLL\bin\Debug\Excel.dll
+F:\ls\测试\0227CodeBak_withhydx_withoutDXPT\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.dll
+F:\ls\测试\0227CodeBak_withhydx_withoutDXPT\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Model.pdb
+F:\ls\测试\0227CodeBak_withhydx_withoutDXPT\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DAL.pdb
+F:\ls\测试\0227CodeBak_withhydx_withoutDXPT\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.Common.pdb
+F:\ls\测试\0227CodeBak_withhydx_withoutDXPT\hotel_app\Hotel_app.BLL\bin\Debug\Hotel_app.DBUtility.pdb
+F:\ls\测试\0227CodeBak_withhydx_withoutDXPT\hotel_app\Hotel_app.BLL\obj\Debug\ResolveAssemblyReference.cache
+F:\ls\测试\0227CodeBak_withhydx_withoutDXPT\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.dll
+F:\ls\测试\0227CodeBak_withhydx_withoutDXPT\hotel_app\Hotel_app.BLL\obj\Debug\Hotel_app.BLL.pdb

@@ -1,0 +1,12 @@
+bin\Debug\Hotel_app.update.exe
+bin\Debug\Hotel_app.update.pdb
+bin\Debug\Hotel_app.DBUtility.dll
+bin\Debug\Hotel_app.DBUtility.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Hotel_app.update.Form1.resources
+obj\Debug\Hotel_app.update.Message_box.resources
+obj\Debug\Hotel_app.update.Properties.Resources.resources
+obj\Debug\Hotel_app.common_file.Time_count.resources
+obj\Debug\Hotel_app.update.csproj.GenerateResource.Cache
+obj\Debug\Hotel_app.update.exe
+obj\Debug\Hotel_app.update.pdb

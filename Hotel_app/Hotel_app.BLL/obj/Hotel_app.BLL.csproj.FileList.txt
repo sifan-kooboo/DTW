@@ -1,0 +1,15 @@
+bin\Debug\Hotel_app.BLL.dll
+bin\Debug\Hotel_app.BLL.pdb
+bin\Debug\Hotel_app.Common.dll
+bin\Debug\Hotel_app.DAL.dll
+bin\Debug\Hotel_app.Model.dll
+bin\Debug\Excel.dll
+bin\Debug\COM.Excel.dll
+bin\Debug\Hotel_app.DBUtility.dll
+bin\Debug\Hotel_app.Model.pdb
+bin\Debug\Hotel_app.DAL.pdb
+bin\Debug\Hotel_app.Common.pdb
+bin\Debug\Hotel_app.DBUtility.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Hotel_app.BLL.dll
+obj\Debug\Hotel_app.BLL.pdb

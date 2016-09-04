@@ -1,0 +1,24 @@
+﻿--新建表（网站库）
+CREATE TABLE [dbo].[Qyddjlsbhbg_yy](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[yclsbh] [varchar](50) NULL,
+	[bdlsbh] [varchar](50) NULL,
+	[bdyydh] [varchar](50) NULL
+) ON [PRIMARY]
+GO
+
+--新建存储过程
+--添加完本地lsbh修改web_skyd表shsc=1
+Create  PROCEDURE [dbo].[InsertToQyddjlsbhbg_yy]
+@yclsbh  varchar(100),
+@bdlsbh  varchar(200),
+@bdyydh  varchar(30),
+@rows  int out
+AS
+begin
+insert into Qyddjlsbhbg_yy  values(@yclsbh,@bdlsbh,@bdyydh)
+update Mt_order  set [state]=3   where  order_lsbh=@yclsbh
+select @rows=@@rowcount
+end
+
+

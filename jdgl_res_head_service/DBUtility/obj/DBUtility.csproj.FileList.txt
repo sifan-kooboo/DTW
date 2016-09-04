@@ -1,0 +1,8 @@
+bin\Release\Maticsoft.DBUtility.dll
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\Maticsoft.DBUtility.dll
+bin\Debug\Maticsoft.DBUtility.dll
+bin\Debug\Maticsoft.DBUtility.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Maticsoft.DBUtility.dll
+obj\Debug\Maticsoft.DBUtility.pdb

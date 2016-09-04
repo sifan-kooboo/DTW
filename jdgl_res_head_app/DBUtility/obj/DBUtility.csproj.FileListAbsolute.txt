@@ -1,0 +1,48 @@
+E:\Csofe\xsly_hotel_service\xsly_hotel_service\DBUtility\bin\Debug\Maticsoft.DBUtility.dll
+E:\Csofe\xsly_hotel_service\xsly_hotel_service\DBUtility\bin\Debug\Maticsoft.DBUtility.pdb
+E:\Csofe\xsly_hotel_service\xsly_hotel_service\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+E:\Csofe\xsly_hotel_service\xsly_hotel_service\DBUtility\obj\Debug\Maticsoft.DBUtility.dll
+E:\Csofe\xsly_hotel_service\xsly_hotel_service\DBUtility\obj\Debug\Maticsoft.DBUtility.pdb
+F:\Csofe\xsly_res_head_service\xsly_res_head_service\DBUtility\bin\Debug\Maticsoft.DBUtility.dll
+F:\Csofe\xsly_res_head_service\xsly_res_head_service\DBUtility\bin\Debug\Maticsoft.DBUtility.pdb
+F:\Csofe\xsly_res_head_service\xsly_res_head_service\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+F:\Csofe\xsly_res_head_service\xsly_res_head_service\DBUtility\obj\Debug\Maticsoft.DBUtility.dll
+F:\Csofe\xsly_res_head_service\xsly_res_head_service\DBUtility\obj\Debug\Maticsoft.DBUtility.pdb
+F:\Csofe\xsly_res_head_app\xsly_res_head_app\DBUtility\bin\Debug\Maticsoft.DBUtility.dll
+F:\Csofe\xsly_res_head_app\xsly_res_head_app\DBUtility\bin\Debug\Maticsoft.DBUtility.pdb
+F:\Csofe\xsly_res_head_app\xsly_res_head_app\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+F:\Csofe\xsly_res_head_app\xsly_res_head_app\DBUtility\obj\Debug\Maticsoft.DBUtility.dll
+F:\Csofe\xsly_res_head_app\xsly_res_head_app\DBUtility\obj\Debug\Maticsoft.DBUtility.pdb
+F:\WorkSpace_Vicky.Wu\系统改造工程目录\0830下午最新\xsly_res_head_app\xsly_res_head_app\DBUtility\bin\Debug\Maticsoft.DBUtility.dll
+F:\WorkSpace_Vicky.Wu\系统改造工程目录\0830下午最新\xsly_res_head_app\xsly_res_head_app\DBUtility\bin\Debug\Maticsoft.DBUtility.pdb
+F:\WorkSpace_Vicky.Wu\系统改造工程目录\0830下午最新\xsly_res_head_app\xsly_res_head_app\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+F:\WorkSpace_Vicky.Wu\系统改造工程目录\0830下午最新\xsly_res_head_app\xsly_res_head_app\DBUtility\obj\Debug\Maticsoft.DBUtility.dll
+F:\WorkSpace_Vicky.Wu\系统改造工程目录\0830下午最新\xsly_res_head_app\xsly_res_head_app\DBUtility\obj\Debug\Maticsoft.DBUtility.pdb
+F:\WorkSpace_Vicky.Wu\系统改造工程目录\0905\client_app\DBUtility\bin\Debug\Maticsoft.DBUtility.dll
+F:\WorkSpace_Vicky.Wu\系统改造工程目录\0905\client_app\DBUtility\bin\Debug\Maticsoft.DBUtility.pdb
+F:\WorkSpace_Vicky.Wu\系统改造工程目录\0905\client_app\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+F:\WorkSpace_Vicky.Wu\系统改造工程目录\0905\client_app\DBUtility\obj\Debug\Maticsoft.DBUtility.dll
+F:\WorkSpace_Vicky.Wu\系统改造工程目录\0905\client_app\DBUtility\obj\Debug\Maticsoft.DBUtility.pdb
+E:\Vicky.Wu-VS solution\Vicky.Wu\20111008_餐饮上传下载最新\client_app\DBUtility\bin\Debug\Maticsoft.DBUtility.dll
+E:\Vicky.Wu-VS solution\Vicky.Wu\20111008_餐饮上传下载最新\client_app\DBUtility\bin\Debug\Maticsoft.DBUtility.pdb
+E:\Vicky.Wu-VS solution\Vicky.Wu\20111008_餐饮上传下载最新\client_app\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+E:\Vicky.Wu-VS solution\Vicky.Wu\20111008_餐饮上传下载最新\client_app\DBUtility\obj\Debug\Maticsoft.DBUtility.dll
+E:\Vicky.Wu-VS solution\Vicky.Wu\20111008_餐饮上传下载最新\client_app\DBUtility\obj\Debug\Maticsoft.DBUtility.pdb
+E:\小吴\0215\xsly_res_head_app\DBUtility\bin\Debug\Maticsoft.DBUtility.dll
+E:\小吴\0215\xsly_res_head_app\DBUtility\bin\Debug\Maticsoft.DBUtility.pdb
+E:\小吴\0215\xsly_res_head_app\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+E:\小吴\0215\xsly_res_head_app\DBUtility\obj\Debug\Maticsoft.DBUtility.dll
+E:\小吴\0215\xsly_res_head_app\DBUtility\obj\Debug\Maticsoft.DBUtility.pdb
+E:\jdglxtsc\jdgl_res_head_app\DBUtility\bin\Debug\Maticsoft.DBUtility.dll
+E:\jdglxtsc\jdgl_res_head_app\DBUtility\bin\Debug\Maticsoft.DBUtility.pdb
+E:\jdglxtsc\jdgl_res_head_app\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+E:\jdglxtsc\jdgl_res_head_app\DBUtility\obj\Debug\Maticsoft.DBUtility.dll
+E:\jdglxtsc\jdgl_res_head_app\DBUtility\obj\Debug\Maticsoft.DBUtility.pdb
+E:\jdglxtsc\jdgl_res_head_app\DBUtility\bin\Release\Maticsoft.DBUtility.dll
+E:\jdglxtsc\jdgl_res_head_app\DBUtility\obj\Release\ResolveAssemblyReference.cache
+E:\jdglxtsc\jdgl_res_head_app\DBUtility\obj\Release\Maticsoft.DBUtility.dll
+I:\招标相关信息\jdglxtsc\jdgl_res_head_app\DBUtility\bin\Debug\Maticsoft.DBUtility.dll
+I:\招标相关信息\jdglxtsc\jdgl_res_head_app\DBUtility\bin\Debug\Maticsoft.DBUtility.pdb
+I:\招标相关信息\jdglxtsc\jdgl_res_head_app\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+I:\招标相关信息\jdglxtsc\jdgl_res_head_app\DBUtility\obj\Debug\Maticsoft.DBUtility.dll
+I:\招标相关信息\jdglxtsc\jdgl_res_head_app\DBUtility\obj\Debug\Maticsoft.DBUtility.pdb

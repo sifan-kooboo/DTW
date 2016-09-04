@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet_qtsytj" targetNamespace="http://tempuri.org/DataSet_qtsytj.xsd" xmlns:mstns="http://tempuri.org/DataSet_qtsytj.xsd" xmlns="http://tempuri.org/DataSet_qtsytj.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection ConnectionStringObject="Data Source=.;Initial Catalog=Hotel_data;User ID=sa;Password=123456" IsAppSettingsProperty="False" Modifier="Assembly" Name="seashineguo.Hotel_data.dbo" ParameterPrefix="@" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="VIEW_S_jz_fkfsTableAdapter" GeneratorDataComponentClassName="VIEW_S_jz_fkfsTableAdapter" Name="VIEW_S_jz_fkfs" UserDataComponentName="VIEW_S_jz_fkfsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="seashineguo.Hotel_data.dbo" DbObjectName="Hotel_data.dbo.VIEW_S_jz_fkfs" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="False" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="False" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="True">
+                    <CommandText>select czy,fkfs,-sum(sjxfje)  from VIEW_S_jz_fkfs    group by czy,fkfs  order by czy </CommandText>
+                    <Parameters>
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="czy" DataSetColumn="czy" />
+              <Mapping SourceColumn="fkfs" DataSetColumn="fkfs" />
+              <Mapping SourceColumn="Column1" DataSetColumn="Column1" />
+            </Mappings>
+            <Sources>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet_qtsytj" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet_qtsytj" msprop:Generator_DataSetName="DataSet_qtsytj">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="VIEW_S_jz_fkfs" msprop:Generator_UserTableName="VIEW_S_jz_fkfs" msprop:Generator_RowDeletedName="VIEW_S_jz_fkfsRowDeleted" msprop:Generator_RowChangedName="VIEW_S_jz_fkfsRowChanged" msprop:Generator_RowClassName="VIEW_S_jz_fkfsRow" msprop:Generator_RowChangingName="VIEW_S_jz_fkfsRowChanging" msprop:Generator_RowEvArgName="VIEW_S_jz_fkfsRowChangeEvent" msprop:Generator_RowEvHandlerName="VIEW_S_jz_fkfsRowChangeEventHandler" msprop:Generator_TableClassName="VIEW_S_jz_fkfsDataTable" msprop:Generator_TableVarName="tableVIEW_S_jz_fkfs" msprop:Generator_RowDeletingName="VIEW_S_jz_fkfsRowDeleting" msprop:Generator_TablePropName="VIEW_S_jz_fkfs">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="czy" msprop:Generator_UserColumnName="czy" msprop:Generator_ColumnPropNameInRow="czy" msprop:Generator_ColumnVarNameInTable="columnczy" msprop:Generator_ColumnPropNameInTable="czyColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="fkfs" msprop:Generator_UserColumnName="fkfs" msprop:Generator_ColumnPropNameInRow="fkfs" msprop:Generator_ColumnVarNameInTable="columnfkfs" msprop:Generator_ColumnPropNameInTable="fkfsColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Column1" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Column1" msprop:Generator_ColumnVarNameInTable="columnColumn1" msprop:Generator_ColumnPropNameInRow="Column1" msprop:Generator_ColumnPropNameInTable="Column1Column" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

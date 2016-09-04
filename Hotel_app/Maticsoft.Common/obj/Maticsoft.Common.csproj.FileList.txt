@@ -1,0 +1,8 @@
+bin\Debug\Hotel_app.Common.dll
+bin\Debug\Hotel_app.Common.pdb
+bin\Debug\COM.Excel.dll
+bin\Debug\Excel.dll
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Maticsoft.Common.csproj.ResolveComReference.cache
+obj\Debug\Hotel_app.Common.dll
+obj\Debug\Hotel_app.Common.pdb

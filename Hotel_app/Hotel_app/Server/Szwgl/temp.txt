@@ -1,0 +1,7 @@
+2012-05-02  修改更新
+
+Szwmx.cs    584  line..  621 line   673line   
+
+
+sjzmx里面的 预收款是负数，转到  fksssz里要加负号
+

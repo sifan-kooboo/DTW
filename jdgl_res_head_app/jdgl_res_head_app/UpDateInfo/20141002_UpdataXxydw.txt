@@ -1,0 +1,46 @@
+﻿USE [hotel_xjk_Center]
+GO
+/****** Object:  StoredProcedure [dbo].[Web_Yxydw_ADD]    Script Date: 10/18/2014 23:21:08 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER PROCEDURE [dbo].[Web_Yxydw_ADD]
+@krly varchar(50),
+@yydh varchar(50),
+@qymc varchar(50),
+@xyrx varchar(50),
+@krgj varchar(50),
+@pq varchar(50),
+@xyh varchar(50),
+@xyh_inner varchar(50),
+@rx varchar(50),
+@xydw varchar(50),
+@zjm varchar(50),
+@nxr varchar(50),
+@krdh varchar(50),
+@krcz varchar(50),
+@krEmail varchar(50),
+@krdz varchar(200),
+@xsy varchar(50),
+@shsc bit,
+@bz varchar(300),
+@lzfs numeric(18,2),
+@fkje numeric(18,2),
+@xfje numeric(18,2),
+@clsj datetime,
+@xzxg varchar(50),
+@is_top bit,
+@is_select bit,
+@shsh bit,
+@sign_image image,
+----@xydw_jf   numeric(18,2),
+----@xydw_jf_temp numeric(18,2)
+ AS 
+	INSERT INTO [Web_Yxydw](
+	[krly],[yydh],[qymc],[xyrx],[krgj],[pq],[xyh],[xyh_inner],[rx],[xydw],[zjm],[nxr],[krdh],[krcz],[krEmail],[krdz],[xsy],[shsc],[bz],[lzfs],[fkje],[xfje],[clsj],[xzxg],[is_top],[is_select],[shsh],[sign_image] 
+	)VALUES(
+	@krly,@yydh,@qymc,@xyrx,@krgj,@pq,@xyh,@xyh_inner,@rx,@xydw,@zjm,@nxr,@krdh,@krcz,@krEmail,@krdz,@xsy,@shsc,@bz,@lzfs,@fkje,@xfje,@clsj,@xzxg,@is_top,@is_select,@shsh,@sign_image
+	)
+
+	/*说明，去掉增加协议单位积分两列的参数*/

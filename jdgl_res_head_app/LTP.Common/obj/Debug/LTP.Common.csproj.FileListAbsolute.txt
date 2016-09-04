@@ -1,0 +1,8 @@
+D:\Git\DTWMaster\jdgl_res_head_app\LTP.Common\obj\Debug\LTP.Common.dll
+D:\Git\DTWMaster\jdgl_res_head_app\LTP.Common\obj\Debug\LTP.Common.pdb
+D:\Git\DTWMaster\jdgl_res_head_app\LTP.Common\bin\Debug\LTP.Common.dll
+D:\Git\DTWMaster\jdgl_res_head_app\LTP.Common\bin\Debug\LTP.Common.pdb
+D:\Git\DTWMaster\jdgl_res_head_app\LTP.Common\bin\Debug\COM.Excel.dll
+D:\Git\DTWMaster\jdgl_res_head_app\LTP.Common\bin\Debug\Excel.dll
+D:\Git\DTWMaster\jdgl_res_head_app\LTP.Common\obj\Debug\LTP.Common.csproj.ResolveComReference.cache
+D:\Git\DTWMaster\jdgl_res_head_app\LTP.Common\obj\Debug\LTP.Common.csprojResolveAssemblyReference.cache

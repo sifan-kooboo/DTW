@@ -1,0 +1,263 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{94F4E998-4C50-4B5E-B482-CCBFCA5FCB89}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hotel_app.Model</RootNamespace>
+    <AssemblyName>Hotel_app.Model</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BBfx_jzmx.cs" />
+    <Compile Include="BBfx_jzmx_bak.cs" />
+    <Compile Include="BBfx_s_g_j_ye_ls.cs" />
+    <Compile Include="BBfx_yyjl.cs" />
+    <Compile Include="BBfx_yyjl_last_save.cs" />
+    <Compile Include="BBfx_zfs.cs" />
+    <Compile Include="BB_dsfx_temp.cs" />
+    <Compile Include="BB_g_j_mxfx_hz_temp.cs" />
+    <Compile Include="BB_g_j_mxfx_ls.cs" />
+    <Compile Include="BB_sh_wj.cs" />
+    <Compile Include="BB_sh_wj_gj.cs" />
+    <Compile Include="BB_ysk_cy.cs" />
+    <Compile Include="BB_zdkr_mx_temp.cs" />
+    <Compile Include="BB_zdkr_ylfx_temp.cs" />
+    <Compile Include="BQ_syxffx.cs" />
+    <Compile Include="BQ_syxfmx_hy_ls.cs" />
+    <Compile Include="BQ_syxfmx_ls.cs" />
+    <Compile Include="BSzhrbb.cs" />
+    <Compile Include="BSzhrbbfl.cs" />
+    <Compile Include="BS_g_j_fx.cs" />
+    <Compile Include="BS_jzmx_bak_ls.cs" />
+    <Compile Include="BS_jzmx_ls.cs" />
+    <Compile Include="BS_jzmx_ls_jb.cs" />
+    <Compile Include="DH_bl.cs" />
+    <Compile Include="DH_jl.cs" />
+    <Compile Include="Ffjrb.cs" />
+    <Compile Include="Ffjrb_krly.cs" />
+    <Compile Include="Ffjzt.cs" />
+    <Compile Include="Ffjzt_temp.cs" />
+    <Compile Include="Flfsz.cs" />
+    <Compile Include="Flfsz_bak.cs" />
+    <Compile Include="Flfsz_temp.cs" />
+    <Compile Include="Fwx_other.cs" />
+    <Compile Include="Fwx_other_temp.cs" />
+    <Compile Include="F_ftfx_7days.cs" />
+    <Compile Include="F_ftfx_7days_ky.cs" />
+    <Compile Include="F_ftfx_7days_zy.cs" />
+    <Compile Include="F_ftfx_sktt_ddlk.cs" />
+    <Compile Include="F_ftfx_zft.cs" />
+    <Compile Include="F_ftfx_zkfx.cs" />
+    <Compile Include="F_kfxsfx.cs" />
+    <Compile Include="Hhyfj.cs" />
+    <Compile Include="Hhygl.cs" />
+    <Compile Include="Hhyjb.cs" />
+    <Compile Include="Hhyjf_bl.cs" />
+    <Compile Include="Hhyjf_df.cs" />
+    <Compile Include="Hhyjf_jp.cs" />
+    <Compile Include="Hhyjf_jp_Class.cs" />
+    <Compile Include="Hhyjf_xfjl.cs" />
+    <Compile Include="Hhyjf_xfjl_delete.cs" />
+    <Compile Include="Hhyyz.cs" />
+    <Compile Include="hhyyz_dx.cs" />
+    <Compile Include="Hhy_cs_qy.cs" />
+    <Compile Include="Hhy_sc_xz_sj.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Qcounter.cs" />
+    <Compile Include="Qkrxh.cs" />
+    <Compile Include="Qkrxh_rx.cs" />
+    <Compile Include="Qprint.cs" />
+    <Compile Include="Qskyd_fjrb.cs" />
+    <Compile Include="Qskyd_fjrb_bak.cs" />
+    <Compile Include="Qskyd_fjrb_lskr.cs" />
+    <Compile Include="Qskyd_fjrb_temp.cs" />
+    <Compile Include="Qskyd_lskr_delete.cs" />
+    <Compile Include="Qskyd_mainrecord.cs" />
+    <Compile Include="Qskyd_mainrecord_bak.cs" />
+    <Compile Include="Qskyd_mainrecord_lskr.cs" />
+    <Compile Include="Qskyd_mainrecord_temp.cs" />
+    <Compile Include="Qskyd_otherfee.cs" />
+    <Compile Include="Qskyd_xz.cs" />
+    <Compile Include="Qtsjy.cs" />
+    <Compile Include="Qttyd_mainrecord.cs" />
+    <Compile Include="Qttyd_mainrecord_bak.cs" />
+    <Compile Include="Qttyd_mainrecord_temp.cs" />
+    <Compile Include="Qyddj_otherfee.cs" />
+    <Compile Include="Qyddj_otherfee_bak.cs" />
+    <Compile Include="Qyddj_otherfee_temp.cs" />
+    <Compile Include="Qyqskyd_ydzlzmx.cs" />
+    <Compile Include="Qyqskyd_ydzxqr.cs" />
+    <Compile Include="Q_ff_xyxf.cs" />
+    <Compile Include="Q_lskr_xftj.cs" />
+    <Compile Include="Q_sfz_save.cs" />
+    <Compile Include="Q_sfz_temp.cs" />
+    <Compile Include="Q_tt_temp_krlb.cs" />
+    <Compile Include="Q_zb_fs_fx.cs" />
+    <Compile Include="RegisterInfo.cs" />
+    <Compile Include="RegisterInfo_temp.cs" />
+    <Compile Include="Sfkfssz.cs" />
+    <Compile Include="Sjzmx.cs" />
+    <Compile Include="Sjzmx_bak.cs" />
+    <Compile Include="Sjzmx_gd_temp.cs" />
+    <Compile Include="Sjzmx_ls.cs" />
+    <Compile Include="Sjzzd.cs" />
+    <Compile Include="Sjzzd_bak.cs" />
+    <Compile Include="Sjzzd_ls.cs" />
+    <Compile Include="Sqs.cs" />
+    <Compile Include="sqs_ck_tj_date.cs" />
+    <Compile Include="Ssyxfmx.cs" />
+    <Compile Include="Ssyxfmx_bb_ls.cs" />
+    <Compile Include="Ssyxfmx_cz.cs" />
+    <Compile Include="Ssyxfmx_kc.cs" />
+    <Compile Include="Ssyxfmx_kc_sh_temp.cs" />
+    <Compile Include="Ssyxfmx_kc_temp.cs" />
+    <Compile Include="Ssyxfmx_lskr.cs" />
+    <Compile Include="Ssyxfmx_xsy.cs" />
+    <Compile Include="Syjcz.cs" />
+    <Compile Include="Syjcz_bak.cs" />
+    <Compile Include="Syjcz_jb.cs" />
+    <Compile Include="Syjcz_jb_fs.cs" />
+    <Compile Include="Syjcz_jb_td.cs" />
+    <Compile Include="Syjcz_ls.cs" />
+    <Compile Include="Syjcz_temp.cs" />
+    <Compile Include="Szwmx.cs" />
+    <Compile Include="Szwmx_bak.cs" />
+    <Compile Include="Szwmx_ls.cs" />
+    <Compile Include="Szwmx_wj.cs" />
+    <Compile Include="Szwzd.cs" />
+    <Compile Include="Szwzd_bak.cs" />
+    <Compile Include="Szwzd_temp.cs" />
+    <Compile Include="Szwzz_mx.cs" />
+    <Compile Include="Szw_temp.cs" />
+    <Compile Include="Szw_temp_bak.cs" />
+    <Compile Include="Szw_union.cs" />
+    <Compile Include="Szw_zz_fj_temp.cs" />
+    <Compile Include="S_cy_zl.cs" />
+    <Compile Include="S_jbmx.cs" />
+    <Compile Include="S_jbzd.cs" />
+    <Compile Include="S_ys_fy_gz.cs" />
+    <Compile Include="VIEW_gz_jz_wj.cs" />
+    <Compile Include="View_Hhygl.cs" />
+    <Compile Include="View_kc_notsh.cs" />
+    <Compile Include="VIEW_lf_zd.cs" />
+    <Compile Include="VIEW_Qfjrb_fs_tj.cs" />
+    <Compile Include="VIEW_Qskyd_bak.cs" />
+    <Compile Include="VIEW_Qskyd_fjrb_qx.cs" />
+    <Compile Include="VIEW_Qskyd_qx.cs" />
+    <Compile Include="View_Qskzd.cs" />
+    <Compile Include="View_Qskzd_fjzt.cs" />
+    <Compile Include="VIEW_Qttyd_bak.cs" />
+    <Compile Include="VIEW_Qttyd_djb.cs" />
+    <Compile Include="VIEW_Qttyd_qx.cs" />
+    <Compile Include="View_Qttzd.cs" />
+    <Compile Include="VIEW_Q_skyd_lskr.cs" />
+    <Compile Include="View_skyd_djb.cs" />
+    <Compile Include="View_ssyxfmx_lskr_mx.cs" />
+    <Compile Include="VIEW_syxf_kc_temp.cs" />
+    <Compile Include="VIEW_S_czzt_zwmx.cs" />
+    <Compile Include="VIEW_S_gz_ye.cs" />
+    <Compile Include="VIEW_S_jzmx_bak_gzzjz.cs" />
+    <Compile Include="VIEW_S_jzmx_bak_jzzgz.cs" />
+    <Compile Include="VIEW_S_jzzt_czzt_jzmx.cs" />
+    <Compile Include="VIEW_S_jz_fkfs.cs" />
+    <Compile Include="VIEW_S_jz_jzORgz.cs" />
+    <Compile Include="VIEW_S_jz_jzORgz_zd.cs" />
+    <Compile Include="VIEW_S_jz_ye.cs" />
+    <Compile Include="VIEW_S_KC.cs" />
+    <Compile Include="VIEW_S_xf_czORbz.cs" />
+    <Compile Include="VIEW_S_xf_ds.cs" />
+    <Compile Include="VIEW_S_xf_syxf.cs" />
+    <Compile Include="VIEW_tt_krlb.cs" />
+    <Compile Include="VIEW_xfmx_tj.cs" />
+    <Compile Include="View_Xxfmx_lk.cs" />
+    <Compile Include="View_Xxfmx_zb.cs" />
+    <Compile Include="VIEW_yj_bak.cs" />
+    <Compile Include="View_zdkr_mx_temp.cs" />
+    <Compile Include="View_zdkr_ylfx_temp.cs" />
+    <Compile Include="VIEW_zwmx_wj_sk.cs" />
+    <Compile Include="VIEW_zwmx_wj_tt.cs" />
+    <Compile Include="VS_syxfmx_cz.cs" />
+    <Compile Include="VS_syxfmx_hyxsy.cs" />
+    <Compile Include="VS_syxfmx_xsy.cs" />
+    <Compile Include="Xbc.cs" />
+    <Compile Include="Xfkfs.cs" />
+    <Compile Include="Xkrgj.cs" />
+    <Compile Include="Xkrly.cs" />
+    <Compile Include="Xkrmz.cs" />
+    <Compile Include="Xkrrx.cs" />
+    <Compile Include="Xpq.cs" />
+    <Compile Include="Xqyxx.cs" />
+    <Compile Include="Xqzrx.cs" />
+    <Compile Include="Xsfzcs.cs" />
+    <Compile Include="Xsfzdq.cs" />
+    <Compile Include="Xsfzsf.cs" />
+    <Compile Include="Xsyzd.cs" />
+    <Compile Include="Xxfdr.cs" />
+    <Compile Include="Xxfmx.cs" />
+    <Compile Include="Xxfmx_lkmx.cs" />
+    <Compile Include="Xxfmx_lkzd.cs" />
+    <Compile Include="Xxfmx_zbmx.cs" />
+    <Compile Include="Xxfmx_zbzd.cs" />
+    <Compile Include="Xxfxr.cs" />
+    <Compile Include="Xyhsz.cs" />
+    <Compile Include="Xyxzj.cs" />
+    <Compile Include="X_judge_remind.cs" />
+    <Compile Include="X_judge_void.cs" />
+    <Compile Include="X_update.cs" />
+    <Compile Include="X_yw_lang_type.cs" />
+    <Compile Include="X_yw_qyxx.cs" />
+    <Compile Include="X_yw_xfmx.cs" />
+    <Compile Include="Ygzdw.cs" />
+    <Compile Include="YHczjl.cs" />
+    <Compile Include="YHuser_yhbl.cs" />
+    <Compile Include="YH_Applications.cs" />
+    <Compile Include="YH_bmsz.cs" />
+    <Compile Include="YH_lo_ex_trace.cs" />
+    <Compile Include="YH_lo_ex_trace_current.cs" />
+    <Compile Include="YH_RolePermission.cs" />
+    <Compile Include="YH_Roles.cs" />
+    <Compile Include="YH_user.cs" />
+    <Compile Include="Yxsy.cs" />
+    <Compile Include="Yxydw.cs" />
+    <Compile Include="Yxydw_fjrb.cs" />
+    <Compile Include="Yxydw_jfbl.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
