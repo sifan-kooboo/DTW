@@ -974,7 +974,7 @@ namespace DTcms.Web.admin.Customer.WYD
                     JscriptMsg("保存过程中发生错误啦！", string.Empty);
                     return;
                 }
-                JscriptMsg("修改信息成功！", "article_list.aspx?channel_id=" + this.channel_id);
+                JscriptMsg("修改信息成功！", "fjxx_list.aspx?channel_id=" + this.channel_id);
             }
             else //添加
             {
@@ -984,7 +984,7 @@ namespace DTcms.Web.admin.Customer.WYD
                     JscriptMsg("保存过程中发生错误！", string.Empty);
                     return;
                 }
-                JscriptMsg("添加信息成功！", "article_list.aspx?channel_id=" + this.channel_id);
+                JscriptMsg("添加信息成功！", "fjxx_list.aspx?channel_id=" + this.channel_id);
             }
         }
 

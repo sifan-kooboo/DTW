@@ -188,7 +188,7 @@ namespace DTcms.Web.admin.Customer.WYD
                     JscriptMsg("保存过程中发生错误！", "");
                     return;
                 }
-                JscriptMsg("修改类别成功！", "category_list.aspx?channel_id=" + channel_id);
+                JscriptMsg("修改类别成功！", "fjlb_list.aspx?channel_id=" + channel_id);
             }
             else //添加
             {
@@ -198,7 +198,7 @@ namespace DTcms.Web.admin.Customer.WYD
                     JscriptMsg("保存过程中发生错误！", "");
                     return;
                 }
-                JscriptMsg("添加类别成功！", "category_list.aspx?channel_id=" + channel_id);
+                JscriptMsg("添加类别成功！", "fjlb_list.aspx?channel_id=" + channel_id);
             }
         }
 

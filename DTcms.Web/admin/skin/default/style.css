@@ -55,7 +55,7 @@ a:active, a:hover{ color:#0065D9; text-decoration:underline; }
 	.logo{ display:block; height:42px; /*background:url(logo.png) no-repeat center #fafafa;*/ border:1px solid #eee; border-top:0; border-left:0; text-indent:-9999px; overflow:hidden; }
 	.sidebar-nav{ }
 		.sidebar-nav .list-group{ display:none; }
-		.sidebar-nav .list-group .list-wrap{ position:absolute; top:43px; right:0; bottom:0; left:0; padding:0 10px; width:160px; overflow:auto; }
+		.sidebar-nav .list-group .list-wrap{ position:absolute; top:43px; right:0; bottom:0; left:0; padding:0 10px; width:200px; overflow:auto; }
 		.sidebar-nav .list-group h1{ display:none; }
 		.sidebar-nav .list-group h2{ position:relative; display:block; color:#fff; font-size:12px; font-weight:normal; line-height:40px; border-bottom:1px solid #468dbd; }
 		.sidebar-nav .list-group h2 i{ position:absolute; display:block; top:10px; right:0; width:20px; height:20px; background:url(skin_icons.png) -109px -165px no-repeat; }
