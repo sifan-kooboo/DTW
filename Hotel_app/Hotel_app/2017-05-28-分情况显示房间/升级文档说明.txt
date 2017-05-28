@@ -14,3 +14,5 @@ insert into [YH_Applications](yydh,qymc,p_lsbh,A_Appdr,A_AppName)
 values('yt011','速8酒店厦大店','M_DisplayAllRooms','系统设置-操作','系统设置-显示所有')
 
 3.升级主程以及XmlSystemInfo.xml
+
+super8@it@fj
