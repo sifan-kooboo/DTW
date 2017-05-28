@@ -1,0 +1,16 @@
+﻿1.需要调换成主楼的语句：A为副楼，B为主楼
+select * from Ffjzt where fjbh in('8121','8122','8123','8125','8126','8128')
+
+update Ffjbh set jdcs='B2',jdcs_name='B2层' where fjbh in('8121','8122','8123','8125','8126','8128')
+
+2.添加新权限
+insert into [YH_Applications](yydh,qymc,p_lsbh,A_Appdr,A_AppName)
+values('yt011','速8酒店厦大店','M_DisplayMainRooms','系统设置-操作','系统设置-只显示主楼')
+
+insert into [YH_Applications](yydh,qymc,p_lsbh,A_Appdr,A_AppName)
+values('yt011','速8酒店厦大店','M_DisplaySubRooms','系统设置-操作','系统设置-只显示附楼')
+
+insert into [YH_Applications](yydh,qymc,p_lsbh,A_Appdr,A_AppName)
+values('yt011','速8酒店厦大店','M_DisplayAllRooms','系统设置-操作','系统设置-显示所有')
+
+3.升级主程以及XmlSystemInfo.xml

@@ -1,0 +1,6 @@
+D:\Git\DTWMaster\WebHtmlSrc\bin\WebHtmlSrc.dll.config
+D:\Git\DTWMaster\WebHtmlSrc\bin\WebHtmlSrc.dll
+D:\Git\DTWMaster\WebHtmlSrc\bin\WebHtmlSrc.pdb
+D:\Git\DTWMaster\WebHtmlSrc\obj\Debug\WebHtmlSrc.csprojResolveAssemblyReference.cache
+D:\Git\DTWMaster\WebHtmlSrc\obj\Debug\WebHtmlSrc.dll
+D:\Git\DTWMaster\WebHtmlSrc\obj\Debug\WebHtmlSrc.pdb
