@@ -3276,6 +3276,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="2017-05-28-分情况显示房间\升级文档说明.txt" />
     <Content Include="bin\Debug\Hotel_app.vshost.exe" />
     <None Include="bin\Debug\image\16_ico\room_left.ico" />
     <Content Include="bin\Debug\image\32ico\amend.ICO" />

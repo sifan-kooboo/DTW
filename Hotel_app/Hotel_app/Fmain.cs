@@ -916,10 +916,10 @@ namespace Hotel_app
             switch (displayType)
             {
                 case 1:
-                    key = "b";
+                    key = "a";
                     break;
                 case 2:
-                    key = "a";
+                    key = "b";
                     break;
                 default:
                     key = "";
