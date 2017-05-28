@@ -31,11 +31,15 @@ namespace Hotel_app.Ffjzt
         public int big_pic_height = 0;
         public int big_pic_width = 0;
         public int fj_status_style = 0;
+        #region Add a new function to hide some Rooms
+        string CurrentDisplayRoomCondition = Common_initalSystem.ReadXML("add", "CurrentDisplayRoomCondition");
+        #endregion
+
         public Ffjzt_pic_big()
         {
             InitializeComponent();
             set_auto_refresh();//设置是否要自动刷新
-            refresh_fjzt_1("Ffjzt", "",true);
+            refresh_fjzt_1("Ffjzt", "", true);
         }
         //实现全局热键
         //设置是否要自动刷新
@@ -55,22 +59,22 @@ namespace Hotel_app.Ffjzt
             }
         }
         //设置当前房间是否可见
-        public  void IsVisibleFj(string cond,Hotel_app.control_user.UC_room_pic_0   tempUC)
+        public void IsVisibleFj(string cond, Hotel_app.control_user.UC_room_pic_0 tempUC)
         {
             bool IsInList = false;
             if (cond.Equals(""))
             {
-                 IsInList = true;
+                IsInList = true;
             }
             else
             {
                 BLL.Ffjzt B_Ffjzt_temp = new Hotel_app.BLL.Ffjzt();
                 List<Model.Ffjzt> fjs = B_Ffjzt_temp.GetModelList("id>=0  " + cond);
-                foreach (Model.Ffjzt  temFj in fjs)
+                foreach (Model.Ffjzt temFj in fjs)
                 {
                     if (tempUC.MP_roomno.Equals(temFj.fjbh))
                     {
-                        IsInList=true;
+                        IsInList = true;
                     }
                     else
                     {
@@ -82,7 +86,7 @@ namespace Hotel_app.Ffjzt
             tempUC.Visible = IsInList;
         }
         //生成的房态图.（三种:True为全部重新刷新,否为gl显示）
-        public void refresh_fjzt_1(string Table_name, string select_cond_0,bool  IsReLoad)
+        public void refresh_fjzt_1(string Table_name, string select_cond_0, bool IsReLoad)
         {
             common_file.common_app.get_czsj();
             IsReLoad = true;
@@ -117,7 +121,7 @@ namespace Hotel_app.Ffjzt
                 for (jdlh_i = 0; jdlh_i < DS_jdlh.Tables[0].Rows.Count; jdlh_i++)
                 {
                     common_file.common_app.get_czsj();
-                    DS_jdcs = B_Common.GetList("select distinct jdcs from " + Table_name, "id>=0" + common_file.common_app.yydh_select + select_cond_0 + " and jdlh='" + DS_jdlh.Tables[0].Rows[jdlh_i]["jdlh"].ToString() + "' order by jdcs desc");
+                    DS_jdcs = B_Common.GetList("select distinct jdcs from " + Table_name, "id>=0" + common_file.common_app.yydh_select + select_cond_0 + CurrentDisplayRoomCondition + " and jdlh='" + DS_jdlh.Tables[0].Rows[jdlh_i]["jdlh"].ToString() + "' order by jdcs desc");
                     for (jdcs_i = 0; jdcs_i < DS_jdcs.Tables[0].Rows.Count; jdcs_i++)
                     {
                         common_file.common_app.get_czsj();
@@ -158,7 +162,7 @@ namespace Hotel_app.Ffjzt
                                         UC_room_pic_0_new.Left = pic_left;
                                         UC_room_pic_0_new.Top = pic_top;
                                         //IsVisibleFj(UC_room_pic_0_new.MP_roomno, select_cond_0, UC_room_pic_0_new);
-                                        UC_room_pic_0_new.Tag="UC_room_pic_0";
+                                        UC_room_pic_0_new.Tag = "UC_room_pic_0";
                                         panel_pic_new.Controls.Add(UC_room_pic_0_new);
                                         UC_room_pic_0_new.MouseDown_0 += new Hotel_app.control_user.UC_room_pic_0.MouseDown_0EventHandler(uc_room_pic_mouse_Down);
                                         UC_room_pic_0_new.DoubleClick_0 += new Hotel_app.control_user.UC_room_pic_0.DoubleClick_0EventHandler(uc_room_pic_DoubleClick);
@@ -197,7 +201,7 @@ namespace Hotel_app.Ffjzt
             }
 
             List<Hotel_app.control_user.UC_room_pic_0> list_ucs = new List<UC_room_pic_0>();
-            DS(p_pic,list_ucs);
+            DS(p_pic, list_ucs);
             foreach (Hotel_app.control_user.UC_room_pic_0 tempUc in list_ucs)
             {
                 IsVisibleFj(select_cond_0, tempUc);
@@ -207,7 +211,7 @@ namespace Hotel_app.Ffjzt
 
             if (IsReLoad)
             {
-                getcount(Table_name,"");//生成数量
+                getcount(Table_name, "");//生成数量
             }
             common_Ffjzt.add_wx_yd();
             //设置是否启用自动刷新房态
@@ -215,9 +219,9 @@ namespace Hotel_app.Ffjzt
             //timer_update_fjzt.Enabled = true;
             Cursor.Current = Cursors.Default;
         }
-        void DS(Control item, List<Hotel_app.control_user.UC_room_pic_0> list_ucs) 
-        { 
-            for (int i = 0; i < item.Controls.Count; i++) 
+        void DS(Control item, List<Hotel_app.control_user.UC_room_pic_0> list_ucs)
+        {
+            for (int i = 0; i < item.Controls.Count; i++)
             {
                 if (item.Controls[i].Tag != null && item.Controls[i].Tag.ToString().Equals("UC_room_pic_0"))
                 {
@@ -227,13 +231,17 @@ namespace Hotel_app.Ffjzt
                 {
                     if (item.Controls[i].HasChildren && item.Controls[i].Tag != null && item.Controls[i].Tag.ToString().Equals("panel_pic"))
                     {
-                        DS(item.Controls[i],list_ucs);
+                        DS(item.Controls[i], list_ucs);
                     }
                 }
-            } 
+            }
         }
         public void getcount(string Table_name, string select_cond_0)
         {
+            if (!string.IsNullOrEmpty(CurrentDisplayRoomCondition))
+            {
+                select_cond_0 += CurrentDisplayRoomCondition;
+            }
             DataSet ds_temp_1 = B_Common.GetList("select count(*) as sl from " + Table_name, "id>=0" + common_file.common_app.yydh_select + select_cond_0 + " and zyzt='" + common_file.common_fjzt.gjf + "'");
             if (ds_temp_1 != null && ds_temp_1.Tables[0].Rows.Count > 0)
             {
@@ -314,7 +322,7 @@ namespace Hotel_app.Ffjzt
                 l_c_cqld.Text = ds_temp_1.Tables[0].Rows[0]["sl"].ToString();
 
             }
-            DataSet ds_fj_sl = B_Common.GetList("select count(*) as sl  from " + Table_name, "id>=0   ");
+            DataSet ds_fj_sl = B_Common.GetList("select count(*) as sl  from " + Table_name, "id>=0   " + CurrentDisplayRoomCondition);
             {
                 l_fj_count.Text = ds_fj_sl.Tables[0].Rows[0]["sl"].ToString();
             }
@@ -324,7 +332,7 @@ namespace Hotel_app.Ffjzt
             ds_temp_1.Dispose();
 
         }
-        public void refresh_app(string table_name, string sel_cond0,bool flage)
+        public void refresh_app(string table_name, string sel_cond0, bool flage)
         {
             common_Ffjzt.add_wx_yd();
             refresh_fjzt(table_name, sel_cond0, flage);
@@ -602,7 +610,7 @@ namespace Hotel_app.Ffjzt
             TN.Tag = common_file.common_app.yydh;
             TN.Text = common_file.common_app.qymc;
             tV_jd_select.Nodes.Add(TN);
-            DataSet DS_temp_1 = B_Common.GetList("select distinct jdlh,jdlh_name from Ffjzt", "id>=0" + common_file.common_app.yydh_select + " order by jdlh");
+            DataSet DS_temp_1 = B_Common.GetList("select distinct jdlh,jdlh_name from Ffjzt", "id>=0" + common_file.common_app.yydh_select + " " + CurrentDisplayRoomCondition + " order by jdlh");
             if (DS_temp_1 != null && DS_temp_1.Tables[0].Rows.Count > 0)
             {
                 for (int i_0 = 0; i_0 < DS_temp_1.Tables[0].Rows.Count; i_0++)
@@ -612,7 +620,7 @@ namespace Hotel_app.Ffjzt
                     TN.Tag = DS_temp_1.Tables[0].Rows[i_0]["jdlh"].ToString();
                     TN.Text = "楼." + DS_temp_1.Tables[0].Rows[i_0]["jdlh_name"].ToString();
                     tV_jd_select.Nodes["Tn_qymc"].Nodes.Add(TN);
-                    DataSet DS_temp_2 = B_Common.GetList("select distinct jdcs,jdcs_name from Ffjzt", "id>=0 and jdlh='" + DS_temp_1.Tables[0].Rows[i_0]["jdlh"].ToString() + "'" + common_file.common_app.yydh_select + " order by jdcs");
+                    DataSet DS_temp_2 = B_Common.GetList("select distinct jdcs,jdcs_name from Ffjzt", "id>=0 and jdlh='" + DS_temp_1.Tables[0].Rows[i_0]["jdlh"].ToString() + "'" + common_file.common_app.yydh_select + CurrentDisplayRoomCondition + " order by jdcs");
                     if (DS_temp_2 != null && DS_temp_2.Tables[0].Rows.Count > 0)
                     {
                         for (int j_0 = 0; j_0 < DS_temp_2.Tables[0].Rows.Count; j_0++)
@@ -726,7 +734,7 @@ namespace Hotel_app.Ffjzt
         private void MSC_set_gj_zf(string zyzt, string zyzt_bz, bool is_judge)
         {
             common_file.common_app.get_czsj();
-            for (int i = list_rooms.Count-1; i>=0; i--)
+            for (int i = list_rooms.Count - 1; i >= 0; i--)
             {
                 UC_room_pic_0_select = list_rooms[i];
                 if (UC_room_pic_0_select != null)
@@ -782,9 +790,9 @@ namespace Hotel_app.Ffjzt
                             string result = common_file.common_app.get_failure;
                             Hotel_app.Server.Ffjzt.Fgj_z_yj_zzzf Fgj_z_yj_zzzf_services = new Hotel_app.Server.Ffjzt.Fgj_z_yj_zzzf();
                             result = Fgj_z_yj_zzzf_services.set_gj_zf_yj_zzzf_qxzz(DS_temp.Tables[0].Rows[0]["id"].ToString(), common_file.common_app.yydh,
-                            common_file.common_app.qymc,DS_temp.Tables[0].Rows[0]["fjbh"].ToString(),zyzt,common_file.common_app.czy,
-                            DateTime.Now,common_file.common_app.xxzs);
-                            if (result != null && result== common_file.common_app.get_suc)
+                            common_file.common_app.qymc, DS_temp.Tables[0].Rows[0]["fjbh"].ToString(), zyzt, common_file.common_app.czy,
+                            DateTime.Now, common_file.common_app.xxzs);
+                            if (result != null && result == common_file.common_app.get_suc)
                             {
                                 DS_temp = B_Common.GetList("select * from Ffjzt", "fjbh='" + fjbh_temp + "'");
                                 common_file.common_room_state.room_state(UC_room_pic_0_select, DS_temp, 0);
@@ -858,7 +866,7 @@ namespace Hotel_app.Ffjzt
                             if (DS_temp.Tables[0].Rows[0]["zybz"].ToString() == yl_zybz)
                             {
                                 i_0 = 5;
-                                common_file.common_app.Message_box_show(common_file.common_app.message_title, "对不起，房间"+ fjbh_temp + "已经是" + zyzt_bz + "了！");
+                                common_file.common_app.Message_box_show(common_file.common_app.message_title, "对不起，房间" + fjbh_temp + "已经是" + zyzt_bz + "了！");
 
                             }
 
@@ -916,7 +924,7 @@ namespace Hotel_app.Ffjzt
         {
 
             common_file.common_app.get_czsj();
-            for (int i = list_rooms.Count-1; i >= 0;i-- )
+            for (int i = list_rooms.Count - 1; i >= 0; i--)
             {
                 UC_room_pic_0_select = list_rooms[i];
                 #region 取消在住脏房,设置在住己洁房
@@ -982,7 +990,7 @@ namespace Hotel_app.Ffjzt
 
                     }
                 }
-                #endregion               
+                #endregion
                 changeColor(list_rooms[i], false);
                 list_rooms.Remove(list_rooms[i]);
             }
@@ -1000,7 +1008,7 @@ namespace Hotel_app.Ffjzt
         private void MS_sxft_Click(object sender, EventArgs e)
         {
 
-            refresh_app("Ffjzt", "",true);
+            refresh_app("Ffjzt", "", true);
 
         }
         private void MS_set_lf_Click(object sender, EventArgs e)
@@ -1068,7 +1076,7 @@ namespace Hotel_app.Ffjzt
             }
             Cursor.Current = Cursors.Default;
         }
-        public void get_remind_info_yddj(string zyzt, string zyzt_second,bool  IsVisibleGb_yd,string fjbh_0)
+        public void get_remind_info_yddj(string zyzt, string zyzt_second, bool IsVisibleGb_yd, string fjbh_0)
         {
             //int height_add = 0; int height_down = 78; int height_0 = 0;
             DataSet DS_temp_1 = B_Common.GetList("select * from Ffjzt", "fjbh='" + fjbh_0 + "'");
@@ -1101,7 +1109,7 @@ namespace Hotel_app.Ffjzt
                 {
                     li_fjjg.Text = DbHelperSQL.GetSingle(" select  sjjg  from Ffjrb where  fjrb='" + DS_temp_1.Tables[0].Rows[0]["fjrb"].ToString() + "'").ToString();
                 }
-                catch 
+                catch
                 {
                     li_fjjg.Text = common_app.li_fjjg_dispalyText;
                 }
@@ -1113,7 +1121,7 @@ namespace Hotel_app.Ffjzt
 
                 if (!DS_temp_1.Tables[0].Rows[0]["lsbh"].ToString().Equals(""))
                 {
-                    DataSet ds111 = B_Common.GetList("select * from  Qskyd_fjrb "," id>=0  and  lsbh='" + DS_temp_1.Tables[0].Rows[0]["lsbh"].ToString().Equals("") + "'  and  fjbh='" + DS_temp_1.Tables[0].Rows[0]["fjbh"].ToString().Equals("") + "'");
+                    DataSet ds111 = B_Common.GetList("select * from  Qskyd_fjrb ", " id>=0  and  lsbh='" + DS_temp_1.Tables[0].Rows[0]["lsbh"].ToString().Equals("") + "'  and  fjbh='" + DS_temp_1.Tables[0].Rows[0]["fjbh"].ToString().Equals("") + "'");
                     if (ds111 != null && ds111.Tables[0].Rows.Count > 0)
                     {
                         li_fjjg.Text = ds111.Tables[0].Rows[0]["fjjg"].ToString();
@@ -1171,12 +1179,12 @@ namespace Hotel_app.Ffjzt
 
                 if (zyzt_second.Equals(common_fjzt.ydf))
                 {
-                    DS_temp_1 = B_Common.GetList("select * from View_Qskzd", "yddj='" + common_file.common_yddj.yddj_yd+ "' and fjbh='" + fjbh_0 + "'");
+                    DS_temp_1 = B_Common.GetList("select * from View_Qskzd", "yddj='" + common_file.common_yddj.yddj_yd + "' and fjbh='" + fjbh_0 + "'");
                     bS_yd.DataSource = DS_temp_1.Tables[0];
                 }
             }
         }
-        public void get_remind_info(string fjbh_0,Hotel_app.control_user.UC_room_pic_0  infoTmpUC)
+        public void get_remind_info(string fjbh_0, Hotel_app.control_user.UC_room_pic_0 infoTmpUC)
         {
             //这里分三块显示
             int width_p = 460; int height_p = 125;//显示上部提示信息
@@ -1217,7 +1225,7 @@ namespace Hotel_app.Ffjzt
                 }
 
                 //加一块显示金额的内容
-                if(fjzt.Equals(common_file.common_fjzt.zzf)||(!fjzt.Equals(common_file.common_fjzt.zzf)&&fjzt_second.Equals(common_file.common_fjzt.ydf)))
+                if (fjzt.Equals(common_file.common_fjzt.zzf) || (!fjzt.Equals(common_file.common_fjzt.zzf) && fjzt_second.Equals(common_file.common_fjzt.ydf)))
                 {
                     height_p += p_info_Two.Height;
                 }
@@ -1258,7 +1266,7 @@ namespace Hotel_app.Ffjzt
                         for (int j_0 = 1; j_0 < DS_temp_2.Tables[0].Rows.Count; j_0++)
                         {
                             if (tB_lf.Text.Trim().Equals(""))
-                            { tB_lf.Text =DS_temp_2.Tables[0].Rows[j_0]["fjbh"].ToString(); }
+                            { tB_lf.Text = DS_temp_2.Tables[0].Rows[j_0]["fjbh"].ToString(); }
                             else
                             {
                                 tB_lf.Text = tB_lf.Text + "/" + DS_temp_2.Tables[0].Rows[j_0]["fjbh"].ToString();
@@ -1307,73 +1315,73 @@ namespace Hotel_app.Ffjzt
                     }
                     //if (gB_yd.Visible)
                     //{
-                        get_remind_info_yddj(fjzt,fjzt_second,gB_yd.Visible, fjbh_0);
-                   // }
+                    get_remind_info_yddj(fjzt, fjzt_second, gB_yd.Visible, fjbh_0);
+                    // }
                 }
                 get_remind_info_yddj(fjzt, fjzt_second, gB_yd.Visible, fjbh_0);
 
-                            //这里判断是否要显示金额
-            if(fjzt.Equals(common_fjzt.zzf)||(!fjzt.Equals(common_fjzt.zzf)&&fjzt_second.Equals(common_fjzt.ydf)))
-            {
-                p_info_Two.Visible = true;
-                BLL.Szwzd  B_szwzd=new BLL.Szwzd();
-                List<Model.Szwzd> list_0;
-                Model.Szwzd M_szwzd = null;
-                if(fjzt.Equals(common_fjzt.zzf))
+                //这里判断是否要显示金额
+                if (fjzt.Equals(common_fjzt.zzf) || (!fjzt.Equals(common_fjzt.zzf) && fjzt_second.Equals(common_fjzt.ydf)))
                 {
-                    list_0 = B_szwzd.GetModelList(" id>=0  and  yddj='" + common_yddj.yddj_dj + "' and  fjbh='" + fjbh_0 + "'  and yydh='" + common_app.yydh + "'");
-                    if (list_0 != null && list_0.Count > 0)
+                    p_info_Two.Visible = true;
+                    BLL.Szwzd B_szwzd = new BLL.Szwzd();
+                    List<Model.Szwzd> list_0;
+                    Model.Szwzd M_szwzd = null;
+                    if (fjzt.Equals(common_fjzt.zzf))
                     {
-                        M_szwzd = list_0[0];
-                        btn_ysk.Text = M_szwzd.fkje.ToString();
-                        btn_xf.Text = M_szwzd.xfje.ToString();
-                        btn_ts.Text = (DateTime.Now - DateTime.Parse(li_ddsj.Text.Trim())).TotalDays < 0.1 ? "刚入住" : common_sswl.Round_sswl((DateTime.Now - DateTime.Parse(li_ddsj.Text.Trim())).TotalDays, 1, common_sswl.selectMode_normal).ToString();
-                        try
+                        list_0 = B_szwzd.GetModelList(" id>=0  and  yddj='" + common_yddj.yddj_dj + "' and  fjbh='" + fjbh_0 + "'  and yydh='" + common_app.yydh + "'");
+                        if (list_0 != null && list_0.Count > 0)
                         {
-                            if (M_szwzd.fkje - M_szwzd.xfje < decimal.Parse(li_fjjg.Text.Trim()))
+                            M_szwzd = list_0[0];
+                            btn_ysk.Text = M_szwzd.fkje.ToString();
+                            btn_xf.Text = M_szwzd.xfje.ToString();
+                            btn_ts.Text = (DateTime.Now - DateTime.Parse(li_ddsj.Text.Trim())).TotalDays < 0.1 ? "刚入住" : common_sswl.Round_sswl((DateTime.Now - DateTime.Parse(li_ddsj.Text.Trim())).TotalDays, 1, common_sswl.selectMode_normal).ToString();
+                            try
                             {
-                                btn_cy.Text = "建议催押";
+                                if (M_szwzd.fkje - M_szwzd.xfje < decimal.Parse(li_fjjg.Text.Trim()))
+                                {
+                                    btn_cy.Text = "建议催押";
+                                }
+                                else
+                                {
+                                    btn_cy.Text = "不需要";
+                                }
                             }
-                            else
+                            catch
                             {
-                                btn_cy.Text = "不需要";
+                                btn_cy.Text = "当前房型没有在fjrb表中配置房价,请检查";
                             }
-                        }
-                        catch 
-                        {
-                            btn_cy.Text = "当前房型没有在fjrb表中配置房价,请检查"; 
-                        }
 
+                        }
                     }
-                }
-                else
-                {
-                    list_0 = B_szwzd.GetModelList(" id>=0  and  yddj='" + common_yddj.yddj_yd + "' and  fjbh='" + fjbh_0 + "'  and yydh='" + common_app.yydh + "'");
-                    if (list_0 != null && list_0.Count > 0)
+                    else
                     {
-                        M_szwzd = list_0[0];
-                        btn_ysk.Text = M_szwzd.fkje.ToString();
-                        btn_xf.Text = M_szwzd.xfje.ToString();
-                        btn_ts.Text = "预订态";
-                        btn_cy.Text = "预订态";
+                        list_0 = B_szwzd.GetModelList(" id>=0  and  yddj='" + common_yddj.yddj_yd + "' and  fjbh='" + fjbh_0 + "'  and yydh='" + common_app.yydh + "'");
+                        if (list_0 != null && list_0.Count > 0)
+                        {
+                            M_szwzd = list_0[0];
+                            btn_ysk.Text = M_szwzd.fkje.ToString();
+                            btn_xf.Text = M_szwzd.xfje.ToString();
+                            btn_ts.Text = "预订态";
+                            btn_cy.Text = "预订态";
+                        }
                     }
                 }
-            }
 
             }
             p_remind_w.Width = width_p; p_remind_w.Height = height_p;
-            Point p_new =p_in.PointToClient(new Point(common_file.common_app.x(), common_file.common_app.y()));
+            Point p_new = p_in.PointToClient(new Point(common_file.common_app.x(), common_file.common_app.y()));
             p_remind_w.Left = common_file.common_app.x() - this.Left;
-            p_remind_w.Top =common_file.common_app.y() - this.Top - 150;
+            p_remind_w.Top = common_file.common_app.y() - this.Top - 150;
 
 
             if (p_remind_w.Top + p_remind_w.Height + 10 > p_pic.Height)
             {
-                p_remind_w.Top =p_remind_w.Top - ((p_remind_w.Top + p_remind_w.Height + 10) - p_pic.Height);
+                p_remind_w.Top = p_remind_w.Top - ((p_remind_w.Top + p_remind_w.Height + 10) - p_pic.Height);
             }
             if (p_remind_w.Left + p_remind_w.Width + 10 > p_pic.Width)
             {
-                p_remind_w.Left = p_remind_w.Left - ((p_remind_w.Left + p_remind_w.Width+5 ) - p_pic.Width);
+                p_remind_w.Left = p_remind_w.Left - ((p_remind_w.Left + p_remind_w.Width + 5) - p_pic.Width);
             }
             Rectangle rc = new Rectangle(p_remind_w.Location, new Size(p_remind_w.Width, p_remind_w.Height));
             if (rc.Contains(p_new))
@@ -1397,14 +1405,14 @@ namespace Hotel_app.Ffjzt
             Hotel_app.control_user.UC_room_pic_0 UC_room_pic_0_temp = (Hotel_app.control_user.UC_room_pic_0)sender;
             if (UC_room_pic_0_temp != null)
             {
-                get_remind_info(UC_room_pic_0_temp.MP_roomno,UC_room_pic_0_temp);
+                get_remind_info(UC_room_pic_0_temp.MP_roomno, UC_room_pic_0_temp);
             }
 
         }
         private void uc_room_pic_MouseLeave(object sender, EventArgs e)
         {
             p_remind_w.Visible = false;
-           // p_info_Two.Visible = false;
+            // p_info_Two.Visible = false;
         }
         private void dg_yd_DoubleClick(object sender, EventArgs e)
         {
@@ -1489,7 +1497,7 @@ namespace Hotel_app.Ffjzt
         }
         private void p_gj_Click(object sender, EventArgs e)
         {
-            refresh_app("Ffjzt", " and zyzt='" + common_file.common_fjzt.gjf + "'",false);
+            refresh_app("Ffjzt", " and zyzt='" + common_file.common_fjzt.gjf + "'", false);
         }
         private void p_zf_Click(object sender, EventArgs e)
         {
@@ -1516,28 +1524,28 @@ namespace Hotel_app.Ffjzt
         {
             refresh_app("Ffjzt", " and zyzt='" + common_file.common_fjzt.qtf + "'", false);
         }
-       private void l_fj_count_Click(object sender, EventArgs e)
+        private void l_fj_count_Click(object sender, EventArgs e)
         {
-            refresh_app("Ffjzt", "",false);
-            
+            refresh_app("Ffjzt", "", false);
+
         }
         private void p_ds_Click(object sender, EventArgs e)
         {
-            refresh_app("Ffjzt", " and (zyzt='" + common_file.common_fjzt.zf + "' or zyzt='" + common_file.common_fjzt.zzf + "') and zybz='" + common_file.common_fjzt.yjf + "'",false);
+            refresh_app("Ffjzt", " and (zyzt='" + common_file.common_fjzt.zf + "' or zyzt='" + common_file.common_fjzt.zzf + "') and zybz='" + common_file.common_fjzt.yjf + "'", false);
         }
         private void p_ts_Click(object sender, EventArgs e)
         {
-            refresh_app("Ffjzt", " and (zyzt_second='" + common_file.common_fjzt.ydf + "' or zyzt='" + common_file.common_fjzt.zzf + "') and shts=1",false);
+            refresh_app("Ffjzt", " and (zyzt_second='" + common_file.common_fjzt.ydf + "' or zyzt='" + common_file.common_fjzt.zzf + "') and shts=1", false);
         }
         private void p_drdd_Click(object sender, EventArgs e)
         {
             //if ((DateTime.Parse(DS_fjbh_temp.Tables[0].Rows[row_no]["yd_ddsj"].ToString())) >= DateTime.Now.Date && DateTime.Parse(DS_fjbh_temp.Tables[0].Rows[row_no]["yd_ddsj"].ToString()) < DateTime.Now.Date.AddDays(1))
-            refresh_app("Ffjzt", " and (zyzt_second='" + common_file.common_fjzt.ydf + "') and (yd_ddsj>='" + DateTime.Now.ToShortDateString() + "' and yd_ddsj<'" + DateTime.Now.Date.AddDays(1).ToShortDateString() + "')",false);
+            refresh_app("Ffjzt", " and (zyzt_second='" + common_file.common_fjzt.ydf + "') and (yd_ddsj>='" + DateTime.Now.ToShortDateString() + "' and yd_ddsj<'" + DateTime.Now.Date.AddDays(1).ToShortDateString() + "')", false);
         }
         private void p_drld_Click(object sender, EventArgs e)
         {
             //if ((DateTime.Parse(DS_fjbh_temp.Tables[0].Rows[row_no]["lksj"].ToString())) >= DateTime.Now.Date && DateTime.Parse(DS_fjbh_temp.Tables[0].Rows[row_no]["lksj"].ToString()) < DateTime.Now.Date.AddDays(1))
-            refresh_app("Ffjzt", " and (zyzt='" + common_file.common_fjzt.zzf + "') and (lksj>='" + DateTime.Now.ToShortDateString() + "' and lksj<'" + DateTime.Now.Date.AddDays(1).ToShortDateString() + "')",false);
+            refresh_app("Ffjzt", " and (zyzt='" + common_file.common_fjzt.zzf + "') and (lksj>='" + DateTime.Now.ToShortDateString() + "' and lksj<'" + DateTime.Now.Date.AddDays(1).ToShortDateString() + "')", false);
         }
         private void p_lz_Click(object sender, EventArgs e)
         {
@@ -1731,7 +1739,7 @@ namespace Hotel_app.Ffjzt
             cB_jdcs.Items.Clear();
             if (cB_jdlh.Text.Trim() != "")
             {
-                DataSet DS_temp_2 = B_Common.GetList("select distinct jdcs,jdcs_name from Ffjzt", "id>=0 and jdlh_name='" + cB_jdlh.Text.Trim() + "' order by jdcs");
+                DataSet DS_temp_2 = B_Common.GetList("select distinct jdcs,jdcs_name from Ffjzt", "id>=0 " + CurrentDisplayRoomCondition + " and jdlh_name='" + cB_jdlh.Text.Trim() + "' order by jdcs");
                 if (DS_temp_2 != null && DS_temp_2.Tables[0].Rows.Count > 0)
                 {
                     for (int i_0 = 0; i_0 < DS_temp_2.Tables[0].Rows.Count; i_0++)
@@ -1866,7 +1874,7 @@ namespace Hotel_app.Ffjzt
                                 if (B_Ffjzt.Update(M_Ffjzt))
                                 {
                                     common_file.common_app.Message_box_show(common_file.common_app.message_title, "强制清除成功,房态即将自动刷新,请单击确定!");
-                                    refresh_app("Ffjzt", "",true);
+                                    refresh_app("Ffjzt", "", true);
                                 }
                             }
                         }
@@ -1956,8 +1964,8 @@ namespace Hotel_app.Ffjzt
             }
             else
             {
-                dgv_zwmx.DataSource = null; 
-                button12.Text = "0.00"; 
+                dgv_zwmx.DataSource = null;
+                button12.Text = "0.00";
                 button11.Text = "0.00";
             }
         }
@@ -1967,7 +1975,7 @@ namespace Hotel_app.Ffjzt
             if (common_file.common_roles.get_user_qx("B_zwcl_yjcz", common_file.common_app.user_type) == false)
             { return; }
 
-            if (list_rooms.Count == 1&&list_rooms[0].MP_room_state.ToString().Substring(0,1).Equals("5"))
+            if (list_rooms.Count == 1 && list_rooms[0].MP_room_state.ToString().Substring(0, 1).Equals("5"))
             {
                 Szwgl.Syjcz Frm_Syjcz = new Syjcz();
                 string fjbh = list_rooms[0].MP_roomno;
@@ -1983,7 +1991,7 @@ namespace Hotel_app.Ffjzt
                     if (Frm_Syjcz.ShowDialog() == DialogResult.OK)
                     {
                         common_app.Message_box_show(common_app.message_title, "加收预收款成功");
-                        MouseEventArgs  MyE=new MouseEventArgs(MouseButtons,0,0,0,0);
+                        MouseEventArgs MyE = new MouseEventArgs(MouseButtons, 0, 0, 0, 0);
                         uc_room_pic_mouse_Down(list_rooms[0], MyE);
                     }
                 }
@@ -1993,7 +2001,7 @@ namespace Hotel_app.Ffjzt
         public void refresh_fjzt(string ss1, string ss2, bool IsReLoad)
         {
             string ss = "";
-            if (ss2.Equals("")&&IsReLoad)
+            if (ss2.Equals("") && IsReLoad)
             {
                 foreach (Control item in p_pic.Controls)
                 {
@@ -2025,7 +2033,7 @@ namespace Hotel_app.Ffjzt
                     IsVisibleFj(ss2, tempUc);
                 }
             }
-            
+
             //左边快速查询栏的记数
             getcount("Ffjzt", "");
         }
@@ -2042,20 +2050,20 @@ namespace Hotel_app.Ffjzt
         {
             if (e.KeyCode == Keys.S && e.Modifiers == Keys.Control)
             {
-               // if (list_rooms.Count > 0)
-               // {
-               //     foreach (var UC_room_pic_0_temp in list_rooms)
-               //     {
-               //         changeColor(UC_room_pic_0_temp, false);
-               //     }
-               // }
-               //list_rooms.Clear();
-               //if (UC_room_pic_0_select != null)
-               //{
-               //    list_rooms.Add(UC_room_pic_0_select);
-               //    changeColor(UC_room_pic_0_select, true);
-               //}
-              common_file.common_app.flag_mulit_select = false;
+                // if (list_rooms.Count > 0)
+                // {
+                //     foreach (var UC_room_pic_0_temp in list_rooms)
+                //     {
+                //         changeColor(UC_room_pic_0_temp, false);
+                //     }
+                // }
+                //list_rooms.Clear();
+                //if (UC_room_pic_0_select != null)
+                //{
+                //    list_rooms.Add(UC_room_pic_0_select);
+                //    changeColor(UC_room_pic_0_select, true);
+                //}
+                common_file.common_app.flag_mulit_select = false;
             }
         }
     }

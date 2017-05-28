@@ -10,7 +10,7 @@
   <!-- 房态房间宽度，最好不要去改 -->
   <add key="fj_status_style" value="1" />
   <!--展示出的房态样式-->
-  <add key="System_path" value="D:\酒店软件工程\酒店管理软件分三个版本\专供速8版\Hotel_app\bin\Debug" />
+  <add key="System_path" value="D:\Git\DTWMaster\Hotel_app\Hotel_app\bin\Debug" />
   <!--系统启动目录-->
   <add key="xxzs" value="zs" />
   <!--标识是什么版本-->
@@ -57,4 +57,5 @@
   <add key="OSType" value="win7" />
   <!--操作系统的类型,用于读卡器的DLL调用识别-->
   <add key="hyrx_site" value="网站预订" />
+  <add key="CurrentDisplayRoomCondition" value=" and jdcs not like 'b%' " />
 </ft_info>

@@ -17,7 +17,7 @@ namespace Hotel_app.common_file
     {
 
        //读配置文件的值
-       public static string ReadXML(string node, string appKey)
+        public static string ReadXML(string node, string appKey)
        {
            string CurrentVlaue = "";
            XmlDocument xmlDoc = new XmlDocument();

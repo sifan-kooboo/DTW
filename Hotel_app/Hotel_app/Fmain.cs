@@ -12,7 +12,7 @@ namespace Hotel_app
 {
     public partial class Fmain : DevExpress.XtraEditors.XtraForm
     {
-        public  bool Qskyd_www_open = true;
+        public bool Qskyd_www_open = true;
         public Fmain()
         {
             InitializeComponent();
@@ -88,7 +88,7 @@ namespace Hotel_app
 
         public void M_ftll_Click(object sender, EventArgs e)
         {
-            if (M_fttx.Enabled == true )
+            if (M_fttx.Enabled == true)
             {
                 Ffjzt.common_form.Ffjzt_pic_big_new_open();
             }
@@ -194,7 +194,7 @@ namespace Hotel_app
         private void M_xydwgl_Click(object sender, EventArgs e)
         {
             common_file.common_form.Yxydw_browse_new_open(common_file.common_xydw.krly_xydw);
-       }
+        }
 
         private void M_yhsz_Click(object sender, EventArgs e)
         {
@@ -213,7 +213,7 @@ namespace Hotel_app
         public void set_tsl()
         {
             TSL_syzd.Text = "营业点:" + common_file.common_app.syzd;
-            TSL_czy.Text =  "操作员:"+common_file.common_app.czy;
+            TSL_czy.Text = "操作员:" + common_file.common_app.czy;
             TSL_czsj.Text = "登录时间:" + string.Format("{0:yyyy-MM-dd  HH:mm:ss}", common_file.common_app.czsj.ToString());
             TSL_qyxx.Text = common_file.common_app.qymc;
             this.Text = common_app.SoftName + "酒店管理系统(摩通科技专供版)";
@@ -224,34 +224,34 @@ namespace Hotel_app
             common_form.Fmain_new = this;
             Qskyd_www_open = common_file.common_app.Qskyd_www_open;
             this.Visible = false;
-           
+
             #region 写入系统启动目录，并进行验证检查
             string MThtPath = Application.StartupPath;
             try
             {
-                common_file.Common_initalSystem.SaveConfig("XmlSystemInfo.xml", "System_path","aaa");
-                    Yhgl.YH_login YH_login_new = new Hotel_app.Yhgl.YH_login("zc");
-                    if (YH_login_new.ShowDialog() == DialogResult.OK)
+                common_file.Common_initalSystem.SaveConfig("XmlSystemInfo.xml", "System_path", "aaa");
+                Yhgl.YH_login YH_login_new = new Hotel_app.Yhgl.YH_login("zc");
+                if (YH_login_new.ShowDialog() == DialogResult.OK)
+                {
+                    this.Visible = true;
+                    //common_file.common_form.Fmain_new = this;
+                    M_ftll_Click(sender, e);
+                    set_tsl();
+                    common_file.common_roles.set_menu_is_visible(menuStrip1, common_file.common_app.user_type);
+                    if (Qskyd_www_open == true)
                     {
-                        this.Visible = true;
-                        //common_file.common_form.Fmain_new = this;
-                        M_ftll_Click(sender, e);
-                        set_tsl();
-                        common_file.common_roles.set_menu_is_visible(menuStrip1, common_file.common_app.user_type);
-                        if (Qskyd_www_open == true)
-                        {
-                            this.timer_GetYdzxData.Enabled = true;
-                            this.timer_GetYdzxData.Interval = 1000 * 60 * int.Parse(Common_initalSystem.ReadNameValueSectionValue("qyinfo", "ydzxPopTime"));
-                        }
+                        this.timer_GetYdzxData.Enabled = true;
+                        this.timer_GetYdzxData.Interval = 1000 * 60 * int.Parse(Common_initalSystem.ReadNameValueSectionValue("qyinfo", "ydzxPopTime"));
                     }
-                    else
-                    {
-                        this.Close();
-                    }
+                }
+                else
+                {
+                    this.Close();
+                }
             }
-            catch (Exception  ee)
+            catch (Exception ee)
             {
-                MessageBox.Show(ee.ToString()); 
+                MessageBox.Show(ee.ToString());
             }
 
             #endregion
@@ -259,7 +259,7 @@ namespace Hotel_app
 
         private void M_jzzwgl_Click(object sender, EventArgs e)
         {
-            if (M_jzzwgl.Enabled == true )
+            if (M_jzzwgl.Enabled == true)
             {
                 common_file.common_form.ShowFrm_Sjjzwll_new(common_file.common_jzzt.czzt_jz);
             }
@@ -267,7 +267,7 @@ namespace Hotel_app
 
         private void M_gzzwgl_Click(object sender, EventArgs e)
         {
-            if (M_gzzwgl.Enabled == true )
+            if (M_gzzwgl.Enabled == true)
             {
                 common_file.common_form.ShowFrm_Sjjzwll_new(common_file.common_jzzt.czzt_gz);
             }
@@ -275,7 +275,7 @@ namespace Hotel_app
 
         private void M_szzwgl_Click(object sender, EventArgs e)
         {
-            if (M_szzwgl.Enabled == true )
+            if (M_szzwgl.Enabled == true)
             {
                 common_file.common_form.ShowFrm_Sjjzwll_new(common_file.common_jzzt.czzt_sz);
             }
@@ -428,7 +428,7 @@ namespace Hotel_app
         {
             if (common_file.common_app.message_box_show_select(common_file.common_app.message_title, "是否确定要退出系统？") == true)
             {
-                common_file.common_app.add_lo_ex_re(common_file.common_app.yydh, common_file.common_app.qymc,common_file.common_app.syzd, common_file.common_app.userNo, common_file.common_app.czy, common_file.common_app.lo_ex_ex, common_file.common_app.login_time, DateTime.Now);
+                common_file.common_app.add_lo_ex_re(common_file.common_app.yydh, common_file.common_app.qymc, common_file.common_app.syzd, common_file.common_app.userNo, common_file.common_app.czy, common_file.common_app.lo_ex_ex, common_file.common_app.login_time, DateTime.Now);
                 Application.Exit();
             }
 
@@ -436,7 +436,7 @@ namespace Hotel_app
 
         private void M_ttdjcx_Click(object sender, EventArgs e)
         {
-            if (M_ttdjcx.Enabled == true )
+            if (M_ttdjcx.Enabled == true)
             {
                 common_file.common_form.Qttdj_browse_new_open(common_file.common_yddj.yddj_dj);
             }
@@ -444,7 +444,7 @@ namespace Hotel_app
 
         private void M_skydcx_Click(object sender, EventArgs e)
         {
-            if (M_skydcx.Enabled == true )
+            if (M_skydcx.Enabled == true)
             {
                 common_file.common_form.Qskdj_browse_new_open(common_file.common_yddj.yddj_yd);
             }
@@ -452,15 +452,15 @@ namespace Hotel_app
 
         private void M_ttydcx_Click(object sender, EventArgs e)
         {
-           if (M_ttydcx.Enabled == true )
-            { 
+            if (M_ttydcx.Enabled == true)
+            {
                 common_file.common_form.Qttdj_browse_new_open(common_file.common_yddj.yddj_yd);
             }
         }
 
         private void M_ftfx_Click(object sender, EventArgs e)
         {
-            if (M_ftfx.Enabled == true )
+            if (M_ftfx.Enabled == true)
             {
                 Ffjzt.common_form.Fftfx_new_open();
             }
@@ -729,7 +729,8 @@ namespace Hotel_app
 
 
         private void M_rssh_Click(object sender, EventArgs e)
-        {button9_Click( sender, e);
+        {
+            button9_Click(sender, e);
         }
 
         private void M_yhczjlcx_Click(object sender, EventArgs e)
@@ -756,7 +757,7 @@ namespace Hotel_app
             BLL.Common B_common = new Hotel_app.BLL.Common();
             ds_0 = B_common.GetList(" select * from  View_Qskzd", " id>=0  and  ddyy='" + common_file.common_app.ydzx_flag + "' and  yddj='" + common_file.common_yddj.yddj_yd + "' and shsc=1 ");
             ds_1 = B_common.GetList(" select * from  View_Qttzd", " id>=0  and  ddyy='" + common_file.common_app.ydzx_flag + "' and  yddj='" + common_file.common_yddj.yddj_yd + "' and shsc=1 ");
-            string url=common_app.service_url;
+            string url = common_app.service_url;
             string clinetAppVersion = "";
             //弹出预订中心的订单
             if ((ds_0 != null && ds_0.Tables[0].Rows.Count > 0) || (ds_1 != null && ds_1.Tables[0].Rows.Count > 0))
@@ -785,9 +786,9 @@ namespace Hotel_app
             }
             //查询新版本
             clinetAppVersion = System.Diagnostics.FileVersionInfo.GetVersionInfo(Application.StartupPath + "\\hotel_app.exe").ProductVersion;
-            url +="update.asmx";
+            url += "update.asmx";
             object[] args = new object[2];
-            args[0]=common_file.common_app.yydh;
+            args[0] = common_file.common_app.yydh;
             args[1] = clinetAppVersion;
             object result = Hotel_app.DynamicWebServiceCall.InvokeWebService(url, "GetUpdate", args);
             if (result != null && result.ToString() != "")
@@ -815,10 +816,10 @@ namespace Hotel_app
                 taskbarNotifier.ReShowOnMouseOver = true;//  checkBoxReShowOnMouseOver.Checked;			// Added Rev 002
                 taskbarNotifier.Show("版本检查", "有新的版本产生，点击更新", 10000, 10000, 0);
             }
-             
+
             //检查钟点房
-            BLL.Qskyd_fjrb   bll=new Hotel_app.BLL.Qskyd_fjrb();
-            List<Model.Qskyd_fjrb> lists = bll.GetModelList(" yydh='"+common_file.common_app.yydh+"'  and   yddj='"+common_file.common_yddj.yddj_dj+"'  and   sktt='"+common_file.common_sktt.sktt_zd+"'  and  lksj<'"+DateTime.Now+"' ");
+            BLL.Qskyd_fjrb bll = new Hotel_app.BLL.Qskyd_fjrb();
+            List<Model.Qskyd_fjrb> lists = bll.GetModelList(" yydh='" + common_file.common_app.yydh + "'  and   yddj='" + common_file.common_yddj.yddj_dj + "'  and   sktt='" + common_file.common_sktt.sktt_zd + "'  and  lksj<'" + DateTime.Now + "' ");
             if (lists != null && lists.Count > 0)
             {
                 StringBuilder sb = new StringBuilder();
@@ -880,7 +881,7 @@ namespace Hotel_app
             {
                 if (Ffjzt.common_form.Ffjzt_pic_big_new != null)
                 {
-                    Ffjzt.common_form.Ffjzt_pic_big_new.refresh_fjzt("Ffjzt", "",true);
+                    Ffjzt.common_form.Ffjzt_pic_big_new.refresh_fjzt("Ffjzt", "", true);
                 }
             }
         }
@@ -906,5 +907,51 @@ namespace Hotel_app
             frm_ftsm.StartPosition = FormStartPosition.CenterScreen;
             frm_ftsm.ShowDialog();
         }
+
+        #region Set Room Display
+        private void SetRoomDisplay(int displayType)
+        {
+            string key = string.Empty;
+
+            switch (displayType)
+            {
+                case 1:
+                    key = "b";
+                    break;
+                case 2:
+                    key = "a";
+                    break;
+                default:
+                    key = "";
+                    break;
+            }
+
+            string currentDisplayRoomCondition = !string.IsNullOrEmpty(key) ? string.Format(@" and jdcs not like '{0}%' ", key) : "";
+            common_file.Common_initalSystem.SaveConfig("XmlSystemInfo.xml", "CurrentDisplayRoomCondition", currentDisplayRoomCondition);
+
+            if (Ffjzt.common_form.Ffjzt_pic_big_new != null)
+            {
+                Ffjzt.common_form.Ffjzt_pic_big_new.Close();
+            }
+
+            Hotel_app.Ffjzt.common_form.Ffjzt_pic_big_new_open();
+        }
+
+        private void M_DisplayMainRooms_Click(object sender, EventArgs e)
+        {
+            SetRoomDisplay(1);
+        }
+
+        private void M_DisplaySubRooms_Click(object sender, EventArgs e)
+        {
+            SetRoomDisplay(2);
+        }
+
+        private void M_DisplayAllRooms_Click(object sender, EventArgs e)
+        {
+            SetRoomDisplay(0);
+        }
+        #endregion
+
     }
 }

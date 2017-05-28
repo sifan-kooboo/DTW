@@ -194,6 +194,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.xtraTabbedMdiManager1 = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(this.components);
+            this.M_DisplayMainRooms = new System.Windows.Forms.ToolStripMenuItem();
+            this.M_DisplaySubRooms = new System.Windows.Forms.ToolStripMenuItem();
+            this.M_DisplayAllRooms = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.sS_buttom.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).BeginInit();
@@ -1052,7 +1055,10 @@
             this.toolStripMenuItem12,
             this.M_xtjbsz,
             this.M_txftsz,
-            this.M_reboot});
+            this.M_reboot,
+            this.M_DisplayMainRooms,
+            this.M_DisplaySubRooms,
+            this.M_DisplayAllRooms});
             this.MB_xxsz.Name = "MB_xxsz";
             this.MB_xxsz.Size = new System.Drawing.Size(68, 21);
             this.MB_xxsz.Text = "系统设置";
@@ -1060,134 +1066,134 @@
             // M_gjsz
             // 
             this.M_gjsz.Name = "M_gjsz";
-            this.M_gjsz.Size = new System.Drawing.Size(148, 22);
+            this.M_gjsz.Size = new System.Drawing.Size(152, 22);
             this.M_gjsz.Text = "国家设置";
             this.M_gjsz.Click += new System.EventHandler(this.M_gjsz_Click);
             // 
             // M_mzsz
             // 
             this.M_mzsz.Name = "M_mzsz";
-            this.M_mzsz.Size = new System.Drawing.Size(148, 22);
+            this.M_mzsz.Size = new System.Drawing.Size(152, 22);
             this.M_mzsz.Text = "民族设置";
             this.M_mzsz.Click += new System.EventHandler(this.M_mzsz_Click);
             // 
             // M_fkfs
             // 
             this.M_fkfs.Name = "M_fkfs";
-            this.M_fkfs.Size = new System.Drawing.Size(148, 22);
+            this.M_fkfs.Size = new System.Drawing.Size(152, 22);
             this.M_fkfs.Text = "付款方式";
             this.M_fkfs.Click += new System.EventHandler(this.M_fkfs_Click);
             // 
             // M_krly
             // 
             this.M_krly.Name = "M_krly";
-            this.M_krly.Size = new System.Drawing.Size(148, 22);
+            this.M_krly.Size = new System.Drawing.Size(152, 22);
             this.M_krly.Text = "客人来源";
             this.M_krly.Click += new System.EventHandler(this.M_krly_Click);
             // 
             // M_krrx
             // 
             this.M_krrx.Name = "M_krrx";
-            this.M_krrx.Size = new System.Drawing.Size(148, 22);
+            this.M_krrx.Size = new System.Drawing.Size(152, 22);
             this.M_krrx.Text = "客人类型";
             this.M_krrx.Click += new System.EventHandler(this.M_krrx_Click);
             // 
             // M_yxzj
             // 
             this.M_yxzj.Name = "M_yxzj";
-            this.M_yxzj.Size = new System.Drawing.Size(148, 22);
+            this.M_yxzj.Size = new System.Drawing.Size(152, 22);
             this.M_yxzj.Text = "证件设置";
             this.M_yxzj.Click += new System.EventHandler(this.M_yxzj_Click);
             // 
             // M_qzrx
             // 
             this.M_qzrx.Name = "M_qzrx";
-            this.M_qzrx.Size = new System.Drawing.Size(148, 22);
+            this.M_qzrx.Size = new System.Drawing.Size(152, 22);
             this.M_qzrx.Text = "签证类型";
             this.M_qzrx.Click += new System.EventHandler(this.M_qzrx_Click);
             // 
             // M_xfdr
             // 
             this.M_xfdr.Name = "M_xfdr";
-            this.M_xfdr.Size = new System.Drawing.Size(148, 22);
+            this.M_xfdr.Size = new System.Drawing.Size(152, 22);
             this.M_xfdr.Text = "消费大类";
             this.M_xfdr.Click += new System.EventHandler(this.M_xfdr_Click);
             // 
             // M_xfxr
             // 
             this.M_xfxr.Name = "M_xfxr";
-            this.M_xfxr.Size = new System.Drawing.Size(148, 22);
+            this.M_xfxr.Size = new System.Drawing.Size(152, 22);
             this.M_xfxr.Text = "消费小类";
             this.M_xfxr.Click += new System.EventHandler(this.M_xfxr_Click);
             // 
             // M_xfxm
             // 
             this.M_xfxm.Name = "M_xfxm";
-            this.M_xfxm.Size = new System.Drawing.Size(148, 22);
+            this.M_xfxm.Size = new System.Drawing.Size(152, 22);
             this.M_xfxm.Text = "消费项目";
             this.M_xfxm.Click += new System.EventHandler(this.M_xfxm_Click);
             // 
             // M_yhsz
             // 
             this.M_yhsz.Name = "M_yhsz";
-            this.M_yhsz.Size = new System.Drawing.Size(148, 22);
+            this.M_yhsz.Size = new System.Drawing.Size(152, 22);
             this.M_yhsz.Text = "优惠设置";
             this.M_yhsz.Click += new System.EventHandler(this.M_yhsz_Click);
             // 
             // toolStripMenuItem14
             // 
             this.toolStripMenuItem14.Name = "toolStripMenuItem14";
-            this.toolStripMenuItem14.Size = new System.Drawing.Size(145, 6);
+            this.toolStripMenuItem14.Size = new System.Drawing.Size(149, 6);
             // 
             // X_lkzd
             // 
             this.X_lkzd.Name = "X_lkzd";
-            this.X_lkzd.Size = new System.Drawing.Size(148, 22);
+            this.X_lkzd.Size = new System.Drawing.Size(152, 22);
             this.X_lkzd.Text = "入库主单管理";
             this.X_lkzd.Click += new System.EventHandler(this.X_lkzd_Click);
             // 
             // M_ckmxcx
             // 
             this.M_ckmxcx.Name = "M_ckmxcx";
-            this.M_ckmxcx.Size = new System.Drawing.Size(148, 22);
+            this.M_ckmxcx.Size = new System.Drawing.Size(152, 22);
             this.M_ckmxcx.Text = "出库明细查询";
             this.M_ckmxcx.Click += new System.EventHandler(this.M_ckmxcx_Click);
             // 
             // toolStripMenuItem15
             // 
             this.toolStripMenuItem15.Name = "toolStripMenuItem15";
-            this.toolStripMenuItem15.Size = new System.Drawing.Size(145, 6);
+            this.toolStripMenuItem15.Size = new System.Drawing.Size(149, 6);
             // 
             // M_ff_xyxf
             // 
             this.M_ff_xyxf.Name = "M_ff_xyxf";
-            this.M_ff_xyxf.Size = new System.Drawing.Size(148, 22);
+            this.M_ff_xyxf.Size = new System.Drawing.Size(152, 22);
             this.M_ff_xyxf.Text = "房费配套设置";
             this.M_ff_xyxf.Click += new System.EventHandler(this.M_ff_xyxf_Click);
             // 
             // toolStripMenuItem12
             // 
             this.toolStripMenuItem12.Name = "toolStripMenuItem12";
-            this.toolStripMenuItem12.Size = new System.Drawing.Size(145, 6);
+            this.toolStripMenuItem12.Size = new System.Drawing.Size(149, 6);
             // 
             // M_xtjbsz
             // 
             this.M_xtjbsz.Name = "M_xtjbsz";
-            this.M_xtjbsz.Size = new System.Drawing.Size(148, 22);
+            this.M_xtjbsz.Size = new System.Drawing.Size(152, 22);
             this.M_xtjbsz.Text = "系统基础设置";
             this.M_xtjbsz.Click += new System.EventHandler(this.M_xtjbsz_Click);
             // 
             // M_txftsz
             // 
             this.M_txftsz.Name = "M_txftsz";
-            this.M_txftsz.Size = new System.Drawing.Size(148, 22);
+            this.M_txftsz.Size = new System.Drawing.Size(152, 22);
             this.M_txftsz.Text = "图形房态设置";
             this.M_txftsz.Click += new System.EventHandler(this.M_txftsz_Click);
             // 
             // M_reboot
             // 
             this.M_reboot.Name = "M_reboot";
-            this.M_reboot.Size = new System.Drawing.Size(148, 22);
+            this.M_reboot.Size = new System.Drawing.Size(152, 22);
             this.M_reboot.Text = "系统重启";
             this.M_reboot.Click += new System.EventHandler(this.M_reboot_Click);
             // 
@@ -1204,21 +1210,21 @@
             // M_checkUpdate
             // 
             this.M_checkUpdate.Name = "M_checkUpdate";
-            this.M_checkUpdate.Size = new System.Drawing.Size(136, 22);
+            this.M_checkUpdate.Size = new System.Drawing.Size(152, 22);
             this.M_checkUpdate.Text = "检查更新";
             this.M_checkUpdate.Click += new System.EventHandler(this.M_checkUpdate_Click);
             // 
             // M_txczsm
             // 
             this.M_txczsm.Name = "M_txczsm";
-            this.M_txczsm.Size = new System.Drawing.Size(136, 22);
+            this.M_txczsm.Size = new System.Drawing.Size(152, 22);
             this.M_txczsm.Text = "图形参照图";
             this.M_txczsm.Click += new System.EventHandler(this.M_txczsm_Click);
             // 
             // M_exit
             // 
             this.M_exit.Name = "M_exit";
-            this.M_exit.Size = new System.Drawing.Size(136, 22);
+            this.M_exit.Size = new System.Drawing.Size(152, 22);
             this.M_exit.Text = "退出系统";
             this.M_exit.Click += new System.EventHandler(this.b_exit_Click);
             // 
@@ -1611,6 +1617,27 @@
             this.xtraTabbedMdiManager1.HeaderButtonsShowMode = DevExpress.XtraTab.TabButtonShowMode.Always;
             this.xtraTabbedMdiManager1.MdiParent = this;
             // 
+            // M_DisplayMainRooms
+            // 
+            this.M_DisplayMainRooms.Name = "M_DisplayMainRooms";
+            this.M_DisplayMainRooms.Size = new System.Drawing.Size(152, 22);
+            this.M_DisplayMainRooms.Text = "显示主楼";
+            this.M_DisplayMainRooms.Click += new System.EventHandler(this.M_DisplayMainRooms_Click);
+            // 
+            // M_DisplaySubRooms
+            // 
+            this.M_DisplaySubRooms.Name = "M_DisplaySubRooms";
+            this.M_DisplaySubRooms.Size = new System.Drawing.Size(152, 22);
+            this.M_DisplaySubRooms.Text = "显示附楼";
+            this.M_DisplaySubRooms.Click += new System.EventHandler(this.M_DisplaySubRooms_Click);
+            // 
+            // M_DisplayAllRooms
+            // 
+            this.M_DisplayAllRooms.Name = "M_DisplayAllRooms";
+            this.M_DisplayAllRooms.Size = new System.Drawing.Size(152, 22);
+            this.M_DisplayAllRooms.Text = "显示全部";
+            this.M_DisplayAllRooms.Click += new System.EventHandler(this.M_DisplayAllRooms_Click);
+            // 
             // Fmain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -1831,5 +1858,8 @@
         private System.Windows.Forms.ToolStripMenuItem M_txftsz;
         private DevExpress.XtraTabbedMdi.XtraTabbedMdiManager xtraTabbedMdiManager1;
         private System.Windows.Forms.ToolStripMenuItem M_txczsm;
+        private System.Windows.Forms.ToolStripMenuItem M_DisplayMainRooms;
+        private System.Windows.Forms.ToolStripMenuItem M_DisplaySubRooms;
+        private System.Windows.Forms.ToolStripMenuItem M_DisplayAllRooms;
     }
 }

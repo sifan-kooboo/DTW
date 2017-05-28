@@ -100,6 +100,7 @@ namespace Hotel_app.Szwgl
                 args[16] = tB_bz.Text.Trim();
                 args[17] = common_file.common_app.dj_pzsk;
                 args[18] = "";
+                args[19] = "";
                 args[20] = "";
                 args[21] = "1";
                 args[22] = common_file.common_app.czy_bc;
